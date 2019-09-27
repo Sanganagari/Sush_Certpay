@@ -14,7 +14,7 @@
       <guid>de8938ce-99af-4603-9ebb-d46fd879fce6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_001</testCaseId>
+      <testCaseId>Test Cases/Certpay_Quicksti/Visa_SingleLinePayment_001</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3fb386b9-a5d8-4f37-9b8b-033e3c86b7ab</id>
@@ -101,7 +101,7 @@
       <guid>d6ae31a0-bccd-4286-895f-f497881c968b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_002</testCaseId>
+      <testCaseId>Test Cases/Certpay_Quicksti/Visa_MultiLinePayment_002</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1c5ed46d-c472-48ac-81d6-324e435fa268</id>
@@ -211,8 +211,8 @@
    <testCaseLink>
       <guid>7d12254f-9efc-4bd1-afe8-4dbc10b24f27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_003</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/MC_SingleLinePayment_003</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9babe6ff-b5aa-49ed-a89d-90ddc0c74577</id>
@@ -298,8 +298,8 @@
    <testCaseLink>
       <guid>92161271-6e39-41d3-bfa0-4ef625884fa8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_004</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/MC_MultiLInePayment_004</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>212019ee-cd75-48ef-8bca-070af0398030</id>
@@ -391,8 +391,8 @@
    <testCaseLink>
       <guid>0e28c4ca-2ba2-4e9d-b140-bee1ed7361ad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_005</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/Discover_SingleLinePayment_005</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6a2f0be0-af2a-4c61-812e-cff6b32d4a4f</id>
@@ -490,8 +490,8 @@
    <testCaseLink>
       <guid>9fd054c3-256a-445d-ac90-6605ce514579</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_006</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/Discover_MultiLInePayment_006</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -574,8 +574,8 @@
    <testCaseLink>
       <guid>d1637a82-f0eb-4368-b629-91aeaea9820a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_007</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/Amex_SingleLinePayment_007</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -640,8 +640,8 @@
    <testCaseLink>
       <guid>71323b1d-53ef-421c-83b4-95e5eb72d8ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_Quicksti_008</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/Amex_MultiLinePayment_008</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

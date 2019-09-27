@@ -8,11 +8,13 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.exception.StepFailedException
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
@@ -48,21 +50,31 @@ public class Bureau_Login_Page {
 	@Keyword
 	def verifyPaymentInRealTimeMonitor(TestObject object,String referenceNum,String lastName,String firstName,String paymentID){
 		String paymentId=WebUI.getText(	object)
+		try{
 
-		if(WebUI.verifyMatch(paymentId,paymentID,true)){
-			WebUI.click(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'))
 
-			//WebUI.scrollToElement(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'), 0)
-			String reference=WebUI.getText(	findTestObject('Object Repository/BUREAU_LOGIN/REFERENCE_NUM'))
-			WebUI.verifyMatch(referenceNum, reference, true, FailureHandling.STOP_ON_FAILURE)
+			if(WebUI.verifyElementPresent(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'),0)) {
+				WebUI.verifyMatch(paymentId,paymentID,true)
+				WebUI.click(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'))
 
-			String sFirstName =WebUI.getText(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'))
-			WebUI.verifyMatch(sFirstName, firstName, true, FailureHandling.STOP_ON_FAILURE)
+				//WebUI.scrollToElement(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'), 0)
+				String reference=WebUI.getText(	findTestObject('Object Repository/BUREAU_LOGIN/REFERENCE_NUM'))
+				WebUI.verifyMatch(referenceNum, reference, true, FailureHandling.STOP_ON_FAILURE)
 
-			String sLastName=WebUI.getText(	findTestObject('Object Repository/BUREAU_LOGIN/LAST_NAME'))
-			WebUI.verifyMatch(sLastName, lastName, true, FailureHandling.STOP_ON_FAILURE)
+				String sFirstName =WebUI.getText(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'))
+				WebUI.verifyMatch(sFirstName, firstName, true, FailureHandling.STOP_ON_FAILURE)
 
-			WebUI.delay(2)
+				String sLastName=WebUI.getText(	findTestObject('Object Repository/BUREAU_LOGIN/LAST_NAME'))
+				WebUI.verifyMatch(sLastName, lastName, true, FailureHandling.STOP_ON_FAILURE)
+
+				WebUI.delay(2)
+			}
+			else{
+				KeywordUtil.markFailed("Payment id not matched")
+			}
+		}
+		catch(StepFailedException e){
+			KeywordUtil.markError("Unable to verify match " +paymentId+" with "+paymentID)
 		}
 	}
 }

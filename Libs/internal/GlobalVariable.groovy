@@ -102,7 +102,12 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object Url
+    public static Object firstName
+     
+    /**
+     * <p></p>
+     */
+    public static Object lastName
      
 
     static {
@@ -129,7 +134,8 @@ public class GlobalVariable {
             emailAddress = selectedVariables['emailAddress']
             zipCode = selectedVariables['zipCode']
             telephone = selectedVariables['telephone']
-            Url = selectedVariables['Url']
+            firstName = selectedVariables['firstName']
+            lastName = selectedVariables['lastName']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

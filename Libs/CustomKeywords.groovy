@@ -90,8 +90,8 @@ def static "pages.Search_Page.enterSearchDetails"(
          , 	last5Digits)
 }
 
-def static "pages.Search_Page.selectRadioButton"() {
-    (new pages.Search_Page()).selectRadioButton()
+def static "pages.Search_Page.verifyNoPaymentsFound"() {
+    (new pages.Search_Page()).verifyNoPaymentsFound()
 }
 
 def static "pages.Search_Page.switchToWindow"() {

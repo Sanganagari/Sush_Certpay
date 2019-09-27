@@ -16,6 +16,7 @@ import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
@@ -28,25 +29,25 @@ public class Quicksti {
 	SafeActions safe=new SafeActions()
 	//DynamicLocators dynamic=new DynamicLocators()
 
-//	@Keyword
-//	def setUserPAymentDetails(String id,String sText,String sVisibleText,String friendlyWebElement){
-//
-//		String inputXpath=DynamicLocators.inputFieldLocator.replace("<id>",id)
-//
-//		String selectorXpath=DynamicLocators.selectOptionLocator.replace("<id>",id)
-//
-//		if(sVisibleText.empty){
-//
-//			safe.safeType(DynamicLocators.getMyTestObject("xpath", inputXpath), sText, friendlyWebElement, (([GlobalVariable.pageLoadTime]) as int[]))
-//		}
-//		else if(sText.empty){
-//			safe.safeSelectOptionInDropdownByVisibleText(DynamicLocators.getMyTestObject("xpath", selectorXpath), sVisibleText, friendlyWebElement, (([GlobalVariable.pageLoadTime]) as int[]))
-//
-//		}
-//		else{
-//			println "Failure occured "
-//		}
-//	}
+	//	@Keyword
+	//	def setUserPAymentDetails(String id,String sText,String sVisibleText,String friendlyWebElement){
+	//
+	//		String inputXpath=DynamicLocators.inputFieldLocator.replace("<id>",id)
+	//
+	//		String selectorXpath=DynamicLocators.selectOptionLocator.replace("<id>",id)
+	//
+	//		if(sVisibleText.empty){
+	//
+	//			safe.safeType(DynamicLocators.getMyTestObject("xpath", inputXpath), sText, friendlyWebElement, (([GlobalVariable.pageLoadTime]) as int[]))
+	//		}
+	//		else if(sText.empty){
+	//			safe.safeSelectOptionInDropdownByVisibleText(DynamicLocators.getMyTestObject("xpath", selectorXpath), sVisibleText, friendlyWebElement, (([GlobalVariable.pageLoadTime]) as int[]))
+	//
+	//		}
+	//		else{
+	//			println "Failure occured "
+	//		}
+	//	}
 
 	// Entering user personal details like name, card number
 	@Keyword
@@ -65,12 +66,12 @@ public class Quicksti {
 		safe.safeType( 	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER')
 				, cardNum, 'CardNum', (([GlobalVariable.pageLoadTime]) as int[]))
 		String cardNumber=null;
-		
+
 		if(cardNum.startsWith("3")){
-			 cardNumber=cardNum.substring(11)
+			cardNumber=cardNum.substring(11)
 		}
 		else {
-			 cardNumber=cardNum.substring(12)
+			cardNumber=cardNum.substring(12)
 		}
 
 		return cardNumber;
@@ -110,7 +111,7 @@ public class Quicksti {
 		String actualAmount=amount.substring(1)
 		//	println(actualAmount)
 		WebUI.verifyMatch(actualAmount, paymentAmount, true,FailureHandling.STOP_ON_FAILURE)
-		
+
 		/*Verifing user name
 		 * 
 		 */
@@ -122,11 +123,11 @@ public class Quicksti {
 		String cardNum=WebUI.getText(	findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER'))
 		//String cardType=WebUI.getText(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMERICAN_EXPRESS'))
 		String lastNum=cardNum.substring(3)
-		
+
 
 		WebUI.verifyMatch(lastNum, cardNumber, true,FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Keyword
 	def setAmountDetailsForMultiBureau(String index,String paymentType,String paymentAmount,String sComments,String referenceNum,String quantity){
 		//Payment type
@@ -148,7 +149,7 @@ public class Quicksti {
 		TestObject comment=new TestObject()
 		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
 		safe.safeType(comment, sComments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
-		
+
 		// Quantity
 		String quantityXpath="//input[@id='Qty_000_0"+index+"']";
 		TestObject Quantity =new TestObject()
@@ -165,12 +166,14 @@ public class Quicksti {
 
 		if(WebUI.verifyElementPresent(	testObject, 0))
 		{
-			WebUI.executeJavaScript("alert('Payment is approved')", null)
+			KeywordUtil.markPassed("Payment is approved")
+			//WebUI.executeJavaScript("alert('Payment is approved')", null)
 			Thread.sleep(2000);
 		}
 		else
 		{
-			WebUI.executeJavaScript("alert('Payment is not approved')", null)
+			KeywordUtil.markFailed("Payment is not approved")
+			//WebUI.executeJavaScript("alert('Payment is not approved')", null)
 		}
 		println paymentId;
 		return paymentId;

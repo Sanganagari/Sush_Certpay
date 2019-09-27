@@ -8,12 +8,14 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.exception.StepFailedException
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
@@ -23,8 +25,7 @@ import utilities.SafeActions
 public class Payment_Page {
 	SafeActions safe=new SafeActions()
 	String cardNumber=null;
-	String last4Digits=null;
-	String last5Digits=null;
+
 	String paymentID= null;
 	String referenceNumber=null;
 	@Keyword
@@ -61,12 +62,10 @@ public class Payment_Page {
 		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR'), expYear, 'year', (([GlobalVariable.pageLoadTime]) as int[]))
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE'),securityCode, "SecurityCode",  (([GlobalVariable.pageLoadTime]) as int[]))
 
-		cardNumber= WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'), 'value')
-		//WebUI.verifyMatch(cardNum, cardNum, true)
-		last4Digits= cardNumber.substring(12);
-		last5Digits= cardNumber.substring(11)
+		String cardNumber= WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'), 'value')
+		WebUI.verifyMatch(cardNumber, cardNum, true)
 	}
-	
+
 	// Entering amount,reference number,comments
 	@Keyword
 	def setAmount(String index,String paymentAmount,String comments,String referenceNum){
@@ -105,23 +104,27 @@ public class Payment_Page {
 
 		String email=WebUI.getText(	findTestObject('MAKE_ PAYMENT/Verification_ Details/EMAIL_ADDRESS'))
 		WebUI.verifyMatch(emailAddress, email, true, FailureHandling.STOP_ON_FAILURE)
+		try{
+			if(accountType.empty)
+				//if(WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/CARD_TYPE'),0))
+			{
 
-		if(cardType.empty){
-			String accType=WebUI.getText(findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/ACH_ACC_TYPE'))
-			//safe.highLightElement(findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/ACH_ACC_TYPE'), 0)
-			WebUI.verifyMatch(accountType,accType,true,FailureHandling.STOP_ON_FAILURE)
-			Thread.sleep(1000);
+				String cardType1=WebUI.getText(findTestObject('MAKE_ PAYMENT/Verification_ Details/CARD_TYPE'))
 
+				WebUI.verifyMatch(cardType, cardType1, true, FailureHandling.STOP_ON_FAILURE)
+				KeywordUtil.markPassed("CardType matched")
+			}
+			else{
+				String accType=WebUI.getText(findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/ACH_ACC_TYPE'))
+				WebUI.verifyMatch(accountType,accType,true,FailureHandling.STOP_ON_FAILURE)
+				Thread.sleep(1000);
+			}
 		}
-		//else if(accountType.empty){
-		else{
-			String cardType1=WebUI.getText(findTestObject('MAKE_ PAYMENT/Verification_ Details/CARD_TYPE'))
-
-			WebUI.verifyMatch(cardType, cardType1, true, FailureHandling.STOP_ON_FAILURE)
+		catch(StepFailedException e){
+			KeywordUtil.markError("Unable to verify element present")
 		}
-		//		else
-		//		println "Verification Failed"
 	}
+
 
 	// Payment Verifications
 	@Keyword
