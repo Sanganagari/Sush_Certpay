@@ -103,3 +103,5 @@ WebUI.delay(3)
 CustomKeywords.'pages.Bureau_Login_Page.verifyPaymentInRealTimeMonitor'(findTestObject('BUREAU_LOGIN/SECOND_ID'), referenceNum, 
     lastName, firstName, PaymentID)
 
+WebUI.closeBrowser()
+

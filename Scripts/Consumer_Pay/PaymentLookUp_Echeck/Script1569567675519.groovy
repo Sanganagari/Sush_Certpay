@@ -45,4 +45,6 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/
 else{
 	println "No payments found"
 }
+WebUI.closeBrowser();
+
 

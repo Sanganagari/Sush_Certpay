@@ -44,4 +44,5 @@ if (flag.equals('true')) {
     CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEND_ EMAIL_BUTTON'), 'Send Email', 
             (([GlobalVariable.pageLoadTime]) as int[]))
 }
+WebUI.closeBrowser();
 

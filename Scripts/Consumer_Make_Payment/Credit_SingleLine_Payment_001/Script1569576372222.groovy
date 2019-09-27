@@ -23,24 +23,20 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/H
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'pages.Payment_Page.setAmount'('1', paymentAmount, 'testing', referenceNum)
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/ADD_ANOTHER_PROPERTY'), 'Multi-Payment', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'pages.Payment_Page.setAmount'('2', paymentAmount2, 'Payment for testing', '22')
-
 CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('MAKE_ PAYMENT/Home_ Page/BANK_CARD'), 'Bank card', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'pages.Payment_Page.setAmount'('1', paymentAmount, 'testing', referenceNum)
 
 WebUI.waitForPageLoad(0)
 
 CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropdownByVisibleText'(findTestObject('MAKE_ PAYMENT/Home_ Page/CARD_TYPE'), 
-    cardType, 'CardType', (([GlobalVariable.pageLoadTime]) as int[]))
+    CardType, 'CardType', (([GlobalVariable.pageLoadTime]) as int[]))
 
 CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropdownByVisibleText'(findTestObject('MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE'), 
     paymentType, 'Payment Type', (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON'), 'Continue', (([
+            GlobalVariable.pageLoadTime]) as int[]))
 
 CustomKeywords.'pages.Payment_Page.setPersonalDetails'(firstName, lastName, telephone)
 
@@ -55,6 +51,8 @@ WebUI.waitForPageLoad(0)
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
 
+WebUI.delay(GlobalVariable.mediumWait)
+
 CustomKeywords.'pages.Payment_Page.setCardDetails'(cardNum, securityCode, expYear, expMonth)
 
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS'), 
@@ -65,7 +63,7 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/H
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE'), 'I agree', 
         (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'pages.Payment_Page.verifyUserDetails'(firstName, lastName, emailAddress, cardType, '')
+CustomKeywords.'pages.Payment_Page.verifyUserDetails'(firstName, lastName, emailAddress, CardType, '')
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT'), 
     'Process Payment', (([GlobalVariable.pageLoadTime]) as int[]))
@@ -75,7 +73,7 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/V
 
 WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/APPROVED'), 0)
 
-PaymentID = CustomKeywords.'pages.Payment_Page.verifyCardPaymentApproval'(referenceNum)
+PaymentId = CustomKeywords.'pages.Payment_Page.verifyCardPaymentApproval'(referenceNum)
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_PAYMENT'), 'Search Payment', (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -90,9 +88,11 @@ CustomKeywords.'pages.Search_Page.enterSearchDetails'(lastName, last4Digits, las
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON'), 'Search', (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'pages.Payment_Page.verifyPaymentDetailsInReceipt'(PaymentID)
+CustomKeywords.'pages.Payment_Page.verifyPaymentDetailsInReceipt'(PaymentId)
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_ ICON'), 'SearchIcon', (([GlobalVariable.pageLoadTime]) as int[]))
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

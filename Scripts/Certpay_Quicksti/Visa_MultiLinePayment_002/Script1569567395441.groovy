@@ -72,3 +72,5 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKST
 
 PaymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED'))
 
+WebUI.closeBrowser()
+
