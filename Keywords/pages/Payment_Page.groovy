@@ -92,13 +92,11 @@ public class Payment_Page {
 
 	@Keyword
 	def verifyUserDetails(String firstName,String lastName,String emailAddress,String cardType,String accountType){
-		WebUI.scrollToElement(findTestObject('MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'), 0)
+		WebUI.scrollToElement(findTestObject('MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'), 30)
 		String sfirstName=WebUI.getText(findTestObject('MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'))
-		//safe.highLightElement(findTestObject('MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'), 0)
 		WebUI.verifyMatch(firstName, sfirstName, true, FailureHandling.STOP_ON_FAILURE)
 
 		String sLastName=WebUI.getText(	findTestObject('MAKE_ PAYMENT/Verification_ Details/LAST_NAME'))
-		//safe.highLightElement(findTestObject('MAKE_ PAYMENT/Verification_ Details/LAST_NAME'), 0)
 		WebUI.verifyMatch(lastName, sLastName, true, FailureHandling.STOP_ON_FAILURE)
 		Thread.sleep(2000);
 
@@ -175,7 +173,7 @@ public class Payment_Page {
 		safe.safeType(		findTestObject('Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ROUTING_NUMBER')
 				, routingNumber, 'RoutingNumber', (([GlobalVariable.pageLoadTime]) as int[]))
 
-		if(WebUI.verifyElementPresent(testObject, 0)){
+		if(WebUI.verifyElementPresent(testObject, 30)){
 
 
 			safe.safeType(	testObject, checkingAccNum, 'CheckAccNum', (([GlobalVariable.pageLoadTime]) as int[]))

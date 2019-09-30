@@ -5,6 +5,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.openqa.selenium.WebElement
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -16,6 +18,7 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
@@ -33,7 +36,11 @@ public class Bureau_Login_Page {
 		//	        println(index)
 		WebUI.switchToWindowIndex(1)
 	}
-
+	@Keyword
+	def clickingElement(TestObject object){
+		WebElement element =WebUiCommonHelper.findWebElement(object,30)
+		WebUI.executeJavaScript("arguments[0].click()",Arrays.asList(element))
+	}
 
 	@Keyword
 	def loginToBureau(String username,String password,String accessCode){
@@ -53,7 +60,7 @@ public class Bureau_Login_Page {
 		try{
 
 
-			if(WebUI.verifyElementPresent(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'),0)) {
+			if(WebUI.verifyElementPresent(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'),30)) {
 				WebUI.verifyMatch(paymentId,paymentID,true)
 				WebUI.click(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'))
 

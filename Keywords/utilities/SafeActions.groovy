@@ -52,7 +52,7 @@ public class SafeActions {
 	@Keyword
 	def highLightElement(TestObject testObject,int timeout){
 		if(GlobalVariable.HighLightElements.equalsIgnoreCase("true")){
-			println "in High light method"
+			//println "in High light method"
 			String attributeValue="border:2px solid blue";
 			WebDriver driver=DriverFactory.getWebDriver()
 			JavascriptExecutor je=(JavascriptExecutor)driver
@@ -77,19 +77,19 @@ public class SafeActions {
 			waitTime=syn.getWaitTime(optionWaitTime)
 			highLightElement(testObject,10)
 			if(WebUI.verifyElementPresent(testObject,waitTime)) {
-//				if(WebUI.verifyElementChecked(testObject,waitTime))
-//
-//					KeywordUtil.markFailed(syn.getTestCaseName()+"Checkbox '" +friendlyWebElementName+ "'is already selected" )
-//			}
-			//else {
-				highLightElement(testObject,0)
+				//				if(WebUI.verifyElementChecked(testObject,waitTime))
+				//
+				//					KeywordUtil.markFailed(syn.getTestCaseName()+"Checkbox '" +friendlyWebElementName+ "'is already selected" )
+				//			}
+				//else {
+				highLightElement(testObject,30)
 				WebUI.click(testObject)
 				KeywordUtil.markPassed(syn.getTestCasename()+"Checkbox '" +friendlyWebElementName+ "'is selected" )
 			}
 
 			else{
-					KeywordUtil.markFailed(syn.getTestCasename() +friendlyWebElementName+ "was not found in DOM in time "+waitTime)
-				}
+				KeywordUtil.markFailed(syn.getTestCasename() +friendlyWebElementName+ "was not found in DOM in time "+waitTime)
+			}
 		}
 		catch (StaleElementReferenceException e){
 			KeywordUtil.markError(syn.getTestCasename() +friendlyWebElementName+ "is not attached to page document in time "+waitTime+" No such element Exception")
@@ -104,7 +104,7 @@ public class SafeActions {
 			waitTime=syn.getWaitTime(optionWaitTime)
 			if(WebUI.verifyElementPresent(testObject,waitTime)){
 
-				highLightElement(testObject,0)
+				highLightElement(testObject,30)
 
 				WebUI.setText(testObject, text)
 				KeywordUtil.markPassed(syn.getTestCasename()+"Entered'"+text+" into " +friendlyWebElementName )
@@ -127,7 +127,7 @@ public class SafeActions {
 			waitTime=syn.getWaitTime(optionWaitTime)
 			if(WebUI.verifyElementPresent(testObject,waitTime)){
 				WebUI.waitForElementClickable(testObject, waitTime)
-				highLightElement(testObject,0)
+				highLightElement(testObject,30)
 
 				WebUI.click(testObject)
 
@@ -178,7 +178,7 @@ public class SafeActions {
 			if(WebUI.verifyElementPresent(testObject,waitTime)){
 
 				WebUI.click(testObject)
-				highLightElement(testObject,5)
+				highLightElement(testObject,30)
 
 				WebUI.selectOptionByLabel(testObject,sVisibleTextOptionToSelect,false)
 				KeywordUtil.markPassed("selected dropdown option by visible text  "+sVisibleTextOptionToSelect+"from "+friendlyWebElementName)

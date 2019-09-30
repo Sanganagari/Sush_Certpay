@@ -52,19 +52,22 @@ public class Search_Page {
 
 	@Keyword
 	def verifyNoPaymentsFound(){
-		boolean flag=true;
-		
-		if(	WebUI.verifyElementPresent(findTestObject('Object Repository/SEARCH_PAYMENT/NO_PAYMENTS_FOUND'), 0)){
-		flag=false;
-		KeywordUtil.markPassed("No paymnets dispalyed")
-		
-	}
-		else {
+		boolean flag=false;
+
+		if(	WebUI.verifyElementPresent(findTestObject('Object Repository/SEARCH_PAYMENT/NO_PAYMENTS_FOUND'), 30)){
 			flag=true;
-			KeywordUtil.markFailed("Payments displayed")
+			KeywordUtil.markPassed("No paymnets dispalyed")
+
 		}
+		else {
+			flag=false;
+			KeywordUtil.markFailed("Payments displayed")
+
+		}
+		Thread.sleep(2000);
 		return flag;
 	}
+
 	//Switch to Another Window
 	@Keyword
 	def switchToWindow(){

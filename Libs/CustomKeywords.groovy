@@ -61,15 +61,13 @@ def static "pages.Quicksti.verifyUserPaymentDetails"(
 def static "pages.Quicksti.setAmountDetailsForMultiBureau"(
     	String index	
      , 	String paymentType	
-     , 	String paymentAmount	
-     , 	String sComments	
+     , 	String bureauNum	
      , 	String referenceNum	
      , 	String quantity	) {
     (new pages.Quicksti()).setAmountDetailsForMultiBureau(
         	index
          , 	paymentType
-         , 	paymentAmount
-         , 	sComments
+         , 	bureauNum
          , 	referenceNum
          , 	quantity)
 }
@@ -100,6 +98,12 @@ def static "pages.Search_Page.switchToWindow"() {
 
 def static "pages.Bureau_Login_Page.windowSwitching"() {
     (new pages.Bureau_Login_Page()).windowSwitching()
+}
+
+def static "pages.Bureau_Login_Page.clickingElement"(
+    	TestObject object	) {
+    (new pages.Bureau_Login_Page()).clickingElement(
+        	object)
 }
 
 def static "pages.Bureau_Login_Page.loginToBureau"(

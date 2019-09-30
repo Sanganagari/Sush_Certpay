@@ -129,9 +129,9 @@ public class Quicksti {
 	}
 
 	@Keyword
-	def setAmountDetailsForMultiBureau(String index,String paymentType,String paymentAmount,String sComments,String referenceNum,String quantity){
+	def setAmountDetailsForMultiBureau(String index,String paymentType,String bureauNum,String referenceNum,String quantity){
 		//Payment type
-		String paymentTypeXpath ="//select[@id='Opt_000_0"+index+"']"
+		String paymentTypeXpath ="//select[@id='Opt_00"+bureauNum+"_0"+index+"']"
 		TestObject PaymentType=new TestObject()
 		PaymentType.addProperty("xpath",ConditionType.EQUALS,paymentTypeXpath)
 		safe.safeSelectOptionInDropdownByVisibleText(PaymentType, paymentType, 'Payment Type', (([GlobalVariable.pageLoadTime]) as int[]))
@@ -139,19 +139,19 @@ public class Quicksti {
 		//Payment Amount
 		//safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'), paymentAmount, 'Payment Amount', null)
 		//Reference Number
-		String refXpath="//input[@id='Inv_000_0"+index+"']"
+		String refXpath="//input[@id='Inv_00"+bureauNum+"_0"+index+"']"
 		TestObject referenceNumber=new TestObject()
 		referenceNumber.addProperty("xpath", ConditionType.EQUALS, refXpath)
 		safe.safeType(referenceNumber, referenceNum, 'RefrenceNumber', (([GlobalVariable.pageLoadTime]) as int[]))
 
-		// Comments
-		String commentXpath="//input[@id='Com_000_0"+index+"']";
-		TestObject comment=new TestObject()
-		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
-		safe.safeType(comment, sComments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
+		//		// Comments
+		//		String commentXpath="//input[@id='Com_00"+bureauNum+"_0"+index+"']";
+		//		TestObject comment=new TestObject()
+		//		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
+		//		safe.safeType(comment, sComments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
 
 		// Quantity
-		String quantityXpath="//input[@id='Qty_000_0"+index+"']";
+		String quantityXpath="//input[@id='Qty_00"+bureauNum+"_0"+index+"']";
 		TestObject Quantity =new TestObject()
 		Quantity.addProperty("xpath", ConditionType.EQUALS, quantityXpath)
 		safe.safeType(Quantity, quantity, 'Quntity', (([GlobalVariable.pageLoadTime]) as int[]))
@@ -164,7 +164,7 @@ public class Quicksti {
 
 		String paymentId=WebUI.getText(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID'))
 
-		if(WebUI.verifyElementPresent(	testObject, 0))
+		if(WebUI.verifyElementPresent(	testObject, 30))
 		{
 			KeywordUtil.markPassed("Payment is approved")
 			//WebUI.executeJavaScript("alert('Payment is approved')", null)

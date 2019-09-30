@@ -14,7 +14,7 @@
       <guid>68c4e5bf-e482-4a38-9b17-c3ab5e416b0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Consumer_Make_Payment/Credit_SingleLine_Payment_001</testCaseId>
+      <testCaseId>Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>74703a97-ada7-4c14-ab1f-9ade19754c14</id>
@@ -131,7 +131,7 @@
       <guid>2f1dffbf-e9e3-463d-8ced-2d55c0b511d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Consumer_Make_Payment/Credit_MultiLine_Payment_002</testCaseId>
+      <testCaseId>Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -245,7 +245,7 @@
       <guid>655861ae-d376-4e21-8725-287a001cbfb5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Consumer_Make_Payment/Echeck_Checking_SingleLine_Payment_003</testCaseId>
+      <testCaseId>Test Cases/Consumer_Make_Payment/TC_003_Echeck_Checking_SingleLine_Payment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -353,7 +353,7 @@
       <guid>0c3932b8-2a66-4038-8895-99dfda5f726e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Consumer_Make_Payment/Echeck_Checking_MultiLine_Payment_004</testCaseId>
+      <testCaseId>Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -443,7 +443,7 @@
       <guid>7f4a8f6b-069c-4c3a-a43e-9864b454e540</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Consumer_Make_Payment/Echeck_Savings_SingleLine_Payment_005</testCaseId>
+      <testCaseId>Test Cases/Consumer_Make_Payment/TC_005_Echeck_Savings_SingleLine_Payment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -527,7 +527,7 @@
       <guid>4017a0bc-5db3-449a-95a3-19b9fbc417b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Consumer_Make_Payment/Echeck_Savings_MultiLine_Payment_006</testCaseId>
+      <testCaseId>Test Cases/Consumer_Make_Payment/TC_006_Echeck_Savings_MultiLine_Payment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
