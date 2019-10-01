@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@class='payDetTable table-hover table-striped table-striped-vert']//tbody//td[2]</value>
+         <value>//div[@id='MainContent_UpdatePanel3']//div[@class='block_content']//tr[1]/td[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

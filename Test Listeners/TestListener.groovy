@@ -29,9 +29,9 @@ class TestListener {
 	 */
 	@BeforeTestCase
 	def beforeTestCase(TestCaseContext testCaseContext) {
-		CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.Url, (([]as int[])))
-		//WebUI.openBrowser(GlobalVariable.Url)
-		WebUI.maximizeWindow()
+		//CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.certpay_url, (([]as int[])))
+		//CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.Quicksti_Url, (([]as int[])))
+		
 	}
 
 	/**
@@ -40,6 +40,7 @@ class TestListener {
 	 */
 	@AfterTestCase
 	def afterTestCase(TestCaseContext testCaseContext) {
-		//WebUI.closeBrowser()
+	
+	//WebUI.closeBrowser()
 	}
 }
