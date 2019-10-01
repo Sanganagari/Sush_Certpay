@@ -5,16 +5,21 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.openqa.selenium.WebElement
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.exception.StepFailedException
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
@@ -23,30 +28,31 @@ import utilities.SafeActions
 public class Payment_Page {
 	SafeActions safe=new SafeActions()
 	String cardNumber=null;
-	String last4Digits=null;
-	String last5Digits=null;
+
 	String paymentID= null;
 	String referenceNumber=null;
 	@Keyword
-	def setPersonalDetails(String first,String last,String telephone){
+	def setPersonalDetails(String firstname,String last,String telephone){
+
+		//findTestData('Certpay/CertpayTestData').getValue('FirstName', row)
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME')
 
-				, first, "FirstName", (([GlobalVariable.pageLoadTime]) as int[]))
+				,firstname , "FirstName", (([GlobalVariable.pageLoadTime]) as int[]))
 		safe.highLightElement(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME'), 10)
 
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME')
 
-				, last, "LAstName", (([GlobalVariable.pageLoadTime]) as int[]))
+				, last, "LastName", (([GlobalVariable.pageLoadTime]) as int[]))
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE')
 
 
 				, telephone, "Telephone", (([GlobalVariable.pageLoadTime]) as int[]))
 
-		String firstName = WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME')
-				, 'value')
-		WebUI.verifyMatch(first, firstName, true)
-
-		println(" firstName is : "+firstName)
+	}
+		@Keyword
+		def clickOnElement(TestObject object){
+			WebElement element =WebUiCommonHelper.findWebElement(object,30)
+			WebUI.executeJavaScript("arguments[0].click()",Arrays.asList(element))
 	}
 
 	@Keyword
@@ -64,20 +70,8 @@ public class Payment_Page {
 		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR'), expYear, 'year', (([GlobalVariable.pageLoadTime]) as int[]))
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE'),securityCode, "SecurityCode",  (([GlobalVariable.pageLoadTime]) as int[]))
 
-		cardNumber= WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'), 'value')
-		//WebUI.verifyMatch(cardNum, cardNum, true)
-		last4Digits= cardNumber.substring(12);
-		last5Digits= cardNumber.substring(11)
-	}
-	@Keyword
-	def getcardLastNumbers(){
-		//String cardNumber=810000009999123
-		last4Digits= cardNumber.substring(12);
-		last5Digits= cardNumber.substring(11)
-		println("CardNumber is :" +cardNumber, last4Digits,last5Digits)
-		return last4Digits;
-		return last5Digits;
-
+		String cardNumber= WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'), 'value')
+		WebUI.verifyMatch(cardNumber, cardNum, true)
 	}
 
 	// Entering amount,reference number,comments
@@ -105,33 +99,44 @@ public class Payment_Page {
 	}
 
 	@Keyword
-	def verifyUserDetails(String firstName,String lastName,String emailAddress,String cardType){
-
+	def verifyUserDetails(String firstName,String lastName,String emailAddress,String cardType,String accountType){
+		WebUI.scrollToElement(findTestObject('MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'), 30)
 		String sfirstName=WebUI.getText(findTestObject('MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'))
 		WebUI.verifyMatch(firstName, sfirstName, true, FailureHandling.STOP_ON_FAILURE)
 
 		String sLastName=WebUI.getText(	findTestObject('MAKE_ PAYMENT/Verification_ Details/LAST_NAME'))
 		WebUI.verifyMatch(lastName, sLastName, true, FailureHandling.STOP_ON_FAILURE)
+		Thread.sleep(2000);
 
 		String email=WebUI.getText(	findTestObject('MAKE_ PAYMENT/Verification_ Details/EMAIL_ADDRESS'))
 		WebUI.verifyMatch(emailAddress, email, true, FailureHandling.STOP_ON_FAILURE)
+		try{
+			if(accountType.empty)
+				//if(WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/CARD_TYPE'),0))
+			{
 
-		if(cardType.empty){
-			String accType=WebUI.getText(findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/ACH_ACC_TYPE'))
-			WebUI.verifyMatch("Checking",accType,true,FailureHandling.STOP_ON_FAILURE)
+				String cardType1=WebUI.getText(findTestObject('MAKE_ PAYMENT/Verification_ Details/CARD_TYPE'))
+
+				WebUI.verifyMatch(cardType, cardType1, true, FailureHandling.STOP_ON_FAILURE)
+				KeywordUtil.markPassed("CardType matched")
+			}
+			else{
+				String accType=WebUI.getText(findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/ACH_ACC_TYPE'))
+				WebUI.verifyMatch(accountType,accType,true,FailureHandling.STOP_ON_FAILURE)
+				Thread.sleep(1000);
+			}
 		}
-		else {
-
-			String cardType1=WebUI.getText(findTestObject('MAKE_ PAYMENT/Verification_ Details/CARD_TYPE'))
-			WebUI.verifyMatch(cardType, cardType1, true, FailureHandling.STOP_ON_FAILURE)
+		catch(StepFailedException e){
+			KeywordUtil.markError("Unable to verify element present")
 		}
 	}
 
+
 	// Payment Verifications
 	@Keyword
-	def verifyPaymentApproval(String referenceNum){
-		paymentID=WebUI.getText( 		findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/PAYMENT_ID'))
-		Thread.sleep(500);
+	def verifyCardPaymentApproval(String referenceNum){
+		String paymentID=WebUI.getText( findTestObject('MAKE_ PAYMENT/Verification_ Details/PAY_ID_CARD'))
+		Thread.sleep(3000);
 		referenceNumber =WebUI.getText(findTestObject('MAKE_ PAYMENT/Verification_ Details/REFERENCE_NUM'))
 		if(referenceNumber.equals(referenceNum))
 			println('Payment successfull with Payment ID :'+paymentID)
@@ -140,29 +145,27 @@ public class Payment_Page {
 	@Keyword
 	def verifyECheckPaymentApproval(String referenceNum)
 	{
-		paymentID=WebUI.getText(	findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/PAY_ID_ELECTRIC_CHECK'))
-		Thread.sleep(500);
+		String paymentID=WebUI.getText(findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/PAY_ID_ELECTRIC_CHECK'))
+		Thread.sleep(2000);
 		referenceNumber=WebUI.getText(	findTestObject('Object Repository/MAKE_ PAYMENT/Verification_ Details/REF_NUM_E_CHECK'))
 
 		if(referenceNumber.equals(referenceNum))
 			println('Payment successfull with Payment ID :'+paymentID)
 		return paymentID;
-
-
 	}
 
 
 
 	@Keyword
-	def verifyPaymentDetailsInReceipt(){
+	def verifyPaymentDetailsInReceipt(String paymentId){
 		boolean bFlag=true;
 		String referenceNum=WebUI.getText(findTestObject('Object Repository/SEARCH_PAYMENT/REFERNCE_NUM'))
 		String sPaymentId=WebUI.getText(findTestObject('Object Repository/SEARCH_PAYMENT/PAYMENT_ID'))
 		if(referenceNum.equals(referenceNumber)){
 
 
-			assert WebUI.verifyMatch(paymentID, sPaymentId, true, FailureHandling.STOP_ON_FAILURE)
-
+			assert WebUI.verifyMatch(sPaymentId,paymentId,  true, FailureHandling.STOP_ON_FAILURE)
+			Thread.sleep(2000);
 			return bFlag;
 		}
 		else {
@@ -178,7 +181,7 @@ public class Payment_Page {
 		safe.safeType(		findTestObject('Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ROUTING_NUMBER')
 				, routingNumber, 'RoutingNumber', (([GlobalVariable.pageLoadTime]) as int[]))
 
-		if(WebUI.verifyElementPresent(testObject, 0)){
+		if(WebUI.verifyElementPresent(testObject, 30)){
 
 
 			safe.safeType(	testObject, checkingAccNum, 'CheckAccNum', (([GlobalVariable.pageLoadTime]) as int[]))

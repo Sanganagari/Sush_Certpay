@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ctl00_mainContent_AdditionalPayment_1_txtTaxID']</value>
+         <value>//input[@id='ctl00_mainContent_AdditionalPayment_1_txtTaxID']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
