@@ -81,5 +81,5 @@ CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/P
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON_1'), 'Search button', (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'American Express', paymentAmount)
+CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'Visa', paymentAmount)
 
