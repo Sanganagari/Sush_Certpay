@@ -104,24 +104,19 @@ public class Quicksti {
 	// verification of entered  user details
 	@Keyword
 	def verifyUserPaymentDetails(String paymentAmount,String firstName,String lastName,String cardNumber){
-		/* Amount verification
-		 * 
-		 */
+		
 		String amount=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT'))
 		String actualAmount=amount.substring(1)
 		//	println(actualAmount)
 		WebUI.verifyMatch(actualAmount, paymentAmount, true,FailureHandling.STOP_ON_FAILURE)
 
-		/*Verifing user name
-		 * 
-		 */
+	
 		String fullName=firstName +" "+lastName;
 		//println(fullName)
 		String name=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME'))
 		WebUI.verifyMatch(name, fullName, true,FailureHandling.STOP_ON_FAILURE)
 
 		String cardNum=WebUI.getText(	findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER'))
-		//String cardType=WebUI.getText(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMERICAN_EXPRESS'))
 		String lastNum=cardNum.substring(3)
 
 
@@ -157,6 +152,14 @@ public class Quicksti {
 		safe.safeType(Quantity, quantity, 'Quntity', (([GlobalVariable.pageLoadTime]) as int[]))
 
 	}
+	@Keyword
+	def setCommnets(String bureauNum,String index,String sComments){
+		String commentXpath="//input[@id='Com_00"+bureauNum+"_0"+index+"']";
+		TestObject comment=new TestObject()
+		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
+		safe.safeType(comment, sComments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
+
+	}
 
 	//verification of Payment Approval
 	@Keyword
@@ -178,4 +181,6 @@ public class Quicksti {
 		println paymentId;
 		return paymentId;
 	}
+
+
 }

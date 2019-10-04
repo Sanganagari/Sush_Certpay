@@ -11,13 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>293e2d48-ecb5-4f0d-b1a7-f5d4f153ec6c</testSuiteGuid>
    <testCaseLink>
-      <guid>de8938ce-99af-4603-9ebb-d46fd879fce6</guid>
+      <guid>8ce6e294-0f9b-4f82-916f-76dd702597e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_001_Visa_SingleLinePayment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>3fb386b9-a5d8-4f37-9b8b-033e3c86b7ab</id>
+         <id>d449752b-a4ff-4fca-ad57-df04b58cf612</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -31,15 +31,15 @@
          <variableId>5ef1ae5b-3b6e-4961-9fdc-09734b4d878b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3fb386b9-a5d8-4f37-9b8b-033e3c86b7ab</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ExpYear</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>58ba50cf-db6d-4b0e-9b4b-5c7d5be661b9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3fb386b9-a5d8-4f37-9b8b-033e3c86b7ab</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Securitycode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>9d2bbc3d-afb2-48a8-927d-998da730d60a</variableId>
       </variableLink>
       <variableLink>
@@ -73,9 +73,9 @@
          <variableId>3a613a9e-c2fe-42d9-ac94-5bfb37186634</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3fb386b9-a5d8-4f37-9b8b-033e3c86b7ab</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ZipCode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>c5676c55-db28-4e24-8a90-0188cd8b6d2c</variableId>
       </variableLink>
       <variableLink>
@@ -85,26 +85,26 @@
          <variableId>f9afe223-92e6-4e01-9c5b-f9781fe4ba2e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3fb386b9-a5d8-4f37-9b8b-033e3c86b7ab</testDataLinkId>
+         <testDataLinkId>d449752b-a4ff-4fca-ad57-df04b58cf612</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
          <variableId>1590139a-81e1-4dae-869f-38490ee03921</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3fb386b9-a5d8-4f37-9b8b-033e3c86b7ab</testDataLinkId>
+         <testDataLinkId>d449752b-a4ff-4fca-ad57-df04b58cf612</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
          <variableId>4d2c9780-e4dc-459c-b576-39b04ec8e088</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d6ae31a0-bccd-4286-895f-f497881c968b</guid>
+      <guid>4a39d1ba-c9b3-4824-a010-ea5e386e9398</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_002_Visa_MultiLinePayment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>1c5ed46d-c472-48ac-81d6-324e435fa268</id>
+         <id>d88a9ebf-c370-4a8f-b69c-438aba34201b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -148,27 +148,27 @@
          <variableId>22eb5775-041e-48c6-a5cc-da58937e46ec</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c5ed46d-c472-48ac-81d6-324e435fa268</testDataLinkId>
+         <testDataLinkId>d88a9ebf-c370-4a8f-b69c-438aba34201b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
          <variableId>37f52433-73a2-466c-8885-6f88e5a96637</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c5ed46d-c472-48ac-81d6-324e435fa268</testDataLinkId>
+         <testDataLinkId>d88a9ebf-c370-4a8f-b69c-438aba34201b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
          <variableId>21b5c1cd-8b6c-4e92-9631-031d22fbfc26</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c5ed46d-c472-48ac-81d6-324e435fa268</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Securitycode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>ea86cb67-9690-4ad3-a7cc-5447656d9c92</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c5ed46d-c472-48ac-81d6-324e435fa268</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ZipCode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>c1250170-9252-4bdf-a924-f0b777e45635</variableId>
       </variableLink>
       <variableLink>
@@ -184,9 +184,9 @@
          <variableId>d75ef3c0-379c-4e20-9b29-a577cde5221c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c5ed46d-c472-48ac-81d6-324e435fa268</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ExpYear</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>9c2b66c2-142d-462a-8f2e-af5daf26d3a6</variableId>
       </variableLink>
       <variableLink>
@@ -209,13 +209,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d12254f-9efc-4bd1-afe8-4dbc10b24f27</guid>
+      <guid>9b6ee34c-57db-48d9-8937-56f687607893</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_003_MC_SingleLinePayment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9babe6ff-b5aa-49ed-a89d-90ddc0c74577</id>
+         <id>7e7f8d06-1cb8-4209-b72a-7edaebde8dda</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -223,13 +223,13 @@
          <testDataId>Data Files/Certpay/CertpayTestData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>9babe6ff-b5aa-49ed-a89d-90ddc0c74577</testDataLinkId>
+         <testDataLinkId>7e7f8d06-1cb8-4209-b72a-7edaebde8dda</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
          <variableId>2bc21494-1c39-4f4a-8e4a-b033e507029e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9babe6ff-b5aa-49ed-a89d-90ddc0c74577</testDataLinkId>
+         <testDataLinkId>7e7f8d06-1cb8-4209-b72a-7edaebde8dda</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
          <variableId>dda101e6-0115-4953-b014-7041ff3bc419</variableId>
@@ -241,21 +241,21 @@
          <variableId>8216a76f-d5f2-4c1d-b92e-d9f9b428483d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9babe6ff-b5aa-49ed-a89d-90ddc0c74577</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ExpYear</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>f45625e5-eb49-4d14-997b-a4ed6ac2176a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9babe6ff-b5aa-49ed-a89d-90ddc0c74577</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Securitycode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>e46479a6-6b14-4a03-a2bc-0284a722a7be</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9babe6ff-b5aa-49ed-a89d-90ddc0c74577</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ZipCode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>94842996-9038-4203-abbc-9a9cbfa68ced</variableId>
       </variableLink>
       <variableLink>
@@ -296,13 +296,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>92161271-6e39-41d3-bfa0-4ef625884fa8</guid>
+      <guid>6f7fb333-3ac5-4a92-bbaf-cf41dabcd55f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_004_MC_MultiLInePayment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>212019ee-cd75-48ef-8bca-070af0398030</id>
+         <id>2ae24bc2-d6ec-4249-99f6-2e50138ad833</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -346,25 +346,25 @@
          <variableId>bcf92c07-dd4a-4381-99dc-108b783d8769</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>212019ee-cd75-48ef-8bca-070af0398030</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ExpYear</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>d1460493-36f4-4f5a-b4b1-39f5cfe27449</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>212019ee-cd75-48ef-8bca-070af0398030</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Securitycode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>be32cf18-4862-496c-b512-977582688df4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>212019ee-cd75-48ef-8bca-070af0398030</testDataLinkId>
+         <testDataLinkId>2ae24bc2-d6ec-4249-99f6-2e50138ad833</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
          <variableId>b0470b73-45ac-4b37-aa4e-7af42c7af878</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>212019ee-cd75-48ef-8bca-070af0398030</testDataLinkId>
+         <testDataLinkId>2ae24bc2-d6ec-4249-99f6-2e50138ad833</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
          <variableId>0ee63bd7-7b18-4f7f-b4a6-f7a75bef345d</variableId>
@@ -389,13 +389,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e28c4ca-2ba2-4e9d-b140-bee1ed7361ad</guid>
+      <guid>77ca3967-119b-4a0d-9338-394c94e7132a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_005_Discover_SingleLinePayment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>6a2f0be0-af2a-4c61-812e-cff6b32d4a4f</id>
+         <id>70f3d621-06be-4e05-9907-326f44010345</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -403,21 +403,21 @@
          <testDataId>Data Files/Certpay/CertpayTestData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>6a2f0be0-af2a-4c61-812e-cff6b32d4a4f</testDataLinkId>
+         <testDataLinkId>70f3d621-06be-4e05-9907-326f44010345</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
          <variableId>3de36bd5-0643-4c65-8ce0-a603e863ee11</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6a2f0be0-af2a-4c61-812e-cff6b32d4a4f</testDataLinkId>
+         <testDataLinkId>70f3d621-06be-4e05-9907-326f44010345</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
          <variableId>9c73be32-8d24-4a1f-b763-6af5db18a708</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6a2f0be0-af2a-4c61-812e-cff6b32d4a4f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Securitycode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>14aeeba2-f3e4-4e9e-971d-9217567b1682</variableId>
       </variableLink>
       <variableLink>
@@ -427,9 +427,9 @@
          <variableId>315a5a1a-b206-487a-a6ef-4b52d2c2eb3e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6a2f0be0-af2a-4c61-812e-cff6b32d4a4f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ZipCode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>569a5e3a-ff1c-4a46-a9b5-094a37cbc0e2</variableId>
       </variableLink>
       <variableLink>
@@ -481,14 +481,14 @@
          <variableId>43f00258-5188-41e8-85fc-62c0fd14cf99</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6a2f0be0-af2a-4c61-812e-cff6b32d4a4f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ExpYear</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>151498a3-3522-4d7e-83da-8b2e646e225c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9fd054c3-256a-445d-ac90-6605ce514579</guid>
+      <guid>57c6cc2f-32bb-40b4-ad53-a8b831759c7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_006_Discover_MultiLInePayment</testCaseId>
@@ -572,7 +572,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1637a82-f0eb-4368-b629-91aeaea9820a</guid>
+      <guid>6960ed79-0a92-455d-835c-f9b17b0effe0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_007_Amex_SingleLinePayment</testCaseId>
@@ -638,7 +638,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>71323b1d-53ef-421c-83b4-95e5eb72d8ca</guid>
+      <guid>09f479b9-4eba-43f4-b2f2-4689c293f708</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_008_Amex_MultiLinePayment</testCaseId>
@@ -722,70 +722,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1f804155-4609-4f78-86d0-ae5a1bb94b2b</guid>
+      <guid>c8eac287-6bc5-4e02-ad39-e34604477171</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_010MultiBureauSite_MultiBureaus_SingleLinePayment</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a7f85d8e-cee5-4531-b42c-a28d45e8653a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0b9aed3d-4b35-4816-b629-59b3ba904777</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ebf43c2e-4381-4d45-b178-e96bb61805e0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>274c2f3a-2ff1-4f48-9583-c5fec031ec24</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>93274ef1-3dd4-41f1-a074-a5c89fadffe8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>99c60acd-c5f8-435c-b079-1d9a563b9769</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d4344bec-fd38-42cb-b01f-ea4f94de400e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>284b4fee-bfd0-49f1-94ea-5ff8a3ed93f3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>aedb1427-089c-4bdd-8da0-5289610de935</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>58b12185-a583-4cc2-bec5-dab928986d0e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Certpay_Quicksti/TC_009_MultiBureau_SingleLinePayment</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/TC_009_MultiBureauSite_MultiBureau_SingleLinePayment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -869,6 +809,126 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>bdd4c579-e9fc-49ab-a690-7d5fb94e4d66</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f42a9a28-4dee-4710-80c4-d2a8cb4be8bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/TC_010_MultiBureauSite_MultiBureaus_SingleLinePayment</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a7f85d8e-cee5-4531-b42c-a28d45e8653a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b9aed3d-4b35-4816-b629-59b3ba904777</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebf43c2e-4381-4d45-b178-e96bb61805e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>274c2f3a-2ff1-4f48-9583-c5fec031ec24</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93274ef1-3dd4-41f1-a074-a5c89fadffe8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>99c60acd-c5f8-435c-b079-1d9a563b9769</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4344bec-fd38-42cb-b01f-ea4f94de400e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>284b4fee-bfd0-49f1-94ea-5ff8a3ed93f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aedb1427-089c-4bdd-8da0-5289610de935</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5e0beb1-41ba-4a2e-abd2-e9d114f4f777</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Certpay_Quicksti/TC_011_MultiBureauSite_MultiBureaus_MultiLinePayments</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50950733-fb6b-44e1-9737-005b9b4ec377</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16cb5f58-8762-4c42-89d1-2193e8a57170</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>37101f1e-910e-44b3-8a25-9684eef3b494</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d73fd393-a012-42a3-85b8-44ed7af933e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f1bb9db2-a050-4e12-8552-56a457440fd2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1d2beab-75f3-4a1e-936e-ddaf673d2947</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>af5be821-5204-4296-a012-d8c0536a464a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d8b82dc6-4e43-45c6-9e03-a09057fbd43a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d390254c-1eb3-4e17-89ff-e09c0486acc5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

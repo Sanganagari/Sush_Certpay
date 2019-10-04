@@ -72,20 +72,36 @@ def static "pages.Quicksti.setAmountDetailsForMultiBureau"(
          , 	quantity)
 }
 
+def static "pages.Quicksti.setCommnets"(
+    	String bureauNum	
+     , 	String index	
+     , 	String sComments	) {
+    (new pages.Quicksti()).setCommnets(
+        	bureauNum
+         , 	index
+         , 	sComments)
+}
+
 def static "pages.Quicksti.verifyPaymentApproval"(
     	TestObject testObject	) {
     (new pages.Quicksti()).verifyPaymentApproval(
         	testObject)
 }
 
-def static "pages.Search_Page.enterSearchDetails"(
+def static "pages.CommonActions.safeMouseOver"(
+    	TestObject object	) {
+    (new pages.CommonActions()).safeMouseOver(
+        	object)
+}
+
+def static "pages.Search_Page.setSearchDetails"(
     	String lastName	
-     , 	String last4Digits	
-     , 	String last5Digits	) {
-    (new pages.Search_Page()).enterSearchDetails(
+     , 	String cardNum	
+     , 	String accNumber	) {
+    (new pages.Search_Page()).setSearchDetails(
         	lastName
-         , 	last4Digits
-         , 	last5Digits)
+         , 	cardNum
+         , 	accNumber)
 }
 
 def static "pages.Search_Page.verifyNoPaymentsFound"() {
@@ -94,6 +110,16 @@ def static "pages.Search_Page.verifyNoPaymentsFound"() {
 
 def static "pages.Search_Page.switchToWindow"() {
     (new pages.Search_Page()).switchToWindow()
+}
+
+def static "pages.Search_Page.validateApprovedTransactionsInReports"(
+    	String paymentId	
+     , 	Object cardtype	
+     , 	String paymentAmount	) {
+    (new pages.Search_Page()).validateApprovedTransactionsInReports(
+        	paymentId
+         , 	cardtype
+         , 	paymentAmount)
 }
 
 def static "pages.Bureau_Login_Page.windowSwitching"() {
@@ -106,11 +132,11 @@ def static "pages.Bureau_Login_Page.clickingElement"(
         	object)
 }
 
-def static "pages.Bureau_Login_Page.loginToBureau"(
+def static "pages.Bureau_Login_Page.loginToReportsSite"(
     	String username	
      , 	String password	
      , 	String accessCode	) {
-    (new pages.Bureau_Login_Page()).loginToBureau(
+    (new pages.Bureau_Login_Page()).loginToReportsSite(
         	username
          , 	password
          , 	accessCode)
@@ -128,6 +154,42 @@ def static "pages.Bureau_Login_Page.verifyPaymentInRealTimeMonitor"(
          , 	lastName
          , 	firstName
          , 	paymentID)
+}
+
+def static "pages.Payment_Page.getRowAndColumn"(
+    	TestObject nextObj	
+     , 	TestObject numberOfPages	
+     , 	String paymentId	) {
+    (new pages.Payment_Page()).getRowAndColumn(
+        	nextObj
+         , 	numberOfPages
+         , 	paymentId)
+}
+
+def static "pages.Payment_Page.verifyPaymnetIdRecord"(
+    	TestObject nextObj	
+     , 	TestObject numberOfPages	
+     , 	String PaymentId	) {
+    (new pages.Payment_Page()).verifyPaymnetIdRecord(
+        	nextObj
+         , 	numberOfPages
+         , 	PaymentId)
+}
+
+def static "pages.Payment_Page.verifyAllRecordsFilteredByCardNumber"(
+    	TestObject nextObj	
+     , 	TestObject numberOfPages	
+     , 	String creditCardNumber	) {
+    (new pages.Payment_Page()).verifyAllRecordsFilteredByCardNumber(
+        	nextObj
+         , 	numberOfPages
+         , 	creditCardNumber)
+}
+
+def static "pages.Payment_Page.getPaymentIdColumnCount"(
+    	String columnName	) {
+    (new pages.Payment_Page()).getPaymentIdColumnCount(
+        	columnName)
 }
 
 def static "pages.Payment_Page.setPersonalDetails"(
@@ -216,6 +278,12 @@ def static "pages.Payment_Page.setElectronicCheckInformation"(
          , 	checkingAccNum)
 }
 
+def static "pages.Payment_Page.clickOnElement"(
+    	TestObject object	) {
+    (new pages.Payment_Page()).clickOnElement(
+        	object)
+}
+
 def static "utilities.SafeActions.openBrowser"(
     	String url	
      , 	int[] optionWaitTime	) {
@@ -252,6 +320,12 @@ def static "utilities.SafeActions.safeType"(
          , 	text
          , 	friendlyWebElementName
          , 	optionWaitTime)
+}
+
+def static "utilities.SafeActions.getAttribute"(
+    	TestObject testObject	) {
+    (new utilities.SafeActions()).getAttribute(
+        	testObject)
 }
 
 def static "utilities.SafeActions.safeClick"(

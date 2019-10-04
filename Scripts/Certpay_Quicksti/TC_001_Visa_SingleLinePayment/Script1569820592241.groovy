@@ -37,7 +37,7 @@ CustomKeywords.'pages.Quicksti.setExpDate'(expMonth, expYear, securityCode)
 CustomKeywords.'pages.Quicksti.setPaymentAmountDetailsForSinglePayment'(paymentAmount, quantity)
 
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER'), 
-    referenceNum, 'Bureau code', (([GlobalVariable.pageLoadTime]) as int[]))
+    referenceNum, 'Reference Number', (([GlobalVariable.pageLoadTime]) as int[]))
 
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS'), 'Testing', 
     'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
@@ -68,5 +68,21 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKST
 
 PaymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED'))
 
-WebUI.closeBrowser()
+WebUI.navigateToUrl(GlobalVariable.Reports_url)
+
+CustomKeywords.'pages.Bureau_Login_Page.loginToReportsSite'(GlobalVariable.userName, GlobalVariable.password, GlobalVariable.accessCode)
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/QUICK_FIND_PAYMENT'), 'Quick find payment', 
+        (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/PAYMENT_ID_INPUT_FIELD'), PaymentId, 'Payment id', 
+        (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON_1'), 'Search button', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'Visa', paymentAmount)
 

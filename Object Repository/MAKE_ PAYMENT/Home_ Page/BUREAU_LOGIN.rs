@@ -6,12 +6,11 @@
    <elementGuidId>5ac10f02-d77e-42c9-ac2f-68ea3c714a67</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@class='navlinks navlinks-button']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

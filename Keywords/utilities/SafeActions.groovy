@@ -96,6 +96,14 @@ public class SafeActions {
 		}
 	}
 
+//	for (int i = 0; i < newList.size(); i++) {
+//		String s = newList.get(i)
+//	
+//		println(newList.get(i))
+//	
+//		println(s)
+//	}
+
 	@Keyword
 	def safeType(TestObject testObject,String text, String friendlyWebElementName,int... optionWaitTime){
 		int waitTime=0;
@@ -118,6 +126,22 @@ public class SafeActions {
 			KeywordUtil.markError(syn.getTestCasename() +friendlyWebElementName+ "is not attached to page document in time "+waitTime+" No such element Exception")
 		}
 	}
+
+	@Keyword
+	def getAttribute(TestObject testObject){
+		try{
+			//String attributeValue=WebUI.getAttribute(testObject, "value")
+			int attribute=WebUI.getAttribute(testObject, "value")
+			println attribute;
+
+		}
+		catch(Exception e){
+			//WebUI.takeScreenshot(reportsFolderPath+"/getAttributeValue.png")
+			KeywordUtil.markError("Expection while getting Class Attribute")
+		}
+		return attribute;
+	}
+
 
 	@Keyword
 	def safeClick(TestObject testObject, String friendlyWebElementName,int... optionWaitTime){
@@ -145,12 +169,12 @@ public class SafeActions {
 	@Keyword
 	def String safeGetText(TestObject testObject,String friendlyWebElementName, int...optionWaitTime){
 		int waitTime=0;
-		String sValue=null;
+		//String sValue=null;
 		try{
 			waitTime=syn.getWaitTime(optionWaitTime)
 
 			if(WebUI.verifyElementPresent(testObject,waitTime)) {
-				sValue= WebUI.getText(testObject)
+				String sValue= WebUI.getText(testObject)
 				println("Text is "+sValue)
 				KeywordUtil.markPassed("Get text from "+friendlyWebElementName+" in time" +waitTime)
 			}
@@ -161,9 +185,7 @@ public class SafeActions {
 		catch(StaleElementReferenceException e){
 			KeywordUtil.markError(syn.getTestCaseName()+friendlyWebElementName+ "is not attached to page document- StaleElementReferenceException")
 		}
-		//		catch(NoSuchElementException e){
-		//			KeywordUtil.markError(syn.getTestCaseName()+friendlyWebElementName+ "is not found in DOM in time "+waitTime+"NoSuchElementException")
-		//		}
+
 		catch(Exception e){
 			KeywordUtil.markError(syn.getTestCaseName()+"Unable to get text from "+friendlyWebElementName+ "- "+e)
 		}

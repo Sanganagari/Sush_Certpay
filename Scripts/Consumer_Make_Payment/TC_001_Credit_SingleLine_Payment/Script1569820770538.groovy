@@ -42,7 +42,7 @@ CustomKeywords.'pages.Payment_Page.setPersonalDetails'(firstName, lastName, tele
 
 CustomKeywords.'pages.Payment_Page.setLocationDetails'(address, zipCode)
 
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'pages.Payment_Page.clickOnElement'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'))
 
 CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox'), 'Billing CheckBox', 
         (([GlobalVariable.pageLoadTime]) as int[]))
@@ -53,7 +53,9 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/H
 
 WebUI.delay(GlobalVariable.mediumWait)
 
-CustomKeywords.'pages.Payment_Page.setCardDetails'(cardNum, securityCode, expYear, expMonth)
+def newList = CustomKeywords.'pages.Payment_Page.setCardDetails'(cardNum, securityCode, expYear, expMonth)
+
+
 
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS'), 
     emailAddress, 'EmailAddress', (([GlobalVariable.pageLoadTime]) as int[]))
@@ -71,7 +73,7 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/V
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Verification_ Details/YES_BUTTON'), 'yes button', 
         (([GlobalVariable.pageLoadTime]) as int[]))
 
-WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/APPROVED'), GlobalVariable.pageLoadTime)
+WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/APPROVED'), 30)
 
 PaymentId = CustomKeywords.'pages.Payment_Page.verifyCardPaymentApproval'(referenceNum)
 
@@ -84,7 +86,7 @@ CustomKeywords.'pages.Search_Page.switchToWindow'()
 CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'), 'Credit card', (([
             GlobalVariable.mediumWait]) as int[]))
 
-CustomKeywords.'pages.Search_Page.enterSearchDetails'(lastName, last4Digits, last5Digits)
+CustomKeywords.'pages.Search_Page.setSearchDetails'(lastName, cardNum, accNum)
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON'), 'Search', (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -92,7 +94,16 @@ CustomKeywords.'pages.Payment_Page.verifyPaymentDetailsInReceipt'(PaymentId)
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_ ICON'), 'SearchIcon', (([GlobalVariable.pageLoadTime]) as int[]))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.mediumWait)
+
+WebUI.scrollToElement(findTestObject('SEARCH_PAYMENT/CLOSE_BUTTON'), 0)
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/EMAIL_ RECEIPT'), 'Email Receipt', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/EMAIL_ ADDRESS'), emailAddress, 'EmailAddress', 
+        (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEND_ EMAIL_BUTTON'), 'Send Email', (([GlobalVariable.pageLoadTime]) as int[]))
 
 WebUI.closeBrowser()
 

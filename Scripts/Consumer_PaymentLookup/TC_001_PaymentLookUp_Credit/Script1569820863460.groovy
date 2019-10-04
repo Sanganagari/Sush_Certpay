@@ -21,14 +21,14 @@ CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/BILLING_LAST_NAME'), LastName, 'Billing last name', 
         (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/LAST_4_DIGITS_CARD_NUMBER'), CardNum, 'Last 4 digits', 
+CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('null'), CardNum, 'Last 4 digits', 
         (([GlobalVariable.pageLoadTime]) as int[]))
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON'), 'Search', (([GlobalVariable.pageLoadTime]) as int[]))
 
 flag = CustomKeywords.'pages.Search_Page.verifyNoPaymentsFound'()
 
-if (flag.equals('false')) {
+if (flag) {
     CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_ ICON'), 'SearchIcon', (([GlobalVariable.pageLoadTime]) as int[]))
 
     WebUI.delay(GlobalVariable.mediumWait)

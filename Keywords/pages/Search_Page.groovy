@@ -30,19 +30,20 @@ public class Search_Page {
 	//Payment_Page payment=new Payment_Page()
 
 
-	@Keyword
-	def enterSearchDetails(String lastName,String last4Digits,String last5Digits){
 
+	@Keyword
+	def setSearchDetails(String lastName,String cardNum,String accNumber){
 		safe.safeType(findTestObject('Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME'), lastName, 'LastName', (([GlobalVariable.pageLoadTime]) as int[]))
 		try{
-			if(WebUI.verifyElementChecked(	findTestObject('Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'),0,FailureHandling.OPTIONAL	)){
+			if(WebUI.verifyElementChecked(	findTestObject('Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'),30,FailureHandling.OPTIONAL	)){
 
-				safe.safeType( findTestObject('Object Repository/SEARCH_PAYMENT/LAST_4_DIGITS_CARD_NUMBER') ,last4Digits , 'Last4Digits',  (([GlobalVariable.pageLoadTime]) as int[]))
-				KeywordUtil.markPassed("Credit card is checked and Last 4 digits entered ")
+				safe.safeType(  	findTestObject('Object Repository/SEARCH_PAYMENT/CARD_NUMBER'),cardNum , 'CArdNum',  (([GlobalVariable.pageLoadTime]) as int[]))
+				KeywordUtil.markPassed("Credit card is checked and cardNum is entered ")
 			}
 			else {
-				safe.safeType( 	findTestObject('Object Repository/SEARCH_PAYMENT/LAST_5_DIGITS'), last5Digits, 'Last5Digits',  (([GlobalVariable.pageLoadTime]) as int[]))
-				KeywordUtil.markPassed("Last 5 digits enterd")
+				safe.safeType(	findTestObject('Object Repository/SEARCH_PAYMENT/ACC_NUMBER')
+						, accNumber, 'Acc num',  (([GlobalVariable.pageLoadTime]) as int[]))
+				KeywordUtil.markPassed("Acc num enterd")
 			}
 		}
 		catch(StepFailedException e){
@@ -52,16 +53,17 @@ public class Search_Page {
 
 	@Keyword
 	def verifyNoPaymentsFound(){
-		boolean flag=false;
+		boolean flag=true;
 
 		if(	WebUI.verifyElementPresent(findTestObject('Object Repository/SEARCH_PAYMENT/NO_PAYMENTS_FOUND'), 30)){
-			flag=true;
-			KeywordUtil.markPassed("No paymnets dispalyed")
+			KeywordUtil.markPassed("No payments displayed")
+			flag=false;
 
 		}
 		else {
-			flag=false;
+
 			KeywordUtil.markFailed("Payments displayed")
+			flag=true;
 
 		}
 		Thread.sleep(2000);
@@ -78,6 +80,30 @@ public class Search_Page {
 		WebUI.switchToWindowIndex(1)
 
 	}
+	@Keyword
+	def validateApprovedTransactionsInReports(String paymentId,cardtype,String paymentAmount){
+		boolean bFlag=true;
 
+		try{
+			if(bFlag){
+				String paymentid=WebUI.getText(	findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_PAYMNET_ID'))
+				WebUI.verifyMatch(paymentid, paymentId, true,FailureHandling.STOP_ON_FAILURE)
+				String cardType=WebUI.getText(	findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_CARD_TYPE'))
+				WebUI.verifyMatch(cardType, cardtype, true, FailureHandling.STOP_ON_FAILURE)
+				String amount=WebUI.getText(findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_AMOUNT'))
+				String sAmount=amount.substring(1)
+				//WebUI.verifyMatch(sAmount, paymenyAmount, true, FailureHandling.STOP_ON_FAILURE)
+				KeywordUtil.markPassed("Verified payment details successfully ")
+			}
+			else{
+				KeywordUtil.markFailed("Payment details are not matched")
+				bFlag=false;
+			}
+		}
+		catch(Exception e){
+			KeywordUtil.markFailed("Unable to verify match")
 
+		}
+
+	}
 }

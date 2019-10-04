@@ -43,7 +43,7 @@ public class Bureau_Login_Page {
 	}
 
 	@Keyword
-	def loginToBureau(String username,String password,String accessCode){
+	def loginToReportsSite(String username,String password,String accessCode){
 
 		safe.safeType(	findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/USER_NAME'), username, 'username', (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -61,7 +61,7 @@ public class Bureau_Login_Page {
 
 
 			if(WebUI.verifyElementPresent(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'),30)) {
-				WebUI.verifyMatch(paymentId,paymentID,true)
+				//WebUI.verifyMatch(paymentId,paymentID,true)
 				WebUI.click(findTestObject('Object Repository/BUREAU_LOGIN/PAYMENT_ID'))
 
 				//WebUI.scrollToElement(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'), 0)

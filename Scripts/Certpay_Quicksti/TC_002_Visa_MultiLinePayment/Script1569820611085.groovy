@@ -71,7 +71,25 @@ WebUI.scrollToElement(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verificat
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS'), 
     'Process', (([GlobalVariable.pageLoadTime]) as int[]))
 
-PaymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED'))
+PaymentID = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED'))
+
+WebUI.navigateToUrl(GlobalVariable.Reports_url)
+
+CustomKeywords.'pages.Bureau_Login_Page.loginToReportsSite'(GlobalVariable.userName, GlobalVariable.password, GlobalVariable.accessCode)
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/QUICK_FIND_PAYMENT'), 'Quick find payment', 
+        (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/PAYMENT_ID_INPUT_FIELD'), PaymentID, 'Payment id', 
+        (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON_1'), 'Search button', (([GlobalVariable.pageLoadTime]) as int[]))
+
+CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentID, 'Visa', paymentAmount)
 
 WebUI.closeBrowser()
 
