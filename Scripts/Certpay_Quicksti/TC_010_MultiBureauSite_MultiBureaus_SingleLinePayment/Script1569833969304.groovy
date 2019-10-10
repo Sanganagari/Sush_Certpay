@@ -45,6 +45,8 @@ CustomKeywords.'pages.Quicksti.setAmountDetailsForMultiBureau'('0', 'Vehicles', 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON'), 
     'ManualEntry', (([GlobalVariable.pageLoadTime]) as int[]))
 
+amount_Value = CustomKeywords.'pages.Quicksti.getAttributeValue'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL'))
+
 CardNumber = CustomKeywords.'pages.Quicksti.setUserPaymentDetails'(GlobalVariable.firstName, GlobalVariable.lastName, GlobalVariable.VISA)
 
 CustomKeywords.'pages.Quicksti.setExpDate'(expMonth, expYear, securityCode)
@@ -92,7 +94,7 @@ CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/P
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON_1'), 'Search button', (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'Visa', paymentAmount)
+CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'Visa', amount_Value)
 
 WebUI.closeBrowser()
 

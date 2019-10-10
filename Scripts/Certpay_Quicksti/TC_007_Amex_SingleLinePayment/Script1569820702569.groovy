@@ -39,6 +39,8 @@ CustomKeywords.'pages.Quicksti.setPaymentAmountDetailsForSinglePayment'(paymentA
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER'), 
     referenceNum, 'Reference Number', (([GlobalVariable.pageLoadTime]) as int[]))
 
+amount_Value = CustomKeywords.'pages.Quicksti.getAttributeValue'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL'))
+
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS'), 'Testing', 
     'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -84,7 +86,7 @@ CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/P
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON_1'), 'Search button', (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'American Express', paymentAmount)
+CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'American Express', amount_Value)
 
 WebUI.closeBrowser()
 

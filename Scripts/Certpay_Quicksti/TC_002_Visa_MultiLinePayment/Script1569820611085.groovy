@@ -40,6 +40,8 @@ CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI
 
 CustomKeywords.'pages.Quicksti.setAmountDetailsForMultiBureau'('1', paymentType, '0', referenceNum2, quantity)
 
+amount_Value = CustomKeywords.'pages.Quicksti.getAttributeValue'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL'))
+
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON'), 
     'ManualEntry', (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -89,7 +91,7 @@ CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/P
 
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON_1'), 'Search button', (([GlobalVariable.pageLoadTime]) as int[]))
 
-CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentID, 'Visa', paymentAmount)
+CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentID, 'Visa', amount_Value)
 
 WebUI.closeBrowser()
 
