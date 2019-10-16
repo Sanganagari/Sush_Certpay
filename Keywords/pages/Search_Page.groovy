@@ -91,8 +91,10 @@ public class Search_Page {
 				String cardType=WebUI.getText(	findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_CARD_TYPE'))
 				WebUI.verifyMatch(cardType, cardtype, true, FailureHandling.STOP_ON_FAILURE)
 				String amount=WebUI.getText(findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_AMOUNT'))
+				println "Amount from GUI = "+amount
 				String sAmount=amount.substring(1)
-				//WebUI.verifyMatch(sAmount, paymenyAmount, true, FailureHandling.STOP_ON_FAILURE)
+				println paymentAmount
+				WebUI.verifyMatch(sAmount, paymentAmount, true, FailureHandling.STOP_ON_FAILURE)
 				KeywordUtil.markPassed("Verified payment details successfully ")
 			}
 			else{

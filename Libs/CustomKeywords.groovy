@@ -3,9 +3,9 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-import java.lang.String
-
 import com.kms.katalon.core.testobject.TestObject
+
+import java.lang.String
 
 
 def static "utilities.Syn.getWaitTime"(
@@ -16,6 +16,12 @@ def static "utilities.Syn.getWaitTime"(
 
 def static "utilities.Syn.getTestCasename"() {
     (new utilities.Syn()).getTestCasename()
+}
+
+def static "pages.Quicksti.getAttributeValue"(
+    	TestObject object	) {
+    (new pages.Quicksti()).getAttributeValue(
+        	object)
 }
 
 def static "pages.Quicksti.setUserPaymentDetails"(
@@ -166,11 +172,11 @@ def static "pages.Payment_Page.getRowAndColumn"(
          , 	paymentId)
 }
 
-def static "pages.Payment_Page.verifyPaymnetIdRecord"(
+def static "pages.Payment_Page.verifyPaymentIdRecord"(
     	TestObject nextObj	
      , 	TestObject numberOfPages	
      , 	String PaymentId	) {
-    (new pages.Payment_Page()).verifyPaymnetIdRecord(
+    (new pages.Payment_Page()).verifyPaymentIdRecord(
         	nextObj
          , 	numberOfPages
          , 	PaymentId)

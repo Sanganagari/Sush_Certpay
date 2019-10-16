@@ -91,7 +91,7 @@ public class Payment_Page {
 	}
 
 	@Keyword
-	def verifyPaymnetIdRecord(TestObject nextObj,TestObject numberOfPages,String PaymentId){
+	def verifyPaymentIdRecord(TestObject nextObj,TestObject numberOfPages,String PaymentId){
 		getPaymentIdColumnCount("Payment ID")
 		boolean foundValue=false
 		boolean lastpage=false

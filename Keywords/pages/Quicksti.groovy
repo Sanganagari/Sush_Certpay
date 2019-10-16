@@ -48,6 +48,17 @@ public class Quicksti {
 	//			println "Failure occured "
 	//		}
 	//	}
+	
+	
+	@Keyword
+	def getAttributeValue(TestObject object){
+		
+		def attributeValue=WebUI.getAttribute(object,'value')
+		println attributeValue;
+		return attributeValue;	
+		
+	}
+	
 
 	// Entering user personal details like name, card number
 	@Keyword
@@ -104,13 +115,13 @@ public class Quicksti {
 	// verification of entered  user details
 	@Keyword
 	def verifyUserPaymentDetails(String paymentAmount,String firstName,String lastName,String cardNumber){
-		
+
 		String amount=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT'))
 		String actualAmount=amount.substring(1)
 		//	println(actualAmount)
 		WebUI.verifyMatch(actualAmount, paymentAmount, true,FailureHandling.STOP_ON_FAILURE)
 
-	
+
 		String fullName=firstName +" "+lastName;
 		//println(fullName)
 		String name=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME'))
