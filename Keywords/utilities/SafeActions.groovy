@@ -96,13 +96,13 @@ public class SafeActions {
 		}
 	}
 
-//	for (int i = 0; i < newList.size(); i++) {
-//		String s = newList.get(i)
-//	
-//		println(newList.get(i))
-//	
-//		println(s)
-//	}
+	//	for (int i = 0; i < newList.size(); i++) {
+	//		String s = newList.get(i)
+	//
+	//		println(newList.get(i))
+	//
+	//		println(s)
+	//	}
 
 	@Keyword
 	def safeType(TestObject testObject,String text, String friendlyWebElementName,int... optionWaitTime){
@@ -221,7 +221,7 @@ public class SafeActions {
 	}
 
 	@Keyword
-	def String GetAttributeValue(TestObject testObject,String attribute,String friendlyWebElementName, int...optionWaitTime){
+	def String getAttributeValue(TestObject testObject,String attribute,String friendlyWebElementName, int...optionWaitTime){
 		int waitTime=0;
 		String sValue=null;
 		try{

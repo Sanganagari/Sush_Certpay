@@ -94,10 +94,14 @@ WebUI.navigateToUrl(GlobalVariable.Reports_url)
 ' Enter username,password,access code and click Login'
 CustomKeywords.'pages.Bureau_Login_Page.loginToReportsSite'(GlobalVariable.userName, GlobalVariable.password, GlobalVariable.accessCode)
 
-'Click on Reporting'
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+WebUI.mouseOver(findTestObject('SEARCH_PAYMENT/REPORTING'))
 
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+WebUI.delay(1)
+
+'Click on Reporting'
+//CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+
+//CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'CLick on Quick find Payment'
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/QUICK_FIND_PAYMENT'), 'Quick find payment', 
@@ -112,6 +116,4 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/
 
 'Verify card type,payment amount,id'
 CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'Master Card', amount_Value)
-
-WebUI.closeBrowser()
 

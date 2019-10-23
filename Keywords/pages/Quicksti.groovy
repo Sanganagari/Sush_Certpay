@@ -48,17 +48,17 @@ public class Quicksti {
 	//			println "Failure occured "
 	//		}
 	//	}
-	
-	
+
+
 	@Keyword
 	def getAttributeValue(TestObject object){
-		
+
 		def attributeValue=WebUI.getAttribute(object,'value')
 		println attributeValue;
-		return attributeValue;	
-		
+		return attributeValue;
+
 	}
-	
+
 
 	// Entering user personal details like name, card number
 	@Keyword

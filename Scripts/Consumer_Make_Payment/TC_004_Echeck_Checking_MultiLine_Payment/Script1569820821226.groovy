@@ -141,12 +141,6 @@ WebUI.scrollToElement(findTestObject('SEARCH_PAYMENT/CLOSE_BUTTON'), 0)
 'Click on \'Email Receipt\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/EMAIL_ RECEIPT'), 'Email Receipt', (([GlobalVariable.pageLoadTime]) as int[]))
 
-'Enter \'Email address\''
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/EMAIL_ ADDRESS'), emailAddress, 'EmailAddress', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
 'Click on \'Send Email\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEND_ EMAIL_BUTTON'), 'Send Email', (([GlobalVariable.pageLoadTime]) as int[]))
-
-WebUI.closeBrowser()
 

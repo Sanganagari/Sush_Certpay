@@ -366,12 +366,12 @@ def static "utilities.SafeActions.safeSelectOptionInDropdownByVisibleText"(
          , 	optionWaitTime)
 }
 
-def static "utilities.SafeActions.GetAttributeValue"(
+def static "utilities.SafeActions.getAttributeValue"(
     	TestObject testObject	
      , 	String attribute	
      , 	String friendlyWebElementName	
      , 	int[] optionWaitTime	) {
-    (new utilities.SafeActions()).GetAttributeValue(
+    (new utilities.SafeActions()).getAttributeValue(
         	testObject
          , 	attribute
          , 	friendlyWebElementName

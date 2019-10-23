@@ -53,8 +53,12 @@ CustomKeywords.'pages.Payment_Page.setPersonalDetails'(firstName, lastName, tele
 'Enter address and zip code\r\n'
 CustomKeywords.'pages.Payment_Page.setLocationDetails'(address, zipCode)
 
+WebUI.waitForElementClickable(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 30)
+
 'Click on \'Continue\''
 CustomKeywords.'pages.Payment_Page.clickOnElement'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'))
+
+WebUI.waitForElementClickable(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox'), 30)
 
 '"Select checkbox \'My billing information is same \ninformation i entered in previous page\'"'
 CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox'), 'Billing CheckBox', 
@@ -105,6 +109,8 @@ WebUI.waitForPageLoad(10)
 
 CustomKeywords.'pages.Search_Page.switchToWindow'()
 
+WebUI.waitForElementClickable(findTestObject('SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'), 0)
+
 'Select \'Credit or debit card\' radio button'
 CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'), 'Credit card', (([
             GlobalVariable.mediumWait]) as int[]))
@@ -129,12 +135,8 @@ WebUI.scrollToElement(findTestObject('SEARCH_PAYMENT/CLOSE_BUTTON'), 0)
 'Click on \'Email Receipt\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/EMAIL_ RECEIPT'), 'Email Receipt', (([GlobalVariable.pageLoadTime]) as int[]))
 
-'Enter \'Email address\''
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/EMAIL_ ADDRESS'), emailAddress, 'EmailAddress', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
+//CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/EMAIL_ ADDRESS'), emailAddress, 'EmailAddress', 
+// (([GlobalVariable.pageLoadTime]) as int[]))
 'Click on \'Send Email\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEND_ EMAIL_BUTTON'), 'Send Email', (([GlobalVariable.pageLoadTime]) as int[]))
-
-WebUI.closeBrowser()
 
