@@ -13,98 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-<<<<<<< HEAD
-CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.certpay_url, (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('MAKE_ PAYMENT/Home_ Page/BUREAU_CODE'), bureauCode, 'Bureau code', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT'), 'Begin payment', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON'), 'Continue', (([
-            GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK'), 'Bank card', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'pages.Payment_Page.setAmount'('1', paymentAmount, 'testing', referenceNum)
-
-CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropdownByVisibleText'(findTestObject('MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE'), 
-    paymentType, 'Payment Type', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'pages.Payment_Page.setPersonalDetails'(firstName, lastName, telephone)
-
-CustomKeywords.'pages.Payment_Page.setLocationDetails'(address, zipCode)
-
-CustomKeywords.'pages.Payment_Page.clickOnElement'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'))
-
-CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox'), 'Billing CheckBox', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-WebUI.waitForPageLoad(30)
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/ACC_TYPE_CHECKING'), 
-    'Checking', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'pages.Payment_Page.setElectronicCheckInformation'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CHECKING_ACCOUNT_NUMBER'), 
-    findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CONFIRM_CHECKING_ACC_NUM'), routingNum, checkingAccNum)
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS'), 
-    emailAddress, 'EmailAddress', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/SIGNATURE'), firstName, 
-    'EmailAddress', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/AGREEMENT'), 'Yes', 
-    'Agreement', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CHECK_CONTINUE'), 'Continue', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE'), 'I agree', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'pages.Payment_Page.verifyUserDetails'(firstName, lastName, emailAddress, 'VISA', 'Checking')
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT'), 
-    'Process Payment', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Verification_ Details/YES_BUTTON'), 'yes button', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/PENDING'), 30)
-
-PaymentID = CustomKeywords.'pages.Payment_Page.verifyECheckPaymentApproval'(referenceNum)
-
-CustomKeywords.'pages.Bureau_Login_Page.windowSwitching'()
-
-WebUI.waitForPageLoad(30)
-
-CustomKeywords.'pages.Bureau_Login_Page.loginToBureau'(GlobalVariable.userName, GlobalVariable.password, GlobalVariable.accessCode)
-
-WebUI.delay(3)
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REAL_TIME_MONITOR'), 'Real time Monitor', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-WebUI.delay(3)
-
-CustomKeywords.'pages.Bureau_Login_Page.verifyPaymentInRealTimeMonitor'(findTestObject('BUREAU_LOGIN/PAYMENT_ID'), referenceNum, 
-    lastName, firstName, PaymentID)
-
-WebUI.closeBrowser()
-=======
 'Open Certpay application'
 CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.certpay_url, (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -231,5 +139,4 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/
 
 'Click on \'Send Email\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEND_ EMAIL_BUTTON'), 'Send Email', (([GlobalVariable.pageLoadTime]) as int[]))
->>>>>>> temp_branch
 

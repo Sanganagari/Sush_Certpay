@@ -13,57 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-<<<<<<< HEAD
-CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.Quicksti_Url, (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX'), 'Multi Bureau', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'), GlobalVariable.teller_id, 
-    'Bureau code', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON'), 'Next button', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Multi_Bureau_Page/COMMENTS'), comments, 
-    'Payment Amount', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'), 
-    paymentAmount, 'Payment Amount', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'pages.Quicksti.setAmountDetailsForMultiBureau'('0', paymentType, '0', referenceNum, quantity)
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Multi_Bureau_Page/COMMENTS_2'), comments, 
-    'Payment Amount', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'), 
-    paymentAmount2, 'Payment Amount', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'pages.Quicksti.setAmountDetailsForMultiBureau'('1', paymentType, '0', referenceNum, quantity)
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON'), 
-    'ManualEntry', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CardNumber = CustomKeywords.'pages.Quicksti.setUserPaymentDetails'(firstName, lastName, GlobalVariable.MasterCard)
-
-CustomKeywords.'pages.Quicksti.setExpDate'(expMonth, expYear, securityCode)
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'), address, 
-    'Address', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'), GlobalVariable.zipCode, 
-    'zipcode', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'), GlobalVariable.telephone, 
-    'Telephone', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'), 
-    GlobalVariable.emailAddress, 'EMAIL address', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON'), 
-    'Next', (([GlobalVariable.pageLoadTime]) as int[]))
-
-=======
 'Open certpay Quicksti appliction'
 CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.Quicksti_Url, (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -134,19 +83,10 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKST
     'Next', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Verify user details like first name ,last name'
->>>>>>> temp_branch
 CustomKeywords.'pages.Quicksti.verifyUserPaymentDetails'(paymentAmount, firstName, lastName, CardNumber)
 
 WebUI.scrollToElement(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS'), 0)
 
-<<<<<<< HEAD
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS'), 
-    'Process', (([GlobalVariable.pageLoadTime]) as int[]))
-
-PaymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED'))
-
-WebUI.closeBrowser()
-=======
 'Click on Process'
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS'), 
     'Process', (([GlobalVariable.pageLoadTime]) as int[]))
@@ -182,5 +122,4 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/
 
 'Verify Payment id,amount,card type'
 CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, 'Master Card', amount_Value)
->>>>>>> temp_branch
 

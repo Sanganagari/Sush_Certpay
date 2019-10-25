@@ -96,8 +96,6 @@ public class SafeActions {
 		}
 	}
 
-<<<<<<< HEAD
-=======
 	//	for (int i = 0; i < newList.size(); i++) {
 	//		String s = newList.get(i)
 	//
@@ -106,7 +104,6 @@ public class SafeActions {
 	//		println(s)
 	//	}
 
->>>>>>> temp_branch
 	@Keyword
 	def safeType(TestObject testObject,String text, String friendlyWebElementName,int... optionWaitTime){
 		int waitTime=0;
@@ -131,8 +128,6 @@ public class SafeActions {
 	}
 
 	@Keyword
-<<<<<<< HEAD
-=======
 	def getAttribute(TestObject testObject){
 		try{
 			//String attributeValue=WebUI.getAttribute(testObject, "value")
@@ -149,7 +144,6 @@ public class SafeActions {
 
 
 	@Keyword
->>>>>>> temp_branch
 	def safeClick(TestObject testObject, String friendlyWebElementName,int... optionWaitTime){
 		int waitTime=0;
 		try {
@@ -175,20 +169,12 @@ public class SafeActions {
 	@Keyword
 	def String safeGetText(TestObject testObject,String friendlyWebElementName, int...optionWaitTime){
 		int waitTime=0;
-<<<<<<< HEAD
-		String sValue=null;
-=======
 		//String sValue=null;
->>>>>>> temp_branch
 		try{
 			waitTime=syn.getWaitTime(optionWaitTime)
 
 			if(WebUI.verifyElementPresent(testObject,waitTime)) {
-<<<<<<< HEAD
-				sValue= WebUI.getText(testObject)
-=======
 				String sValue= WebUI.getText(testObject)
->>>>>>> temp_branch
 				println("Text is "+sValue)
 				KeywordUtil.markPassed("Get text from "+friendlyWebElementName+" in time" +waitTime)
 			}
@@ -199,13 +185,7 @@ public class SafeActions {
 		catch(StaleElementReferenceException e){
 			KeywordUtil.markError(syn.getTestCaseName()+friendlyWebElementName+ "is not attached to page document- StaleElementReferenceException")
 		}
-<<<<<<< HEAD
-		//		catch(NoSuchElementException e){
-		//			KeywordUtil.markError(syn.getTestCaseName()+friendlyWebElementName+ "is not found in DOM in time "+waitTime+"NoSuchElementException")
-		//		}
-=======
 
->>>>>>> temp_branch
 		catch(Exception e){
 			KeywordUtil.markError(syn.getTestCaseName()+"Unable to get text from "+friendlyWebElementName+ "- "+e)
 		}
@@ -241,11 +221,7 @@ public class SafeActions {
 	}
 
 	@Keyword
-<<<<<<< HEAD
-	def String GetAttributeValue(TestObject testObject,String attribute,String friendlyWebElementName, int...optionWaitTime){
-=======
 	def String getAttributeValue(TestObject testObject,String attribute,String friendlyWebElementName, int...optionWaitTime){
->>>>>>> temp_branch
 		int waitTime=0;
 		String sValue=null;
 		try{

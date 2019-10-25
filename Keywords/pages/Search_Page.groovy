@@ -30,21 +30,6 @@ public class Search_Page {
 	//Payment_Page payment=new Payment_Page()
 
 
-<<<<<<< HEAD
-	@Keyword
-	def enterSearchDetails(String lastName,String last4Digits,String last5Digits){
-
-		safe.safeType(findTestObject('Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME'), lastName, 'LastName', (([GlobalVariable.pageLoadTime]) as int[]))
-		try{
-			if(WebUI.verifyElementChecked(	findTestObject('Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'),0,FailureHandling.OPTIONAL	)){
-
-				safe.safeType( findTestObject('Object Repository/SEARCH_PAYMENT/LAST_4_DIGITS_CARD_NUMBER') ,last4Digits , 'Last4Digits',  (([GlobalVariable.pageLoadTime]) as int[]))
-				KeywordUtil.markPassed("Credit card is checked and Last 4 digits entered ")
-			}
-			else {
-				safe.safeType( 	findTestObject('Object Repository/SEARCH_PAYMENT/LAST_5_DIGITS'), last5Digits, 'Last5Digits',  (([GlobalVariable.pageLoadTime]) as int[]))
-				KeywordUtil.markPassed("Last 5 digits enterd")
-=======
 
 	@Keyword
 	def setSearchDetails(String lastName,String cardNum,String accNumber){
@@ -59,7 +44,6 @@ public class Search_Page {
 				safe.safeType(	findTestObject('Object Repository/SEARCH_PAYMENT/ACC_NUMBER')
 						, accNumber, 'Acc num',  (([GlobalVariable.pageLoadTime]) as int[]))
 				KeywordUtil.markPassed("Acc num enterd")
->>>>>>> temp_branch
 			}
 		}
 		catch(StepFailedException e){
@@ -69,18 +53,6 @@ public class Search_Page {
 
 	@Keyword
 	def verifyNoPaymentsFound(){
-<<<<<<< HEAD
-		boolean flag=false;
-
-		if(	WebUI.verifyElementPresent(findTestObject('Object Repository/SEARCH_PAYMENT/NO_PAYMENTS_FOUND'), 30)){
-			flag=true;
-			KeywordUtil.markPassed("No paymnets dispalyed")
-
-		}
-		else {
-			flag=false;
-			KeywordUtil.markFailed("Payments displayed")
-=======
 		boolean flag=true;
 
 		if(	WebUI.verifyElementPresent(findTestObject('Object Repository/SEARCH_PAYMENT/NO_PAYMENTS_FOUND'), 30)){
@@ -92,7 +64,6 @@ public class Search_Page {
 
 			KeywordUtil.markFailed("Payments displayed")
 			flag=true;
->>>>>>> temp_branch
 
 		}
 		Thread.sleep(2000);
@@ -109,11 +80,6 @@ public class Search_Page {
 		WebUI.switchToWindowIndex(1)
 
 	}
-<<<<<<< HEAD
-
-
-}
-=======
 	@Keyword
 	def validateApprovedTransactionsInReports(String paymentId,cardtype,String paymentAmount){
 		boolean bFlag=true;
@@ -143,4 +109,3 @@ public class Search_Page {
 
 	}
 }
->>>>>>> temp_branch

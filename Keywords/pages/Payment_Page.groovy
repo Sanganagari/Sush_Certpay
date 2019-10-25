@@ -5,10 +5,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-<<<<<<< HEAD
-=======
 import org.openqa.selenium.WebDriver
->>>>>>> temp_branch
 import org.openqa.selenium.WebElement
 
 import com.kms.katalon.core.annotation.Keyword
@@ -24,28 +21,20 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
-<<<<<<< HEAD
-=======
 import com.kms.katalon.core.webui.driver.DriverFactory
->>>>>>> temp_branch
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 import utilities.SafeActions
 
 public class Payment_Page {
-<<<<<<< HEAD
-=======
 	WebDriver driver=DriverFactory.getWebDriver()
 	def map_Tablecount=[:]
->>>>>>> temp_branch
 	SafeActions safe=new SafeActions()
 	String cardNumber=null;
 
 	String paymentID= null;
 	String referenceNumber=null;
-<<<<<<< HEAD
-=======
 
 
 	@Keyword
@@ -206,32 +195,11 @@ public class Payment_Page {
 		println map_Tablecount
 	}
 
->>>>>>> temp_branch
 	@Keyword
 	def setPersonalDetails(String firstname,String last,String telephone){
 
 		//findTestData('Certpay/CertpayTestData').getValue('FirstName', row)
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME')
-<<<<<<< HEAD
-
-				,firstname , "FirstName", (([GlobalVariable.pageLoadTime]) as int[]))
-		safe.highLightElement(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME'), 10)
-
-		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME')
-
-				, last, "LastName", (([GlobalVariable.pageLoadTime]) as int[]))
-		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE')
-
-
-				, telephone, "Telephone", (([GlobalVariable.pageLoadTime]) as int[]))
-
-	}
-		@Keyword
-		def clickOnElement(TestObject object){
-			WebElement element =WebUiCommonHelper.findWebElement(object,30)
-			WebUI.executeJavaScript("arguments[0].click()",Arrays.asList(element))
-	}
-=======
 				,firstname , "FirstName", (([GlobalVariable.pageLoadTime]) as int[]))
 
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME')
@@ -244,7 +212,6 @@ public class Payment_Page {
 
 
 
->>>>>>> temp_branch
 
 	@Keyword
 	def setLocationDetails(String address,String zipCode){
@@ -263,8 +230,6 @@ public class Payment_Page {
 
 		String cardNumber= WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'), 'value')
 		WebUI.verifyMatch(cardNumber, cardNum, true)
-<<<<<<< HEAD
-=======
 
 		String last4=cardNumber.substring(11);
 		String last5=cardNumber.substring(10);
@@ -286,7 +251,6 @@ public class Payment_Page {
 		return newList;
 
 
->>>>>>> temp_branch
 	}
 
 	// Entering amount,reference number,comments
@@ -404,12 +368,9 @@ public class Payment_Page {
 			safe.safeType(	testObject2, checkingAccNum, 'ConfirmCheckAccNum', (([GlobalVariable.pageLoadTime]) as int[]))
 		}
 	}
-<<<<<<< HEAD
-=======
 	@Keyword
 	def clickOnElement(TestObject object){
 		WebElement element =WebUiCommonHelper.findWebElement(object,30)
 		WebUI.executeJavaScript("arguments[0].click()",Arrays.asList(element))
 	}
->>>>>>> temp_branch
 }
