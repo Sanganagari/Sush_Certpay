@@ -36,6 +36,7 @@ public class Bureau_Login_Page {
 		//	        println(index)
 		WebUI.switchToWindowIndex(1)
 	}
+<<<<<<< HEAD
 	//	@Keyword
 	//	def clickingElement(TestObject object){
 	//		WebElement element =WebUiCommonHelper.findWebElement(object,30)
@@ -44,6 +45,16 @@ public class Bureau_Login_Page {
 
 	@Keyword
 	def loginToBureau(String username,String password,String accessCode){
+=======
+	@Keyword
+	def clickingElement(TestObject object){
+		WebElement element =WebUiCommonHelper.findWebElement(object,30)
+		WebUI.executeJavaScript("arguments[0].click()",Arrays.asList(element))
+	}
+
+	@Keyword
+	def loginToReportsSite(String username,String password,String accessCode){
+>>>>>>> temp_branch
 
 		safe.safeType(	findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/USER_NAME'), username, 'username', (([GlobalVariable.pageLoadTime]) as int[]))
 
@@ -66,6 +77,7 @@ public class Bureau_Login_Page {
 
 				//WebUI.scrollToElement(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'), 0)
 				String reference=WebUI.getText(	findTestObject('Object Repository/BUREAU_LOGIN/REFERENCE_NUM'))
+<<<<<<< HEAD
 				//WebUI.verifyMatch(referenceNum, reference, true, FailureHandling.STOP_ON_FAILURE)
 
 				String sFirstName =WebUI.getText(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'))
@@ -73,6 +85,15 @@ public class Bureau_Login_Page {
 
 				String sLastName=WebUI.getText(	findTestObject('Object Repository/BUREAU_LOGIN/LAST_NAME'))
 
+=======
+				WebUI.verifyMatch(referenceNum, reference, true, FailureHandling.STOP_ON_FAILURE)
+
+				String sFirstName =WebUI.getText(findTestObject('Object Repository/BUREAU_LOGIN/FIRST_NAME'))
+				WebUI.verifyMatch(sFirstName, firstName, true, FailureHandling.STOP_ON_FAILURE)
+
+				String sLastName=WebUI.getText(	findTestObject('Object Repository/BUREAU_LOGIN/LAST_NAME'))
+				WebUI.verifyMatch(sLastName, lastName, true, FailureHandling.STOP_ON_FAILURE)
+>>>>>>> temp_branch
 
 				WebUI.delay(2)
 			}

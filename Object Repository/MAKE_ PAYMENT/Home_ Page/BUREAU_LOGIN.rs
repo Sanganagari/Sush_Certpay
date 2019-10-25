@@ -6,6 +6,7 @@
    <elementGuidId>5ac10f02-d77e-42c9-ac2f-68ea3c714a67</elementGuidId>
    <selectorCollection>
       <entry>
+<<<<<<< HEAD
          <key>BASIC</key>
          <value></value>
       </entry>
@@ -13,6 +14,14 @@
          <key>XPATH</key>
          <value>//a[@class='navlinks navlinks-button']</value>
       </entry>
+=======
+         <key>XPATH</key>
+         <value>//a[@class='navlinks navlinks-button']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+>>>>>>> temp_branch
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

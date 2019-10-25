@@ -5,6 +5,10 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+<<<<<<< HEAD
+=======
+import org.openqa.selenium.WebDriver
+>>>>>>> temp_branch
 import org.openqa.selenium.WebElement
 
 import com.kms.katalon.core.annotation.Keyword
@@ -20,22 +24,195 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
+<<<<<<< HEAD
+=======
+import com.kms.katalon.core.webui.driver.DriverFactory
+>>>>>>> temp_branch
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 import utilities.SafeActions
 
 public class Payment_Page {
+<<<<<<< HEAD
+=======
+	WebDriver driver=DriverFactory.getWebDriver()
+	def map_Tablecount=[:]
+>>>>>>> temp_branch
 	SafeActions safe=new SafeActions()
 	String cardNumber=null;
 
 	String paymentID= null;
 	String referenceNumber=null;
+<<<<<<< HEAD
+=======
+
+
+	@Keyword
+	def getRowAndColumn(TestObject nextObj,TestObject numberOfPages,String paymentId){
+		getPaymentIdColumnCount("Payment ID")
+		int rowNumber=-1
+		boolean foundValue=false
+		boolean lastpage=false
+
+		WebElement table
+		while(!lastpage && !foundValue){
+			table= driver.findElement(By.xpath("(//div[@class='block_content'])[2]/table/tbody"))
+			List<WebElement> rows=table.findElements(By.tagName('tr'))
+			String pagesCount=WebUI.getText(numberOfPages)
+			String[] pages=pagesCount.trim().split(" ")
+			for(int i=0;i<rows.size();i++){
+				println i
+				List<WebElement> cols=rows.get(i).findElements(By.tagName('td'))
+				//for(int j=0;j<cols.size();j++){
+				String cellVaultReference = cols.get(map_Tablecount['Payment ID']).getText()
+				println cellVaultReference
+				if(cellVaultReference.equalsIgnoreCase(paymentId)){
+					KeywordUtil.markPassed("The Payment is found in page "+pages[1])
+					rowNumber=i
+					WebUI.delay(6)
+					foundValue=true
+					lastpage=true
+					break
+				}
+
+			}
+			if(pages[1].equalsIgnoreCase(pages[3])){
+				if(foundValue){
+				}
+				else{
+					KeywordUtil.markFailed("The Payment is not found in all the pages")
+					lastpage=true
+					foundValue=true
+				}
+			}
+			else{
+				if(foundValue){
+
+				}
+				else{
+					WebUI.delay(5)
+					//safeActions.highLightElement(nextObj, GlobalVariable.delayBetweenTestSteps)
+					WebUI.click(nextObj)
+				}
+			}
+		}
+		println rowNumber
+		return rowNumber
+	}
+
+	@Keyword
+	def verifyPaymentIdRecord(TestObject nextObj,TestObject numberOfPages,String PaymentId){
+		getPaymentIdColumnCount("Payment ID")
+		boolean foundValue=false
+		boolean lastpage=false
+		WebElement table
+		while(!lastpage && !foundValue){
+			table= driver.findElement(By.xpath("(//div[@class='block_content'])[2]/table/tbody"))
+			List<WebElement> rows=table.findElements(By.tagName('tr'))
+			String pagesCount=WebUI.getText(numberOfPages)
+			String[] pages=pagesCount.trim().split(" ")
+			for(int i=0;i<rows.size();i++){
+				println i
+				List<WebElement> cols=rows.get(i).findElements(By.tagName('td'))
+				//for(int j=0;j<cols.size();j++){
+				String cellVaultReference = cols.get(map_Tablecount['Payment ID']).getText()
+				println cellVaultReference
+				if(cellVaultReference.equalsIgnoreCase(PaymentId)){
+					KeywordUtil.markPassed("The Payment is found in page "+pages[1])
+					//safeActions.highLightElement(cols.get(map_Tablecount['Vault Ref #']), GlobalVariable.delayBetweenTestSteps)
+					foundValue=true
+					lastpage=true
+					break
+				}
+			}
+			if(pages[1].equalsIgnoreCase(pages[3])){
+				if(foundValue){
+
+				}
+				else{
+					KeywordUtil.markFailed("The Payment is not found in all the pages")
+					lastpage=true
+					foundValue=true
+				}
+			}
+			else{
+				if(foundValue){
+
+				}
+				else{
+					WebUI.delay(5)
+					//safeActions.highLightElement(nextObj, GlobalVariable.delayBetweenTestSteps)
+					WebUI.click(nextObj)
+				}
+			}
+		}
+	}
+	@Keyword
+	def verifyAllRecordsFilteredByCardNumber(TestObject nextObj,TestObject numberOfPages,String creditCardNumber){
+		getPaymentIdColumnCount("Payment ID")
+		int columnCount = map_Tablecount['Payment ID']
+		columnCount = columnCount + 1
+		int pagesCount = getCount(nextObj,numberOfPages,creditCardNumber)
+		boolean flag=true
+		WebElement table = driver.findElement(By.xpath("(//div[@class='block_content'])[2]/table/tbody"))
+		for(int i=1;i<=pagesCount;i++){
+			List<WebElement> rows=table.findElements(By.tagName('tr'))
+			for(int rowCount=0;rowCount<rows.size();rowCount++){
+				println rowCount
+				List<WebElement> cols = rows.get(rowCount).findElements(By.tagName('td'))
+				String cellCardNumber = cols.get(map_Tablecount['Last 4']).getText()
+				println cellCardNumber
+				if(creditCardNumber.trim().substring(creditCardNumber.lastIndexOf("1")-3).equalsIgnoreCase(cellCardNumber.trim())){
+
+				}
+				else{
+					flag=false
+					break
+				}
+			}
+			if(flag){
+				WebUI.delay(1)
+				WebUI.click(nextObj)
+				WebUI.delay(2)
+			}
+			else{
+				break
+			}
+		}
+		if(flag){
+			KeywordUtil.markPassed("All filtered Records have expected card Number")
+		}
+		else{
+			KeywordUtil.markFailed("Filtered Records donot contain the expected card Number")
+		}
+	}
+
+
+	@Keyword
+	def getPaymentIdColumnCount(String columnName){
+
+		WebDriver driver=DriverFactory.getWebDriver()
+		WebElement table= driver.findElement(By.xpath("(//div[@class='block_content'])[2]/table/thead"))
+		List<WebElement> rows=table.findElements(By.tagName('tr'))
+		for(int i=0;i<rows.size();i++){
+			List<WebElement> cols=rows.get(i).findElements(By.tagName('th'))
+			for(int j=0;j<cols.size();j++){
+				if(cols.get(j).getText().equalsIgnoreCase(columnName)){
+					map_Tablecount[columnName]=j
+				}
+			}
+		}
+		println map_Tablecount
+	}
+
+>>>>>>> temp_branch
 	@Keyword
 	def setPersonalDetails(String firstname,String last,String telephone){
 
 		//findTestData('Certpay/CertpayTestData').getValue('FirstName', row)
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME')
+<<<<<<< HEAD
 
 				,firstname , "FirstName", (([GlobalVariable.pageLoadTime]) as int[]))
 		safe.highLightElement(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME'), 10)
@@ -54,6 +231,20 @@ public class Payment_Page {
 			WebElement element =WebUiCommonHelper.findWebElement(object,30)
 			WebUI.executeJavaScript("arguments[0].click()",Arrays.asList(element))
 	}
+=======
+				,firstname , "FirstName", (([GlobalVariable.pageLoadTime]) as int[]))
+
+		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME')
+				, last, "LastName", (([GlobalVariable.pageLoadTime]) as int[]))
+
+		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE')
+				, telephone, "Telephone", (([GlobalVariable.pageLoadTime]) as int[]))
+
+	}
+
+
+
+>>>>>>> temp_branch
 
 	@Keyword
 	def setLocationDetails(String address,String zipCode){
@@ -72,6 +263,30 @@ public class Payment_Page {
 
 		String cardNumber= WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'), 'value')
 		WebUI.verifyMatch(cardNumber, cardNum, true)
+<<<<<<< HEAD
+=======
+
+		String last4=cardNumber.substring(11);
+		String last5=cardNumber.substring(10);
+		println last4;
+
+		List<String> newList= new ArrayList<String>()
+		newList.add(last4);
+		newList.add(last5);
+		//String[] strArray=new String[newList.size()];
+		//strArray=newList.toArray(strArray)
+		//for(String s:newList){
+
+		//}
+
+		//println(Arrays.toString(strArray))
+
+		//String arrayList=Arrays.toString(strArray)
+		println newList;
+		return newList;
+
+
+>>>>>>> temp_branch
 	}
 
 	// Entering amount,reference number,comments
@@ -189,4 +404,12 @@ public class Payment_Page {
 			safe.safeType(	testObject2, checkingAccNum, 'ConfirmCheckAccNum', (([GlobalVariable.pageLoadTime]) as int[]))
 		}
 	}
+<<<<<<< HEAD
+=======
+	@Keyword
+	def clickOnElement(TestObject object){
+		WebElement element =WebUiCommonHelper.findWebElement(object,30)
+		WebUI.executeJavaScript("arguments[0].click()",Arrays.asList(element))
+	}
+>>>>>>> temp_branch
 }

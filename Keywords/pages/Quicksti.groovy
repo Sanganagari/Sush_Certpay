@@ -49,6 +49,20 @@ public class Quicksti {
 	//		}
 	//	}
 
+<<<<<<< HEAD
+=======
+
+	@Keyword
+	def getAttributeValue(TestObject object){
+
+		def attributeValue=WebUI.getAttribute(object,'value')
+		println attributeValue;
+		return attributeValue;
+
+	}
+
+
+>>>>>>> temp_branch
 	// Entering user personal details like name, card number
 	@Keyword
 	def setUserPaymentDetails(String firstName,String lastName,String cardNum){
@@ -104,24 +118,35 @@ public class Quicksti {
 	// verification of entered  user details
 	@Keyword
 	def verifyUserPaymentDetails(String paymentAmount,String firstName,String lastName,String cardNumber){
+<<<<<<< HEAD
 		/* Amount verification
 		 * 
 		 */
+=======
+
+>>>>>>> temp_branch
 		String amount=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT'))
 		String actualAmount=amount.substring(1)
 		//	println(actualAmount)
 		WebUI.verifyMatch(actualAmount, paymentAmount, true,FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 		/*Verifing user name
 		 * 
 		 */
+=======
+
+>>>>>>> temp_branch
 		String fullName=firstName +" "+lastName;
 		//println(fullName)
 		String name=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME'))
 		WebUI.verifyMatch(name, fullName, true,FailureHandling.STOP_ON_FAILURE)
 
 		String cardNum=WebUI.getText(	findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER'))
+<<<<<<< HEAD
 		//String cardType=WebUI.getText(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMERICAN_EXPRESS'))
+=======
+>>>>>>> temp_branch
 		String lastNum=cardNum.substring(3)
 
 
@@ -157,6 +182,17 @@ public class Quicksti {
 		safe.safeType(Quantity, quantity, 'Quntity', (([GlobalVariable.pageLoadTime]) as int[]))
 
 	}
+<<<<<<< HEAD
+=======
+	@Keyword
+	def setCommnets(String bureauNum,String index,String sComments){
+		String commentXpath="//input[@id='Com_00"+bureauNum+"_0"+index+"']";
+		TestObject comment=new TestObject()
+		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
+		safe.safeType(comment, sComments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
+
+	}
+>>>>>>> temp_branch
 
 	//verification of Payment Approval
 	@Keyword
@@ -178,4 +214,9 @@ public class Quicksti {
 		println paymentId;
 		return paymentId;
 	}
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> temp_branch
 }
