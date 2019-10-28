@@ -29,8 +29,7 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKST
         (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter comments'
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Multi_Bureau_Page/COMMENTS'), comments, 
-    'Payment Amount', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'pages.Quicksti.setCommnets'('0', '0', 'Tester')
 
 'Enter Payment amount'
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'), 
@@ -40,8 +39,7 @@ CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI
 CustomKeywords.'pages.Quicksti.setAmountDetailsForMultiBureau'('0', paymentType, '0', referenceNum, quantity)
 
 'Enter comments'
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Multi_Bureau_Page/COMMENTS_2'), comments, 
-    'Payment Amount', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'pages.Quicksti.setCommnets'('0', '1', 'Tester')
 
 'Enter Payment amount'
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'), 
@@ -100,17 +98,17 @@ WebUI.navigateToUrl(GlobalVariable.Reports_url)
 'Enter username,password,access code and click Login'
 CustomKeywords.'pages.Bureau_Login_Page.loginToReportsSite'(GlobalVariable.userName, GlobalVariable.password, GlobalVariable.accessCode)
 
-WebUI.mouseOver(findTestObject('SEARCH_PAYMENT/REPORTING'))
+not_run: WebUI.mouseOver(findTestObject('REPORTS_PAGE/REPORTING'))
 
 WebUI.delay(1)
 
 'Click Reporting'
-//CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
 
-//CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Click on Quick find Payment'
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/QUICK_FIND_PAYMENT'), 'Quick find payment', 
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/QUICK_FIND_PAYMENT'), 'Quick find payment', 
         (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter Payment id'

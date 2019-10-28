@@ -90,53 +90,7 @@ public class Payment_Page {
 		return rowNumber
 	}
 
-	@Keyword
-	def verifyPaymentIdRecord(TestObject nextObj,TestObject numberOfPages,String PaymentId){
-		getPaymentIdColumnCount("Payment ID")
-		boolean foundValue=false
-		boolean lastpage=false
-		WebElement table
-		while(!lastpage && !foundValue){
-			table= driver.findElement(By.xpath("(//div[@class='block_content'])[2]/table/tbody"))
-			List<WebElement> rows=table.findElements(By.tagName('tr'))
-			String pagesCount=WebUI.getText(numberOfPages)
-			String[] pages=pagesCount.trim().split(" ")
-			for(int i=0;i<rows.size();i++){
-				println i
-				List<WebElement> cols=rows.get(i).findElements(By.tagName('td'))
-				//for(int j=0;j<cols.size();j++){
-				String cellVaultReference = cols.get(map_Tablecount['Payment ID']).getText()
-				println cellVaultReference
-				if(cellVaultReference.equalsIgnoreCase(PaymentId)){
-					KeywordUtil.markPassed("The Payment is found in page "+pages[1])
-					//safeActions.highLightElement(cols.get(map_Tablecount['Vault Ref #']), GlobalVariable.delayBetweenTestSteps)
-					foundValue=true
-					lastpage=true
-					break
-				}
-			}
-			if(pages[1].equalsIgnoreCase(pages[3])){
-				if(foundValue){
-
-				}
-				else{
-					KeywordUtil.markFailed("The Payment is not found in all the pages")
-					lastpage=true
-					foundValue=true
-				}
-			}
-			else{
-				if(foundValue){
-
-				}
-				else{
-					WebUI.delay(5)
-					//safeActions.highLightElement(nextObj, GlobalVariable.delayBetweenTestSteps)
-					WebUI.click(nextObj)
-				}
-			}
-		}
-	}
+	
 	@Keyword
 	def verifyAllRecordsFilteredByCardNumber(TestObject nextObj,TestObject numberOfPages,String creditCardNumber){
 		getPaymentIdColumnCount("Payment ID")
@@ -178,22 +132,22 @@ public class Payment_Page {
 	}
 
 
-	@Keyword
-	def getPaymentIdColumnCount(String columnName){
-
-		WebDriver driver=DriverFactory.getWebDriver()
-		WebElement table= driver.findElement(By.xpath("(//div[@class='block_content'])[2]/table/thead"))
-		List<WebElement> rows=table.findElements(By.tagName('tr'))
-		for(int i=0;i<rows.size();i++){
-			List<WebElement> cols=rows.get(i).findElements(By.tagName('th'))
-			for(int j=0;j<cols.size();j++){
-				if(cols.get(j).getText().equalsIgnoreCase(columnName)){
-					map_Tablecount[columnName]=j
-				}
-			}
-		}
-		println map_Tablecount
-	}
+	//	@Keyword
+	//	def getPaymentIdColumnCount(String columnName){
+	//
+	//		WebDriver driver=DriverFactory.getWebDriver()
+	//		WebElement table= driver.findElement(By.xpath("(//div[@class='block_content'])[2]/table/thead"))
+	//		List<WebElement> rows=table.findElements(By.tagName('tr'))
+	//		for(int i=0;i<rows.size();i++){
+	//			List<WebElement> cols=rows.get(i).findElements(By.tagName('th'))
+	//			for(int j=0;j<cols.size();j++){
+	//				if(cols.get(j).getText().equalsIgnoreCase(columnName)){
+	//					map_Tablecount[columnName]=j
+	//				}
+	//			}
+	//		}
+	//		println map_Tablecount
+	//	}
 
 	@Keyword
 	def setPersonalDetails(String firstname,String last,String telephone){

@@ -6,12 +6,11 @@
    <elementGuidId>e0ff5341-25a3-400f-8010-b73c10946e33</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//table[@class='payDetTable table-hover table-striped table-striped-vert'])[1]//tbody/tr[1]/td[4]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//table[@class='payDetTable table-hover table-striped table-striped-vert'])[1]//tbody/tr[1]/td[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

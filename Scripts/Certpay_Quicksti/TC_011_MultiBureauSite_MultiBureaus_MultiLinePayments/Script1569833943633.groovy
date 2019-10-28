@@ -56,7 +56,7 @@ CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI
     paymentAmount, 'Payment Amount', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter paymnet type,reference Num,quantity'
-CustomKeywords.'pages.Quicksti.setAmountDetailsForMultiBureau'('2', paymentType, '0', referenceNum, quantity)
+CustomKeywords.'pages.Quicksti.setAmountDetailsForMultiBureau'('2', 'Court Fines', '0', referenceNum, quantity)
 
 'Enter Payment amount'
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/MULTIBUREAU_PAYMENT_AMOUNT'), 
@@ -160,18 +160,18 @@ WebUI.navigateToUrl(GlobalVariable.Reports_url)
 ' Enter username,password,access code and Click On Login'
 CustomKeywords.'pages.Bureau_Login_Page.loginToReportsSite'(GlobalVariable.userName, GlobalVariable.password, GlobalVariable.accessCode)
 
-WebUI.mouseOver(findTestObject('SEARCH_PAYMENT/REPORTING'))
+not_run: WebUI.mouseOver(findTestObject('REPORTS_PAGE/REPORTING'))
 
 WebUI.delay(1)
 
 'Click on Reporting'
-//CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Click on Reporting'
-//CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Click on Quick Find Payment'
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/QUICK_FIND_PAYMENT'), 'Quick find payment', 
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/QUICK_FIND_PAYMENT'), 'Quick find payment', 
         (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter Payment id'

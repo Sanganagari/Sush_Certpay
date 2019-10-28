@@ -3,9 +3,9 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-import com.kms.katalon.core.testobject.TestObject
-
 import java.lang.String
+
+import com.kms.katalon.core.testobject.TestObject
 
 
 def static "utilities.Syn.getWaitTime"(
@@ -16,12 +16,6 @@ def static "utilities.Syn.getWaitTime"(
 
 def static "utilities.Syn.getTestCasename"() {
     (new utilities.Syn()).getTestCasename()
-}
-
-def static "pages.Quicksti.getAttributeValue"(
-    	TestObject object	) {
-    (new pages.Quicksti()).getAttributeValue(
-        	object)
 }
 
 def static "pages.Quicksti.setUserPaymentDetails"(
@@ -92,6 +86,12 @@ def static "pages.Quicksti.verifyPaymentApproval"(
     	TestObject testObject	) {
     (new pages.Quicksti()).verifyPaymentApproval(
         	testObject)
+}
+
+def static "pages.Quicksti.getAttributeValue"(
+    	TestObject object	) {
+    (new pages.Quicksti()).getAttributeValue(
+        	object)
 }
 
 def static "pages.CommonActions.safeMouseOver"(
@@ -172,16 +172,6 @@ def static "pages.Payment_Page.getRowAndColumn"(
          , 	paymentId)
 }
 
-def static "pages.Payment_Page.verifyPaymentIdRecord"(
-    	TestObject nextObj	
-     , 	TestObject numberOfPages	
-     , 	String PaymentId	) {
-    (new pages.Payment_Page()).verifyPaymentIdRecord(
-        	nextObj
-         , 	numberOfPages
-         , 	PaymentId)
-}
-
 def static "pages.Payment_Page.verifyAllRecordsFilteredByCardNumber"(
     	TestObject nextObj	
      , 	TestObject numberOfPages	
@@ -190,12 +180,6 @@ def static "pages.Payment_Page.verifyAllRecordsFilteredByCardNumber"(
         	nextObj
          , 	numberOfPages
          , 	creditCardNumber)
-}
-
-def static "pages.Payment_Page.getPaymentIdColumnCount"(
-    	String columnName	) {
-    (new pages.Payment_Page()).getPaymentIdColumnCount(
-        	columnName)
 }
 
 def static "pages.Payment_Page.setPersonalDetails"(
@@ -288,6 +272,18 @@ def static "pages.Payment_Page.clickOnElement"(
     	TestObject object	) {
     (new pages.Payment_Page()).clickOnElement(
         	object)
+}
+
+def static "pages.Reports_page.getPaymentIdColumnCount"(
+    	String columnName	) {
+    (new pages.Reports_page()).getPaymentIdColumnCount(
+        	columnName)
+}
+
+def static "pages.Reports_page.verifyPaymentIdRecord"(
+    	String PaymentId	) {
+    (new pages.Reports_page()).verifyPaymentIdRecord(
+        	PaymentId)
 }
 
 def static "utilities.SafeActions.openBrowser"(

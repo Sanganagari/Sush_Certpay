@@ -86,11 +86,11 @@ public class Search_Page {
 
 		try{
 			if(bFlag){
-				String paymentid=WebUI.getText(	findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_PAYMNET_ID'))
+				String paymentid=WebUI.getText(	findTestObject('SEARCH_PAYMENT/REPORTS_PAYMNET_ID'))
 				WebUI.verifyMatch(paymentid, paymentId, true,FailureHandling.STOP_ON_FAILURE)
-				String cardType=WebUI.getText(	findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_CARD_TYPE'))
+				String cardType=WebUI.getText(	findTestObject('SEARCH_PAYMENT/REPORTS_CARD_TYPE'))
 				WebUI.verifyMatch(cardType, cardtype, true, FailureHandling.STOP_ON_FAILURE)
-				String amount=WebUI.getText(findTestObject('Object Repository/SEARCH_PAYMENT/REPORTS_AMOUNT'))
+				String amount=WebUI.getText(findTestObject('SEARCH_PAYMENT/REPORTS_AMOUNT'))
 				println "Amount from GUI = "+amount
 				String sAmount=amount.substring(1)
 				println paymentAmount

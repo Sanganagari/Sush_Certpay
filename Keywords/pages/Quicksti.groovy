@@ -7,6 +7,10 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.util.concurrent.locks.Condition
 
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.WebElement
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -26,38 +30,10 @@ import utilities.SafeActions
 
 public class Quicksti {
 
+
 	SafeActions safe=new SafeActions()
-	//DynamicLocators dynamic=new DynamicLocators()
-
-	//	@Keyword
-	//	def setUserPAymentDetails(String id,String sText,String sVisibleText,String friendlyWebElement){
-	//
-	//		String inputXpath=DynamicLocators.inputFieldLocator.replace("<id>",id)
-	//
-	//		String selectorXpath=DynamicLocators.selectOptionLocator.replace("<id>",id)
-	//
-	//		if(sVisibleText.empty){
-	//
-	//			safe.safeType(DynamicLocators.getMyTestObject("xpath", inputXpath), sText, friendlyWebElement, (([GlobalVariable.pageLoadTime]) as int[]))
-	//		}
-	//		else if(sText.empty){
-	//			safe.safeSelectOptionInDropdownByVisibleText(DynamicLocators.getMyTestObject("xpath", selectorXpath), sVisibleText, friendlyWebElement, (([GlobalVariable.pageLoadTime]) as int[]))
-	//
-	//		}
-	//		else{
-	//			println "Failure occured "
-	//		}
-	//	}
 
 
-	@Keyword
-	def getAttributeValue(TestObject object){
-
-		def attributeValue=WebUI.getAttribute(object,'value')
-		println attributeValue;
-		return attributeValue;
-
-	}
 
 
 	// Entering user personal details like name, card number
@@ -69,7 +45,7 @@ public class Quicksti {
 		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME')
 				, firstName, 'FirstName', (([GlobalVariable.pageLoadTime]) as int[]))
 
-		//String inputXpath=DynamicLocators.inputFieldLocator.replace("<id>","txtLastName")
+
 
 		safe.safeType( 	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME')
 				, lastName, 'LAstName', (([GlobalVariable.pageLoadTime]) as int[]))
@@ -142,19 +118,13 @@ public class Quicksti {
 		PaymentType.addProperty("xpath",ConditionType.EQUALS,paymentTypeXpath)
 		safe.safeSelectOptionInDropdownByVisibleText(PaymentType, paymentType, 'Payment Type', (([GlobalVariable.pageLoadTime]) as int[]))
 
-		//Payment Amount
-		//safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'), paymentAmount, 'Payment Amount', null)
 		//Reference Number
 		String refXpath="//input[@id='Inv_00"+bureauNum+"_0"+index+"']"
 		TestObject referenceNumber=new TestObject()
 		referenceNumber.addProperty("xpath", ConditionType.EQUALS, refXpath)
 		safe.safeType(referenceNumber, referenceNum, 'RefrenceNumber', (([GlobalVariable.pageLoadTime]) as int[]))
 
-		//		// Comments
-		//		String commentXpath="//input[@id='Com_00"+bureauNum+"_0"+index+"']";
-		//		TestObject comment=new TestObject()
-		//		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
-		//		safe.safeType(comment, sComments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
+
 
 		// Quantity
 		String quantityXpath="//input[@id='Qty_00"+bureauNum+"_0"+index+"']";
@@ -192,6 +162,13 @@ public class Quicksti {
 		println paymentId;
 		return paymentId;
 	}
+	@Keyword
+	def getAttributeValue(TestObject object){
 
+		def attributeValue=WebUI.getAttribute(object,'value')
+		println attributeValue;
+		return attributeValue;
+
+	}
 
 }

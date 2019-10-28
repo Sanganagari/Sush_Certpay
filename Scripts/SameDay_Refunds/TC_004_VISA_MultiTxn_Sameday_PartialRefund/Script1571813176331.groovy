@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Certpay_Quicksti/TC_002_Visa_MultiLinePayment'), [('paymentAmount') : '22.00', ('quantity') : '2'
+String paymentID=WebUI.callTestCase(findTestCase('Certpay_Quicksti/TC_002_Visa_MultiLinePayment'), [('paymentAmount') : '22.00', ('quantity') : '2'
         , ('referenceNum') : '11', ('comments') : 'Testing', ('paymentAmount2') : '33.00', ('paymentType') : 'Licenses', ('firstName') : 'Nickel'
         , ('lastName') : 'James', ('securityCode') : '207', ('zipCode') : '76103', ('emailAddress') : 'testing@zenq.com'
         , ('expMonth') : '11', ('expYear') : '2026', ('address') : '23-9', ('telephone') : '9898676543', ('referenceNum2') : '12'], 
@@ -47,8 +47,16 @@ if (result) {
             (([GlobalVariable.pageLoadTime]) as int[]))
 
     WebUI.verifyElementPresent(findTestObject('SAME_DAY_REFUNDS/EDIT_REVIEW_REFUND'), 30)
-} 
-else {
+} else {
     println('Amount to Refund should not be greater than original amount')
 }
+    CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/ADMIN'), 'Admin button', (([GlobalVariable.pageLoadTime]) as int[]))
+
+    CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/REFUNDS'), 'Refunds', (([GlobalVariable.pageLoadTime]) as int[]))
+
+    CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/PROCESS_REFUNDS'), 'Process Refunds', 
+            (([GlobalVariable.pageLoadTime]) as int[]))
+
+    CustomKeywords.'pages.Reports_page.getPaymentIdColumnCount'('Payment ID')
+
 
