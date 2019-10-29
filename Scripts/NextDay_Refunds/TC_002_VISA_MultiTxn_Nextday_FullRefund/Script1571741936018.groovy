@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Certpay_Quicksti/TC_002_Visa_MultiLinePayment'), [('paymentAmount') : '22.00', ('quantity') : '2'
+WebUI.callTestCase(findTestCase('Certpay_Quicksti/TC_002_MultiBureauSite_SingleBureau_MultiLinePayment'), [('paymentAmount') : '22.00', ('quantity') : '2'
         , ('referenceNum') : '11', ('comments') : 'Testing', ('paymentAmount2') : '33.00', ('paymentType') : 'Licenses', ('firstName') : 'Nickel'
         , ('lastName') : 'James', ('securityCode') : '207', ('zipCode') : '76103', ('emailAddress') : 'testing@zenq.com'
         , ('expMonth') : '11', ('expYear') : '2026', ('address') : '23-9', ('telephone') : '9898676543', ('referenceNum2') : '12'], 

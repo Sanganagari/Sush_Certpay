@@ -3,9 +3,9 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-import com.kms.katalon.core.testobject.TestObject
-
 import java.lang.String
+
+import com.kms.katalon.core.testobject.TestObject
 
 
 def static "utilities.Syn.getWaitTime"(
@@ -18,12 +18,6 @@ def static "utilities.Syn.getTestCasename"() {
     (new utilities.Syn()).getTestCasename()
 }
 
-def static "pages.Quicksti.getAttributeValue"(
-    	TestObject object	) {
-    (new pages.Quicksti()).getAttributeValue(
-        	object)
-}
-
 def static "pages.Quicksti.setUserPaymentDetails"(
     	String firstName	
      , 	String lastName	
@@ -34,6 +28,14 @@ def static "pages.Quicksti.setUserPaymentDetails"(
          , 	cardNum)
 }
 
+def static "pages.Quicksti.setPaymentAmountDetailsForSinglePayment"(
+    	String amount	
+     , 	String quantity	) {
+    (new pages.Quicksti()).setPaymentAmountDetailsForSinglePayment(
+        	amount
+         , 	quantity)
+}
+
 def static "pages.Quicksti.setExpDate"(
     	String sExpMonth	
      , 	String sExpYear	
@@ -42,14 +44,6 @@ def static "pages.Quicksti.setExpDate"(
         	sExpMonth
          , 	sExpYear
          , 	securityCode)
-}
-
-def static "pages.Quicksti.setPaymentAmountDetailsForSinglePayment"(
-    	String amount	
-     , 	String quantity	) {
-    (new pages.Quicksti()).setPaymentAmountDetailsForSinglePayment(
-        	amount
-         , 	quantity)
 }
 
 def static "pages.Quicksti.verifyUserPaymentDetails"(
@@ -92,6 +86,12 @@ def static "pages.Quicksti.verifyPaymentApproval"(
     	TestObject testObject	) {
     (new pages.Quicksti()).verifyPaymentApproval(
         	testObject)
+}
+
+def static "pages.Quicksti.getAttributeValue"(
+    	TestObject object	) {
+    (new pages.Quicksti()).getAttributeValue(
+        	object)
 }
 
 def static "pages.CommonActions.safeMouseOver"(
@@ -172,16 +172,6 @@ def static "pages.Payment_Page.getRowAndColumn"(
          , 	paymentId)
 }
 
-def static "pages.Payment_Page.verifyPaymentIdRecord"(
-    	TestObject nextObj	
-     , 	TestObject numberOfPages	
-     , 	String PaymentId	) {
-    (new pages.Payment_Page()).verifyPaymentIdRecord(
-        	nextObj
-         , 	numberOfPages
-         , 	PaymentId)
-}
-
 def static "pages.Payment_Page.verifyAllRecordsFilteredByCardNumber"(
     	TestObject nextObj	
      , 	TestObject numberOfPages	
@@ -190,12 +180,6 @@ def static "pages.Payment_Page.verifyAllRecordsFilteredByCardNumber"(
         	nextObj
          , 	numberOfPages
          , 	creditCardNumber)
-}
-
-def static "pages.Payment_Page.getPaymentIdColumnCount"(
-    	String columnName	) {
-    (new pages.Payment_Page()).getPaymentIdColumnCount(
-        	columnName)
 }
 
 def static "pages.Payment_Page.setPersonalDetails"(
@@ -290,6 +274,18 @@ def static "pages.Payment_Page.clickOnElement"(
         	object)
 }
 
+def static "pages.Reports_page.getPaymentIdColumnCount"(
+    	String columnName	) {
+    (new pages.Reports_page()).getPaymentIdColumnCount(
+        	columnName)
+}
+
+def static "pages.Reports_page.verifyPaymentIdRecord"(
+    	String PaymentId	) {
+    (new pages.Reports_page()).verifyPaymentIdRecord(
+        	PaymentId)
+}
+
 def static "utilities.SafeActions.openBrowser"(
     	String url	
      , 	int[] optionWaitTime	) {
@@ -344,6 +340,16 @@ def static "utilities.SafeActions.safeClick"(
          , 	optionWaitTime)
 }
 
+def static "utilities.SafeActions.waitUntilClickable"(
+    	TestObject testObj	
+     , 	String friendlyWebElementName	
+     , 	int[] optionWaitTime	) {
+    (new utilities.SafeActions()).waitUntilClickable(
+        	testObj
+         , 	friendlyWebElementName
+         , 	optionWaitTime)
+}
+
 def static "utilities.SafeActions.safeGetText"(
     	TestObject testObject	
      , 	String friendlyWebElementName	
@@ -355,12 +361,12 @@ def static "utilities.SafeActions.safeGetText"(
 }
 
 def static "utilities.SafeActions.safeSelectOptionInDropdownByVisibleText"(
-    	TestObject testObject	
+    	TestObject testObj	
      , 	String sVisibleTextOptionToSelect	
      , 	String friendlyWebElementName	
      , 	int[] optionWaitTime	) {
     (new utilities.SafeActions()).safeSelectOptionInDropdownByVisibleText(
-        	testObject
+        	testObj
          , 	sVisibleTextOptionToSelect
          , 	friendlyWebElementName
          , 	optionWaitTime)
@@ -374,6 +380,16 @@ def static "utilities.SafeActions.getAttributeValue"(
     (new utilities.SafeActions()).getAttributeValue(
         	testObject
          , 	attribute
+         , 	friendlyWebElementName
+         , 	optionWaitTime)
+}
+
+def static "utilities.SafeActions.safeClickwithScroll"(
+    	TestObject testObj	
+     , 	String friendlyWebElementName	
+     , 	int[] optionWaitTime	) {
+    (new utilities.SafeActions()).safeClickwithScroll(
+        	testObj
          , 	friendlyWebElementName
          , 	optionWaitTime)
 }
