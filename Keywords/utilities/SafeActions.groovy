@@ -63,7 +63,7 @@ public class SafeActions {
 				Thread.sleep(500)
 			}
 			catch(InterruptedException e) {
-				KeywordUtil.markError(syncObj.getTestCaseName()+"sleep interrupted - ")
+				KeywordUtil.markError(syn.getTestCasename()+"sleep interrupted - ")
 			}
 			je.executeScript("arguments[0].setAttribute('style',arguments[1]);",element,getAttribute)
 		}
@@ -75,11 +75,12 @@ public class SafeActions {
 		try {
 
 			waitTime=syn.getWaitTime(optionWaitTime)
+			WebUI.waitForElementPresent(testObject, waitTime)
 			highLightElement(testObject,10)
 			if(WebUI.verifyElementPresent(testObject,waitTime)) {
 				//				if(WebUI.verifyElementChecked(testObject,waitTime))
 				//
-				//					KeywordUtil.markFailed(syn.getTestCaseName()+"Checkbox '" +friendlyWebElementName+ "'is already selected" )
+				//					KeywordUtil.markFailed(syn.getTestCasename()+"Checkbox '" +friendlyWebElementName+ "'is already selected" )
 				//			}
 				//else {
 				highLightElement(testObject,30)
@@ -96,13 +97,7 @@ public class SafeActions {
 		}
 	}
 
-	//	for (int i = 0; i < newList.size(); i++) {
-	//		String s = newList.get(i)
-	//
-	//		println(newList.get(i))
-	//
-	//		println(s)
-	//	}
+
 
 	@Keyword
 	def safeType(TestObject testObject,String text, String friendlyWebElementName,int... optionWaitTime){
@@ -110,11 +105,14 @@ public class SafeActions {
 		try {
 
 			waitTime=syn.getWaitTime(optionWaitTime)
+			WebUI.waitForElementPresent(testObject, waitTime)
+			if(!WebUI.verifyElementVisible(testObject))
+				WebUI.scrollToElement(testObject, waitTime)
 			if(WebUI.verifyElementPresent(testObject,waitTime)){
-
-				highLightElement(testObject,30)
-
+				highLightElement(testObject,waitTime)
+				//WebUI.click(testObject)
 				WebUI.setText(testObject, text)
+
 				KeywordUtil.markPassed(syn.getTestCasename()+"Entered'"+text+" into " +friendlyWebElementName )
 			}
 
@@ -122,6 +120,8 @@ public class SafeActions {
 				KeywordUtil.markError(syn.getTestCasename() +"Unable to enter "+text+  " in "+friendlyWebElementName +"in time "+waitTime)
 			}
 		}
+
+
 		catch (StaleElementReferenceException e){
 			KeywordUtil.markError(syn.getTestCasename() +friendlyWebElementName+ "is not attached to page document in time "+waitTime+" No such element Exception")
 		}
@@ -149,6 +149,7 @@ public class SafeActions {
 		try {
 			KeywordUtil.logInfo("safeClicking")
 			waitTime=syn.getWaitTime(optionWaitTime)
+			//if(waitUntilClickable(testObject,friendlyWebElementName,waitTime)){
 			if(WebUI.verifyElementPresent(testObject,waitTime)){
 				WebUI.waitForElementClickable(testObject, waitTime)
 				highLightElement(testObject,30)
@@ -164,6 +165,27 @@ public class SafeActions {
 		}
 		catch (StepFailedException e){
 			KeywordUtil.markFailed(syn.getTestCasename() +friendlyWebElementName+ "is not attached to page document in time "+waitTime+" No such element Exception")
+		}
+	}
+
+
+	@Keyword
+	def waitUntilClickable(TestObject testObj,String friendlyWebElementName,int... optionWaitTime){
+		int waitTime=syn.getWaitTime(optionWaitTime)
+		boolean bFlag=false
+		try{
+			KeywordUtil.logInfo(syn.getTestCaseName()+"waiting until "+friendlyWebElementName+" is Clickable")
+			WebUI.waitForElementClickable(testObj,waitTime)
+			if(WebUI.verifyElementVisible(testObj)){
+				bFlag=true
+				//KeywordUtil.logInfo(syn.getTestCaseName()+friendlyWebElementName+" is displayed and is Clickable")
+			}
+			else{
+				KeywordUtil.markFailed(syn.getTestCasename()+friendlyWebElementName+" is not visible to perform Click action")
+			}
+		}
+		catch(Exception e){
+			KeywordUtil.markError(syn.getTestCasename()+friendlyWebElementName+" is not Clickable")
 		}
 	}
 	@Keyword
@@ -183,40 +205,35 @@ public class SafeActions {
 			}
 		}
 		catch(StaleElementReferenceException e){
-			KeywordUtil.markError(syn.getTestCaseName()+friendlyWebElementName+ "is not attached to page document- StaleElementReferenceException")
+			KeywordUtil.markError(syn.getTestCasename()+friendlyWebElementName+ "is not attached to page document- StaleElementReferenceException")
 		}
 
 		catch(Exception e){
-			KeywordUtil.markError(syn.getTestCaseName()+"Unable to get text from "+friendlyWebElementName+ "- "+e)
+			KeywordUtil.markError(syn.getTestCasename()+"Unable to get text from "+friendlyWebElementName+ "- "+e)
 		}
 		return sValue;
 
 	}
 	@Keyword
-	def safeSelectOptionInDropdownByVisibleText(TestObject testObject,String sVisibleTextOptionToSelect,String friendlyWebElementName,int...optionWaitTime){
+	def safeSelectOptionInDropdownByVisibleText(TestObject testObj,String sVisibleTextOptionToSelect,String friendlyWebElementName,int...optionWaitTime){
 		int waitTime=0;
 		try{
 			waitTime=syn.getWaitTime(optionWaitTime);
-			if(WebUI.verifyElementPresent(testObject,waitTime)){
+			WebUI.waitForElementVisible(testObj, waitTime)
+			if(WebUI.verifyElementPresent(testObj,waitTime)){
+				highLightElement(testObj,waitTime)
+				WebUI.click(testObj)
+				WebUI.selectOptionByLabel(testObj, sVisibleTextOptionToSelect, true)
 
-				WebUI.click(testObject)
-				highLightElement(testObject,30)
-
-				WebUI.selectOptionByLabel(testObject,sVisibleTextOptionToSelect,false)
 				KeywordUtil.markPassed("selected dropdown option by visible text  "+sVisibleTextOptionToSelect+"from "+friendlyWebElementName)
 			}
 			else{
-				KeywordUtil.markFailed(syn.getTestCaseName()+"Unable to select dropdown option by visible text  "+sVisibleTextOptionToSelect+"from "+friendlyWebElementName)
+				KeywordUtil.markFailed(syn.getTestCasename()+"Unable to select dropdown option by visible text  "+sVisibleTextOptionToSelect+"from "+friendlyWebElementName)
 			}
 		}
 		catch(StaleElementReferenceException e){
-			KeywordUtil.markFailed(syn.getTestCaseName()+" Dropdown option by visible text  "+sVisibleTextOptionToSelect+"from "+friendlyWebElementName+" is not attached to page document -StaleElementReferenceException")
+			KeywordUtil.markFailed(syn.getTestCasename()+" Dropdown option by visible text  "+sVisibleTextOptionToSelect+"from "+friendlyWebElementName+" is not attached to page document -StaleElementReferenceException")
 		}
-		//		catch(Exception e){
-		//
-		//			KeywordUtil.markFailed("Unable to select dropdown option by visible text  "+sVisibleTextOptionToSelect+"from "+friendlyWebElementName+ "- "+e)
-		//
-		//		}
 
 	}
 
@@ -226,7 +243,7 @@ public class SafeActions {
 		String sValue=null;
 		try{
 			waitTime=syn.getWaitTime(optionWaitTime)
-
+			WebUI.waitForElementHasAttribute(testObject, attribute, GlobalVariable.pageLoadTime)
 			if(WebUI.verifyElementPresent(testObject,waitTime)) {
 				sValue=WebUI.getAttribute(testObject, attribute)
 				//sValue= WebUI.getText(testObject)
@@ -238,15 +255,42 @@ public class SafeActions {
 			}
 		}
 		catch(StaleElementReferenceException e){
-			KeywordUtil.markError(syn.getTestCaseName()+friendlyWebElementName+ "is not attached to page document- StaleElementReferenceException")
+			KeywordUtil.markError(syn.getTestCasename()+friendlyWebElementName+ "is not attached to page document- StaleElementReferenceException")
 		}
 		//		catch(NoSuchElementException e){
 		//			KeywordUtil.markError(syn.getTestCaseName()+friendlyWebElementName+ "is not found in DOM in time "+waitTime+"NoSuchElementException")
 		//		}
 		catch(Exception e){
-			KeywordUtil.markError(syn.getTestCaseName()+"Unable to get attribute value from "+friendlyWebElementName+ "- "+e)
+			KeywordUtil.markError(syn.getTestCasename()+"Unable to get attribute value from "+friendlyWebElementName+ "- "+e)
 		}
 		return sValue;
 
 	}
+
+	@Keyword
+	def safeClickwithScroll(TestObject testObj,String friendlyWebElementName,int... optionWaitTime){
+		int waitTime=0
+		try{
+			waitTime=syn.getWaitTime(optionWaitTime)
+			WebUI.waitForElementPresent(testObj, waitTime)
+			if(!WebUI.verifyElementVisible(testObj))
+				WebUI.scrollToElement(testObj, waitTime)
+			//WebUI.scrollToElement(testObj, waitTime)
+			if(waitUntilClickable(testObj, friendlyWebElementName, waitTime)){
+				highLightElement(testObj,waitTime)
+				WebUI.click(testObj)
+				KeywordUtil.logInfo(syn.getTestCasename()+" Clicked on the "+friendlyWebElementName)
+			}
+			else{
+				KeywordUtil.markFailed(friendlyWebElementName+" is not clickable in time -"+waitTime+" seconds")
+			}
+		}
+		catch(Exception e){
+			//WebUI.takeScreenshot(reportsFolderPath+"/safeClickwithScroll.png")
+			KeywordUtil.markError(friendlyWebElementName+" was not found on the webpage")
+		}
+	}
+
+
+
 }

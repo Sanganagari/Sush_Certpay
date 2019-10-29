@@ -28,6 +28,14 @@ def static "pages.Quicksti.setUserPaymentDetails"(
          , 	cardNum)
 }
 
+def static "pages.Quicksti.setPaymentAmountDetailsForSinglePayment"(
+    	String amount	
+     , 	String quantity	) {
+    (new pages.Quicksti()).setPaymentAmountDetailsForSinglePayment(
+        	amount
+         , 	quantity)
+}
+
 def static "pages.Quicksti.setExpDate"(
     	String sExpMonth	
      , 	String sExpYear	
@@ -36,14 +44,6 @@ def static "pages.Quicksti.setExpDate"(
         	sExpMonth
          , 	sExpYear
          , 	securityCode)
-}
-
-def static "pages.Quicksti.setPaymentAmountDetailsForSinglePayment"(
-    	String amount	
-     , 	String quantity	) {
-    (new pages.Quicksti()).setPaymentAmountDetailsForSinglePayment(
-        	amount
-         , 	quantity)
 }
 
 def static "pages.Quicksti.verifyUserPaymentDetails"(
@@ -340,6 +340,16 @@ def static "utilities.SafeActions.safeClick"(
          , 	optionWaitTime)
 }
 
+def static "utilities.SafeActions.waitUntilClickable"(
+    	TestObject testObj	
+     , 	String friendlyWebElementName	
+     , 	int[] optionWaitTime	) {
+    (new utilities.SafeActions()).waitUntilClickable(
+        	testObj
+         , 	friendlyWebElementName
+         , 	optionWaitTime)
+}
+
 def static "utilities.SafeActions.safeGetText"(
     	TestObject testObject	
      , 	String friendlyWebElementName	
@@ -351,12 +361,12 @@ def static "utilities.SafeActions.safeGetText"(
 }
 
 def static "utilities.SafeActions.safeSelectOptionInDropdownByVisibleText"(
-    	TestObject testObject	
+    	TestObject testObj	
      , 	String sVisibleTextOptionToSelect	
      , 	String friendlyWebElementName	
      , 	int[] optionWaitTime	) {
     (new utilities.SafeActions()).safeSelectOptionInDropdownByVisibleText(
-        	testObject
+        	testObj
          , 	sVisibleTextOptionToSelect
          , 	friendlyWebElementName
          , 	optionWaitTime)
@@ -370,6 +380,16 @@ def static "utilities.SafeActions.getAttributeValue"(
     (new utilities.SafeActions()).getAttributeValue(
         	testObject
          , 	attribute
+         , 	friendlyWebElementName
+         , 	optionWaitTime)
+}
+
+def static "utilities.SafeActions.safeClickwithScroll"(
+    	TestObject testObj	
+     , 	String friendlyWebElementName	
+     , 	int[] optionWaitTime	) {
+    (new utilities.SafeActions()).safeClickwithScroll(
+        	testObj
          , 	friendlyWebElementName
          , 	optionWaitTime)
 }

@@ -9,7 +9,7 @@ import java.util.concurrent.locks.Condition
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
-import org.openqa.selenium.WebElement
+
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
@@ -30,10 +30,10 @@ import utilities.SafeActions
 
 public class Quicksti {
 
-
 	SafeActions safe=new SafeActions()
 
 
+	// Entering payment amount details like amount and quantity
 
 
 	// Entering user personal details like name, card number
@@ -64,6 +64,16 @@ public class Quicksti {
 		return cardNumber;
 
 	}
+	@Keyword
+	def setPaymentAmountDetailsForSinglePayment(String amount,String quantity){
+
+		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT')
+				, amount, 'amount', (([GlobalVariable.pageLoadTime]) as int[]))
+
+		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY')
+				, quantity, 'Quantity', (([GlobalVariable.pageLoadTime]) as int[]))
+
+	}
 
 	// set expiration date of credit or debit card
 	@Keyword
@@ -77,16 +87,7 @@ public class Quicksti {
 		safe.safeType(findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'), securityCode, 'securityCode',  (([GlobalVariable.pageLoadTime]) as int[]))
 	}
 
-	// Entering payment amount details like amount and quantity
-	@Keyword
-	def setPaymentAmountDetailsForSinglePayment(String amount,String quantity){
 
-		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT')
-				, amount, 'amount', (([GlobalVariable.pageLoadTime]) as int[]))
-
-		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY')
-				, quantity, 'Quantity', (([GlobalVariable.pageLoadTime]) as int[]))
-	}
 
 	// verification of entered  user details
 	@Keyword

@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Certpay_Quicksti/TC_001_Visa_SingleLinePayment'), [('expMonth') : '03', ('expYear') : '2022'
+WebUI.callTestCase(findTestCase('Certpay_Quicksti/TC_001_SingleBureauSite_SingleLinePayment'), [('expMonth') : '03', ('expYear') : '2022'
         , ('securityCode') : '207', ('paymentAmount') : '15.00', ('quantity') : '2', ('referenceNum') : '11', ('address') : '14-6'
         , ('telephone') : '9696404001', ('zipCode') : '76102', ('emailAddress') : 'testing@zenq.com', ('firstName') : 'Michael'
         , ('lastName') : 'Jack'], FailureHandling.STOP_ON_FAILURE)
