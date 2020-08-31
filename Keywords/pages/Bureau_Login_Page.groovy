@@ -45,13 +45,28 @@ public class Bureau_Login_Page {
 	@Keyword
 	def loginToReportsSite(String username,String password,String accessCode){
 
-		safe.safeType(	findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/USER_NAME'), username, 'username', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(	findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/USER_NAME'), username, 'username', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 		safe.safeType(	findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_PASSWORD')
-				, password, 'password', (([GlobalVariable.pageLoadTime]) as int[]))
-		safe.safeType(		findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_ACCESS_CODE'), accessCode, 'AccessCode', (([GlobalVariable.pageLoadTime]) as int[]))
+				, password, 'password', (([
+					GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(		findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_ACCESS_CODE'), accessCode, 'AccessCode', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 		safe.safeClick(	findTestObject('Object Repository/MAKE_ PAYMENT/Home_ Page/LOGIN_BUTTON')
+				, 'LOGIN', (([
+					GlobalVariable.pageLoadTime]) as int[]))
+	}
+	@Keyword
+	def loginToAdminSite(String username,String password){
+
+		safe.safeType(	findTestObject('Object Repository/CERTPAY_ADMIN/USER_NAME'), username, 'username', (([GlobalVariable.pageLoadTime]) as int[]))
+
+		safe.safeType(	findTestObject('Object Repository/CERTPAY_ADMIN/PASSWORD')
+				, password, 'password', (([GlobalVariable.pageLoadTime]) as int[]))
+
+		safe.safeClick(	findTestObject('Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON')
 				, 'LOGIN', (([GlobalVariable.pageLoadTime]) as int[]))
 	}
 	@Keyword

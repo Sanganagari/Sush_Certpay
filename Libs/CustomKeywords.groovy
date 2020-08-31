@@ -148,6 +148,14 @@ def static "pages.Bureau_Login_Page.loginToReportsSite"(
          , 	accessCode)
 }
 
+def static "pages.Bureau_Login_Page.loginToAdminSite"(
+    	String username	
+     , 	String password	) {
+    (new pages.Bureau_Login_Page()).loginToAdminSite(
+        	username
+         , 	password)
+}
+
 def static "pages.Bureau_Login_Page.verifyPaymentInRealTimeMonitor"(
     	TestObject object	
      , 	String referenceNum	

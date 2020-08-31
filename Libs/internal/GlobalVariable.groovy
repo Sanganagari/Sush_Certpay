@@ -114,6 +114,21 @@ public class GlobalVariable {
      */
     public static Object Reports_url
      
+    /**
+     * <p></p>
+     */
+    public static Object Admin_url
+     
+    /**
+     * <p></p>
+     */
+    public static Object AdminUsername
+     
+    /**
+     * <p></p>
+     */
+    public static Object AdminPassword
+     
 
     static {
         try {
@@ -142,6 +157,9 @@ public class GlobalVariable {
             firstName = selectedVariables['firstName']
             lastName = selectedVariables['lastName']
             Reports_url = selectedVariables['Reports_url']
+            Admin_url = selectedVariables['Admin_url']
+            AdminUsername = selectedVariables['AdminUsername']
+            AdminPassword = selectedVariables['AdminPassword']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

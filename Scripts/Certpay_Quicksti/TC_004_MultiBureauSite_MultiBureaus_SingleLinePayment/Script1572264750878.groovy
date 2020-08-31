@@ -119,32 +119,27 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKST
 'Verify payment approval'
 PaymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED'))
 
-'Navigate to reports site'
-WebUI.navigateToUrl(GlobalVariable.Reports_url)
+'Open admin site'
+	WebUI.navigateToUrl(GlobalVariable.Admin_url)
+	
+	'Enter username,password'
+	CustomKeywords.'pages.Bureau_Login_Page.loginToAdminSite'(GlobalVariable.AdminUsername, GlobalVariable.AdminPassword)
+	
+	
+	'Click on TransactionSearch'
+	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
 
-' Enter username,password,access code and Click On Login'
-CustomKeywords.'pages.Bureau_Login_Page.loginToReportsSite'(GlobalVariable.userName, GlobalVariable.password, GlobalVariable.accessCode)
-
-not_run: WebUI.mouseOver(findTestObject('REPORTS_PAGE/REPORTING'))
-
-WebUI.delay(1)
-
-'Click on Reporting'
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
-
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/REPORTING'), 'Reporting', (([GlobalVariable.pageLoadTime]) as int[]))
-
-'Click on Quick Find Payment'
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('REPORTS_PAGE/QUICK_FIND_PAYMENT'), 'Quick find payment', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-'Enter Payment id'
-CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('SEARCH_PAYMENT/PAYMENT_ID_INPUT_FIELD'), PaymentId, 'Payment id', 
-        (([GlobalVariable.pageLoadTime]) as int[]))
-
-'Click on Search'
-CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_BUTTON_1'), 'Search button', (([GlobalVariable.pageLoadTime]) as int[]))
-
-'Verify payment id,amount,cardType'
-CustomKeywords.'pages.Search_Page.validateApprovedTransactionsInReports'(PaymentId, cardType, amount_Value)
+	'Enter Payment id'
+	CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), paymentId, 'Payment id',
+			(([GlobalVariable.pageLoadTime]) as int[]))
+	
+	'Click on Go button'
+	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/GO_BUTTON'), 'Go button', (([GlobalVariable.pageLoadTime]) as int[]))
+	
+	WebUI.delay(5)
+	
+	WebUI.scrollToPosition(800, 900)
+	
+	
+	
 }
