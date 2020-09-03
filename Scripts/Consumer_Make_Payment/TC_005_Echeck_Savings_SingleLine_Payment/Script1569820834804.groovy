@@ -115,7 +115,7 @@ WebUI.waitForPageLoad(10)
 CustomKeywords.'pages.Search_Page.switchToWindow'()
 
 'Select \'E-check\' radio button'
-CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/ELECTRONIC_CHECK'), 'Echeck', (([GlobalVariable.mediumWait]) as int[]))
+CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/ELECTRONIC_CHECK'), 'Echeck', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter billing last name'
 CustomKeywords.'pages.Search_Page.setSearchDetails'(lastName, GlobalVariable.VISA, checkingAccNum)

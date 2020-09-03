@@ -90,7 +90,7 @@ public class Payment_Page {
 		return rowNumber
 	}
 
-	
+
 	@Keyword
 	def verifyAllRecordsFilteredByCardNumber(TestObject nextObj,TestObject numberOfPages,String creditCardNumber){
 		getPaymentIdColumnCount("Payment ID")
@@ -154,13 +154,16 @@ public class Payment_Page {
 
 		//findTestData('Certpay/CertpayTestData').getValue('FirstName', row)
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME')
-				,firstname , "FirstName", (([GlobalVariable.pageLoadTime]) as int[]))
+				,firstname , "FirstName", (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME')
-				, last, "LastName", (([GlobalVariable.pageLoadTime]) as int[]))
+				, last, "LastName", (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE')
-				, telephone, "Telephone", (([GlobalVariable.pageLoadTime]) as int[]))
+				, telephone, "Telephone", (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 	}
 
@@ -169,18 +172,24 @@ public class Payment_Page {
 
 	@Keyword
 	def setLocationDetails(String address,String zipCode){
-		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS'),address, "Address",  (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS'),address, "Address",  (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
-		safe.safeType( findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE'),zipCode, "ZipCode",  (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType( findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE'),zipCode, "ZipCode",  (([
+			GlobalVariable.pageLoadTime]) as int[]))
 	}
 
 	@Keyword
 	def setCardDetails(String cardNum,String securityCode,String expYear,String expMonth){
-		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'),cardNum, "CardNum",  (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'),cardNum, "CardNum",  (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
-		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH'), expMonth, 'Month', (([GlobalVariable.pageLoadTime]) as int[]))
-		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR'), expYear, 'year', (([GlobalVariable.pageLoadTime]) as int[]))
-		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE'),securityCode, "SecurityCode",  (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH'), expMonth, 'Month', (([
+			GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR'), expYear, 'year', (([
+			GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE'),securityCode, "SecurityCode",  (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 		String cardNumber= WebUI.getAttribute(findTestObject('MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'), 'value')
 		WebUI.verifyMatch(cardNumber, cardNum, true)
@@ -215,19 +224,22 @@ public class Payment_Page {
 		String amountXpath="//input[@id='ctl00_mainContent_AdditionalPayment_"+index+"_txtPaymentAmount']";
 		TestObject amount=new TestObject()
 		amount.addProperty("xpath", ConditionType.EQUALS, amountXpath)
-		safe.safeType(amount, paymentAmount, 'Amount', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(amount, paymentAmount, 'Amount', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 		//Reference Number
 		String refXpath="//input[@id='ctl00_mainContent_AdditionalPayment_"+index+"_txtTaxID']"
 		TestObject referenceNumber=new TestObject()
 		referenceNumber.addProperty("xpath", ConditionType.EQUALS, refXpath)
-		safe.safeType(referenceNumber, referenceNum, 'Amount', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(referenceNumber, referenceNum, 'Amount', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 		// Comments
 		String commentXpath="//input[@id='ctl00_mainContent_AdditionalPayment_"+index+"_txtComments']";
 		TestObject comment=new TestObject()
 		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
-		safe.safeType(comment, comments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(comment, comments, 'Comments', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 	}
 
@@ -312,14 +324,17 @@ public class Payment_Page {
 	def setElectronicCheckInformation(TestObject testObject,TestObject testObject2,String routingNumber,String checkingAccNum){
 
 		safe.safeType(		findTestObject('Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ROUTING_NUMBER')
-				, routingNumber, 'RoutingNumber', (([GlobalVariable.pageLoadTime]) as int[]))
+				, routingNumber, 'RoutingNumber', (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 		if(WebUI.verifyElementPresent(testObject, 30)){
 
 
-			safe.safeType(	testObject, checkingAccNum, 'CheckAccNum', (([GlobalVariable.pageLoadTime]) as int[]))
+			safe.safeType(	testObject, checkingAccNum, 'CheckAccNum', (([
+				GlobalVariable.pageLoadTime]) as int[]))
 
-			safe.safeType(	testObject2, checkingAccNum, 'ConfirmCheckAccNum', (([GlobalVariable.pageLoadTime]) as int[]))
+			safe.safeType(	testObject2, checkingAccNum, 'ConfirmCheckAccNum', (([
+				GlobalVariable.pageLoadTime]) as int[]))
 		}
 	}
 	@Keyword

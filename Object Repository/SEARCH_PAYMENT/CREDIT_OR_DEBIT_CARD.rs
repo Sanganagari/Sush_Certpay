@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='radioCard']</value>
+         <value>/html/body/div[2]/div[4]/div/form/div[2]/div/div/div/div/div/div/div[1]/fieldset/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

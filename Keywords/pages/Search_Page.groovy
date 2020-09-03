@@ -33,16 +33,19 @@ public class Search_Page {
 
 	@Keyword
 	def setSearchDetails(String lastName,String cardNum,String accNumber){
-		safe.safeType(findTestObject('Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME'), lastName, 'LastName', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(findTestObject('Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME'), lastName, 'LastName', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 		try{
 			if(WebUI.verifyElementChecked(	findTestObject('Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'),30,FailureHandling.OPTIONAL	)){
 
-				safe.safeType(  	findTestObject('Object Repository/SEARCH_PAYMENT/CARD_NUMBER'),cardNum , 'CArdNum',  (([GlobalVariable.pageLoadTime]) as int[]))
+				safe.safeType(  	findTestObject('Object Repository/SEARCH_PAYMENT/CARD_NUMBER'),cardNum , 'CArdNum',  (([
+					GlobalVariable.pageLoadTime]) as int[]))
 				KeywordUtil.markPassed("Credit card is checked and cardNum is entered ")
 			}
 			else {
 				safe.safeType(	findTestObject('Object Repository/SEARCH_PAYMENT/ACC_NUMBER')
-						, accNumber, 'Acc num',  (([GlobalVariable.pageLoadTime]) as int[]))
+						, accNumber, 'Acc num',  (([
+							GlobalVariable.pageLoadTime]) as int[]))
 				KeywordUtil.markPassed("Acc num enterd")
 			}
 		}

@@ -116,7 +116,7 @@ WebUI.waitForPageLoad(10)
 CustomKeywords.'pages.Search_Page.switchToWindow'()
 
 'Select \'E-check\' radio button'
-CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/ELECTRONIC_CHECK'), 'E check', (([GlobalVariable.mediumWait]) as int[]))
+CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/ELECTRONIC_CHECK'), 'E check', (([GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter billing last name,acc num'
 CustomKeywords.'pages.Search_Page.setSearchDetails'(lastName, cardNum, checkingAccNum)
@@ -130,7 +130,7 @@ CustomKeywords.'pages.Payment_Page.verifyPaymentDetailsInReceipt'(PaymentID)
 'Click on \'Search\' icon to generate receipt'
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_ ICON'), 'SearchIcon', (([GlobalVariable.pageLoadTime]) as int[]))
 
-WebUI.delay(GlobalVariable.mediumWait)
+WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('SEARCH_PAYMENT/CLOSE_BUTTON'), 30)
 

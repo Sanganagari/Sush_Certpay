@@ -43,15 +43,18 @@ public class Quicksti {
 		//	String inputXpath=DynamicLocators.inputFieldLocator.replace("<id>","txtFirstName")
 
 		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME')
-				, firstName, 'FirstName', (([GlobalVariable.pageLoadTime]) as int[]))
+				, firstName, 'FirstName', (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 
 
 		safe.safeType( 	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME')
-				, lastName, 'LAstName', (([GlobalVariable.pageLoadTime]) as int[]))
+				, lastName, 'LAstName', (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 		safe.safeType( 	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER')
-				, cardNum, 'CardNum', (([GlobalVariable.pageLoadTime]) as int[]))
+				, cardNum, 'CardNum', (([
+					GlobalVariable.pageLoadTime]) as int[]))
 		String cardNumber=null;
 
 		if(cardNum.startsWith("3")){
@@ -68,10 +71,12 @@ public class Quicksti {
 	def setPaymentAmountDetailsForSinglePayment(String amount,String quantity){
 
 		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT')
-				, amount, 'amount', (([GlobalVariable.pageLoadTime]) as int[]))
+				, amount, 'amount', (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 		safe.safeType(	findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY')
-				, quantity, 'Quantity', (([GlobalVariable.pageLoadTime]) as int[]))
+				, quantity, 'Quantity', (([
+					GlobalVariable.pageLoadTime]) as int[]))
 
 	}
 
@@ -79,12 +84,15 @@ public class Quicksti {
 	@Keyword
 	def setExpDate(String sExpMonth,String sExpYear,String securityCode){
 
-		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'), sExpMonth, 'expMonth', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'), sExpMonth, 'expMonth', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 
-		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'), sExpYear,' expYear', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeSelectOptionInDropdownByVisibleText(findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'), sExpYear,' expYear', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
-		safe.safeType(findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'), securityCode, 'securityCode',  (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(findTestObject('Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'), securityCode, 'securityCode',  (([
+			GlobalVariable.pageLoadTime]) as int[]))
 	}
 
 
@@ -117,13 +125,15 @@ public class Quicksti {
 		String paymentTypeXpath ="//select[@id='Opt_00"+bureauNum+"_0"+index+"']"
 		TestObject PaymentType=new TestObject()
 		PaymentType.addProperty("xpath",ConditionType.EQUALS,paymentTypeXpath)
-		safe.safeSelectOptionInDropdownByVisibleText(PaymentType, paymentType, 'Payment Type', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeSelectOptionInDropdownByVisibleText(PaymentType, paymentType, 'Payment Type', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 		//Reference Number
 		String refXpath="//input[@id='Inv_00"+bureauNum+"_0"+index+"']"
 		TestObject referenceNumber=new TestObject()
 		referenceNumber.addProperty("xpath", ConditionType.EQUALS, refXpath)
-		safe.safeType(referenceNumber, referenceNum, 'RefrenceNumber', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(referenceNumber, referenceNum, 'RefrenceNumber', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 
 
@@ -131,7 +141,8 @@ public class Quicksti {
 		String quantityXpath="//input[@id='Qty_00"+bureauNum+"_0"+index+"']";
 		TestObject Quantity =new TestObject()
 		Quantity.addProperty("xpath", ConditionType.EQUALS, quantityXpath)
-		safe.safeType(Quantity, quantity, 'Quntity', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(Quantity, quantity, 'Quntity', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 	}
 	@Keyword
@@ -139,7 +150,8 @@ public class Quicksti {
 		String commentXpath="//input[@id='Com_00"+bureauNum+"_0"+index+"']";
 		TestObject comment=new TestObject()
 		comment.addProperty("xpath", ConditionType.EQUALS, commentXpath)
-		safe.safeType(comment, sComments, 'Comments', (([GlobalVariable.pageLoadTime]) as int[]))
+		safe.safeType(comment, sComments, 'Comments', (([
+			GlobalVariable.pageLoadTime]) as int[]))
 
 	}
 

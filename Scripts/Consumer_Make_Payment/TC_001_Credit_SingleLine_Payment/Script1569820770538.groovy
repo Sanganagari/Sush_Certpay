@@ -69,7 +69,7 @@ WebUI.waitForPageLoad(2)
 'Click on \'Continue\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
 
-WebUI.delay(GlobalVariable.mediumWait)
+WebUI.delay(2)
 
 'Enter card number,exp date, exp month and security code\r\n'
 CustomKeywords.'pages.Payment_Page.setCardDetails'(cardNum, securityCode, expYear, expMonth)
@@ -113,7 +113,7 @@ WebUI.waitForElementClickable(findTestObject('SEARCH_PAYMENT/CREDIT_OR_DEBIT_CAR
 
 'Select \'Credit or debit card\' radio button'
 CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'), 'Credit card', (([
-            GlobalVariable.mediumWait]) as int[]))
+            GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter billing last name,card number'
 CustomKeywords.'pages.Search_Page.setSearchDetails'(lastName, cardNum, accNum)
@@ -127,7 +127,7 @@ CustomKeywords.'pages.Payment_Page.verifyPaymentDetailsInReceipt'(PaymentId)
 'Click on \'Search\' icon to generate receipt'
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_ ICON'), 'SearchIcon', (([GlobalVariable.pageLoadTime]) as int[]))
 
-WebUI.delay(GlobalVariable.mediumWait)
+WebUI.delay(2)
 
 'Scroll to close button'
 WebUI.scrollToElement(findTestObject('SEARCH_PAYMENT/CLOSE_BUTTON'), 0)

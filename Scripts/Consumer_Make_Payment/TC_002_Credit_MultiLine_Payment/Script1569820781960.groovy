@@ -113,7 +113,7 @@ CustomKeywords.'pages.Search_Page.switchToWindow'()
 
 'Select \'Credit or debit card\' radio button'
 CustomKeywords.'utilities.SafeActions.safeCheck'(findTestObject('SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD'), 'Credit card', (([
-            GlobalVariable.mediumWait]) as int[]))
+            GlobalVariable.pageLoadTime]) as int[]))
 
 'Enter billing last name,card num'
 CustomKeywords.'pages.Search_Page.setSearchDetails'(lastName, cardNum, accNum)
@@ -127,7 +127,7 @@ CustomKeywords.'pages.Payment_Page.verifyPaymentDetailsInReceipt'(PaymentID)
 'Click on \'Search\' icon to generate receipt'
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_ ICON'), 'SearchIcon', (([GlobalVariable.pageLoadTime]) as int[]))
 
-WebUI.delay(GlobalVariable.mediumWait)
+WebUI.delay(2)
 
 'scroll to close button\r\n'
 WebUI.scrollToElement(findTestObject('SEARCH_PAYMENT/CLOSE_BUTTON'), 0)

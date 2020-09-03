@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@class='success']/td[1]</value>
+         <value>/html/body/div[2]/form/div[3]/div[1]/div[5]/div[1]/table/tbody/tr/td[1]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

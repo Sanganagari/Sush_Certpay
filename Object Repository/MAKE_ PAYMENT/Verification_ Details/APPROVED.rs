@@ -6,12 +6,11 @@
    <elementGuidId>e41936e2-40d5-43fe-81c3-8126ef7e625e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/form/div[3]/div[1]/div[5]/div[1]/table/tbody/tr/td[7]/a/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class='label label-success white-text']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
