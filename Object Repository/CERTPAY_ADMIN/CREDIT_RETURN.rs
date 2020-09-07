@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>APPROVED</name>
+   <name>CREDIT_RETURN</name>
    <tag></tag>
-   <elementGuidId>e41936e2-40d5-43fe-81c3-8126ef7e625e</elementGuidId>
+   <elementGuidId>6af949cc-c809-4491-8313-bb8449863583</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ctl00_mainContent_tblPayments&quot;]/tbody/tr[1]/td[7]/span</value>
+         <value>//*[@id=&quot;refundForm&quot;]/div/div[2]/div[1]/div[2]/span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

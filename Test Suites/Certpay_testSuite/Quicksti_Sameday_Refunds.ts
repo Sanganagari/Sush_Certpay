@@ -19,13 +19,13 @@
    <testCaseLink>
       <guid>ae1ba510-3399-4b3b-ad73-b947136378b9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SameDay_Refunds/TC_002_VISA_MultiTxn_Sameday_FullRefund</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>039f267a-be90-4f8a-8c7f-a15b482a879f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SameDay_Refunds/TC_003_VISA_SingleTxn_Sameday_PartialRefund</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -37,7 +37,7 @@
    <testCaseLink>
       <guid>c4adb889-0049-4401-9952-3dd9a09c0ac2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SameDay_Refunds/TC_004_VISA_MultiTxn_Sameday_PartialRefund</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

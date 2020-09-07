@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>APPROVED</name>
+   <name>CLOSE_BUTTON</name>
    <tag></tag>
-   <elementGuidId>e41936e2-40d5-43fe-81c3-8126ef7e625e</elementGuidId>
+   <elementGuidId>6ec638c1-d0d8-45a8-a730-a5e6773662b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;ctl00_mainContent_tblPayments&quot;]/tbody/tr[1]/td[7]/span</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;refundForm&quot;]/div/div[3]/button[1]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

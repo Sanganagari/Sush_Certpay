@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>APPROVED</name>
+   <name>PROCESS_REVERSAL</name>
    <tag></tag>
-   <elementGuidId>e41936e2-40d5-43fe-81c3-8126ef7e625e</elementGuidId>
+   <elementGuidId>5678ace3-f74f-4957-80e7-185ec111135f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ctl00_mainContent_tblPayments&quot;]/tbody/tr[1]/td[7]/span</value>
+         <value>//*[@id=&quot;process&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

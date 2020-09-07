@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>APPROVED</name>
+   <name>ACTIONS_BUTTON</name>
    <tag></tag>
-   <elementGuidId>e41936e2-40d5-43fe-81c3-8126ef7e625e</elementGuidId>
+   <elementGuidId>6845e095-2ab5-4c21-933f-0585c752f535</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ctl00_mainContent_tblPayments&quot;]/tbody/tr[1]/td[7]/span</value>
+         <value>//*[@id=&quot;content-wrapper&quot;]/div/div/div[2]/div/div/div/div[1]/div[1]/div[1]/div[1]/table/tbody/tr[1]/td[2]/div/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

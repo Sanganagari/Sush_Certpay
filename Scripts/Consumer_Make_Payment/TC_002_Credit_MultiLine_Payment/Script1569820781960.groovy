@@ -98,8 +98,8 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/V
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Verification_ Details/YES_BUTTON'), 'yes button', 
         (([GlobalVariable.pageLoadTime]) as int[]))
 
-'Verify paymnet Approval'
-WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/APPROVED'), 30)
+//'Verify paymnet Approval'
+//WebUI.verifyElementPresent(findTestObject('MAKE_ PAYMENT/Verification_ Details/APPROVED'), ([GlobalVariable.pageLoadTime]) as int[])
 
 'Verify payment details and note paymnetId'
 PaymentID = CustomKeywords.'pages.Payment_Page.verifyCardPaymentApproval'(referenceNum)
