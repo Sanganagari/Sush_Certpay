@@ -138,8 +138,10 @@ PaymentID = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	'Click on TransactionSearch'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
 
+	WebUI.delay(2)
+	
 	'Enter Payment id'
-	CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), paymentId, 'Payment id',
+	CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), PaymentID, 'Payment id',
 			(([GlobalVariable.pageLoadTime]) as int[]))
 	
 	'Click on Go button'
@@ -150,7 +152,7 @@ PaymentID = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	WebUI.scrollToPosition(800, 900)
 	
 	
-	paymentIdList.add(paymentId)
+	paymentIdList.add(PaymentID)
 	println(paymentIdList)
 }
 return paymentIdList;

@@ -31,7 +31,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Certpay_testSuite/Quicksti_Sameday_Refunds</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Certpay_testSuite/Quicksti_Samday_Refunds_Admin</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -56,15 +56,6 @@
             <groupName>Web Desktop</groupName>
             <profileName>CertPay</profileName>
             <runConfigurationId>Firefox</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Certpay_testSuite/Quicksti_Sameday_Refunds</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>CertPay</profileName>
-            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Certpay_testSuite/Quicksti_Samday_Refunds_Admin</testSuiteEntity>
