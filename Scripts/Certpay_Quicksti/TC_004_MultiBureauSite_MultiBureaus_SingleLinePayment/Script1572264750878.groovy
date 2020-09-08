@@ -130,7 +130,7 @@ PaymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
 
 	'Enter Payment id'
-	CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), paymentId, 'Payment id',
+	CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), PaymentId, 'Payment id',
 			(([GlobalVariable.pageLoadTime]) as int[]))
 	
 	'Click on Go button'
