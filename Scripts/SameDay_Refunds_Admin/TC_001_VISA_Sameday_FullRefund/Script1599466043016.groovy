@@ -127,7 +127,7 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	'Click on Go button'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/GO_BUTTON'), 'Go button', (([GlobalVariable.pageLoadTime]) as int[]))
 	
-	WebUI.delay(5)
+	WebUI.delay(3)
 	
 	paymentIdList.add(paymentId)
 	
@@ -151,13 +151,8 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	'Click on Process Reversal button'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL'), 'Process Reversal', (([GlobalVariable.pageLoadTime]) as int[]))
 	
-	WebUI.delay(3)
 	
-	'Click on Close button'
-	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('Object Repository/CERTPAY_ADMIN/CLOSE_BUTTON'), 'Close Button', (([GlobalVariable.pageLoadTime]) as int[]))
+	WebUI.delay(2)
 	
 	
-	WebUI.delay(3)
-	
-	WebUI.scrollToPosition(800, 900)
 }

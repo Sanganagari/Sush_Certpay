@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-14T15:33:04</date>
+  <millis>1600077784880</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Certpay_testSuite/Quicksti_Samday_Refunds_Admin</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Quicksti_Samday_Refunds_Admin</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Certpay_testSuite/Quicksti_Samday_Refunds_Admin</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:04</date>
+  <millis>1600077784904</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = admin - SYS8</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">admin - SYS8</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:04</date>
+  <millis>1600077784906</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 32bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 32bit</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:04</date>
+  <millis>1600077784907</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.31.253.251</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.31.253.251</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:04</date>
+  <millis>1600077784908</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.1.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.1.2.1</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:05</date>
+  <millis>1600077785161</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund</property>
+  <property name="source">E:\\Sush_Certpay\\Test Cases\\SameDay_Refunds_Admin\\TC_001_VISA_Sameday_FullRefund.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:05</date>
+  <millis>1600077785219</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:05</date>
+  <millis>1600077785225</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:05</date>
+  <millis>1600077785737</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : data = findTestData(\&amp;quot;Data Files/Certpay/SingleBureau_SingleLine\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786557</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : data = findTestData(\&amp;quot;Data Files/Certpay/SingleBureau_SingleLine\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786558</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentIdList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786559</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentIdList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786559</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for (def index : (1..data.getRowNumbers()))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786582</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : firstName = data.getValue(\&amp;quot;FirstName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786602</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : firstName = data.getValue(\&amp;quot;FirstName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786603</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : lastName = data.getValue(\&amp;quot;LastName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786604</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : lastName = data.getValue(\&amp;quot;LastName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786604</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expMonth = data.getValue(\&amp;quot;ExpMonth\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786606</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expMonth = data.getValue(\&amp;quot;ExpMonth\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786606</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expYear = data.getValue(\&amp;quot;ExpYear\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786632</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expYear = data.getValue(\&amp;quot;ExpYear\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786633</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : securityCode = data.getValue(\&amp;quot;SecurityCode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786634</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : securityCode = data.getValue(\&amp;quot;SecurityCode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786635</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentAmount = data.getValue(\&amp;quot;PaymentAmount\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786636</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentAmount = data.getValue(\&amp;quot;PaymentAmount\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786637</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentType = data.getValue(\&amp;quot;PaymentType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786638</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentType = data.getValue(\&amp;quot;PaymentType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786638</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : quantity = data.getValue(\&amp;quot;Quantity\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786640</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : quantity = data.getValue(\&amp;quot;Quantity\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786640</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comments = data.getValue(\&amp;quot;Comments\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786641</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comments = data.getValue(\&amp;quot;Comments\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786641</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : referenceNum = data.getValue(\&amp;quot;ReferenceNum\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786643</millis>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : referenceNum = data.getValue(\&amp;quot;ReferenceNum\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786643</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : address = data.getValue(\&amp;quot;Address\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786644</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : address = data.getValue(\&amp;quot;Address\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786644</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : zipCode = data.getValue(\&amp;quot;Zipcode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786647</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : zipCode = data.getValue(\&amp;quot;Zipcode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786647</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : telephone = data.getValue(\&amp;quot;Telephone\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786649</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : telephone = data.getValue(\&amp;quot;Telephone\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786649</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : emailAddress = data.getValue(\&amp;quot;EmailAddress\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786650</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : emailAddress = data.getValue(\&amp;quot;EmailAddress\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786651</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : cardNum = data.getValue(\&amp;quot;CardNumber\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786652</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : cardNum = data.getValue(\&amp;quot;CardNumber\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786652</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : cardType = data.getValue(\&amp;quot;CardType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786654</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : cardType = data.getValue(\&amp;quot;CardType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:06</date>
+  <millis>1600077786655</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">17</property>
+  <property name="description">Open Certpay Quicksti application</property>
+</record>
+<record>
+  <date>2020-09-14T15:33:07</date>
+  <millis>1600077787052</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:07</date>
+  <millis>1600077787343</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-14T15:33:07</date>
+  <millis>1600077787387</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+</log>

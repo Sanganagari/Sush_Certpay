@@ -10,8 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;refundForm&quot;]/div/div[3]/button[1]
-</value>
+         <value>//*[@id=&quot;refundForm&quot;]/div/div[3]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

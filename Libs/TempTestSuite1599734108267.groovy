@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\Sush_Certpay\\Reports\\20200909_123319\\Certpay_testSuite\\Quicksti_Samday_Refunds_Admin\\20200909_123320\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\Sush_Certpay\\Reports\\20200910_160508\\Certpay_testSuite\\Quicksti_Samday_Refunds_Admin\\20200910_160508\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Certpay_testSuite/Quicksti_Samday_Refunds_Admin', suiteProperties, new File("E:\\Sush_Certpay\\Reports\\20200909_123319\\Certpay_testSuite\\Quicksti_Samday_Refunds_Admin\\20200909_123320\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Certpay_testSuite/Quicksti_Samday_Refunds_Admin', suiteProperties, new File("E:\\Sush_Certpay\\Reports\\20200910_160508\\Certpay_testSuite\\Quicksti_Samday_Refunds_Admin\\20200910_160508\\testCaseBinding"))
