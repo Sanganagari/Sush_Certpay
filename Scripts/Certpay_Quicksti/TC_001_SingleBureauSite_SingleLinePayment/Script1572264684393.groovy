@@ -117,9 +117,12 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	CustomKeywords.'pages.Bureau_Login_Page.loginToAdminSite'(GlobalVariable.AdminUsername, GlobalVariable.AdminPassword)
 	
 	
+	
 	'Click on TransactionSearch'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
 
+	
+	
 	'Enter Payment id'
 	CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), paymentId, 'Payment id',
 			(([GlobalVariable.pageLoadTime]) as int[]))
