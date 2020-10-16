@@ -148,6 +148,8 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKST
 CustomKeywords.'pages.Quicksti.verifyUserPaymentDetails'(amountList.get(0),firstName,lastName, 
     CardNumber)
 
+ConvFee=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE'))
+
 WebUI.scrollToElement(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS'), 30)
 
 'Click on Process'
@@ -164,7 +166,10 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	CustomKeywords.'pages.Bureau_Login_Page.loginToAdminSite'(GlobalVariable.AdminUsername, GlobalVariable.AdminPassword)
 	
 	
-	'Click on TransactionSearch'
+	'Click on TransactionMenu'
+	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_MENU'), 'TransactionMenu', (([GlobalVariable.pageLoadTime]) as int[]))
+
+	'Click on Search'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
 
 	'Enter Payment id'
@@ -178,6 +183,7 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	
 	WebUI.scrollToPosition(800, 900)
 	
+	CustomKeywords.'pages.Search_Page.validatePaymentAmount'(amountList.get(0),ConvFee)
 	
 	paymentIdList.add(paymentId)
 	println(paymentIdList)

@@ -119,6 +119,8 @@ CustomKeywords.'pages.Quicksti.verifyUserPaymentDetails'(amountList.get(0), firs
 
 WebUI.delay(2)
 
+ConvFee=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE'))
+
 WebUI.scrollToElement(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS'), 0)
 
 'Click on Process'
@@ -129,31 +131,35 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_QUICKST
 PaymentID = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED'))
 
 'Open admin site'
-	WebUI.navigateToUrl(GlobalVariable.Admin_url)
+WebUI.navigateToUrl(GlobalVariable.Admin_url)
 	
-	'Enter username,password'
-	CustomKeywords.'pages.Bureau_Login_Page.loginToAdminSite'(GlobalVariable.AdminUsername, GlobalVariable.AdminPassword)
+'Enter username,password'
+CustomKeywords.'pages.Bureau_Login_Page.loginToAdminSite'(GlobalVariable.AdminUsername, GlobalVariable.AdminPassword)
 	
 	
-	'Click on TransactionSearch'
-	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
+'Click on TransactionMenu'
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_MENU'), 'TransactionMenu', (([GlobalVariable.pageLoadTime]) as int[]))
 
-	WebUI.delay(2)
+'Click on Search'
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
+
+WebUI.delay(2)
 	
-	'Enter Payment id'
-	CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), PaymentID, 'Payment id',
+'Enter Payment id'
+CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('CERTPAY_ADMIN/PAYMENT_ID'), PaymentID, 'Payment id',
 			(([GlobalVariable.pageLoadTime]) as int[]))
 	
-	'Click on Go button'
-	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/GO_BUTTON'), 'Go button', (([GlobalVariable.pageLoadTime]) as int[]))
+'Click on Go button'
+CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/GO_BUTTON'), 'Go button', (([GlobalVariable.pageLoadTime]) as int[]))
 	
-	WebUI.delay(5)
+WebUI.delay(5)
 	
-	WebUI.scrollToPosition(800, 900)
+WebUI.scrollToPosition(800, 900)
 	
+CustomKeywords.'pages.Search_Page.validatePaymentAmount'(amount_Value,ConvFee)
 	
-	paymentIdList.add(PaymentID)
-	println(paymentIdList)
+paymentIdList.add(PaymentID)
+println(paymentIdList)
 }
 return paymentIdList;
 

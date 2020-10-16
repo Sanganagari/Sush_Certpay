@@ -111,4 +111,69 @@ public class Search_Page {
 		}
 
 	}
+	def validatePaymentAmount(String PaymentAmount,String ConvFee){
+		boolean bFlag=true;
+
+		try{
+			if(bFlag){
+
+				String amount=WebUI.getText(findTestObject('CERTPAY_ADMIN/PAYMENT_AMOUNT'))
+				println "Amount from GUI = "+amount
+				String sAmount=amount.substring(1)
+				println PaymentAmount
+				WebUI.verifyMatch(sAmount, PaymentAmount, true, FailureHandling.STOP_ON_FAILURE)
+				String convfee=WebUI.getText(findTestObject('CERTPAY_ADMIN/CONV_FEE'))
+				println "Amount from GUI = "+convfee
+				String sConvfee=convfee.substring(1)
+
+				String CFee=ConvFee.substring(1)
+				println CFee
+				WebUI.verifyMatch(sConvfee, CFee, true, FailureHandling.STOP_ON_FAILURE)
+				KeywordUtil.markPassed("Verified payment details successfully ")
+			}
+			else{
+				KeywordUtil.markFailed("Payment details are not matched")
+				bFlag=false;
+			}
+		}
+		catch(Exception e){
+			KeywordUtil.markFailed("Unable to verify match")
+
+		}
+
+	}
+	def validateRefundAmount(String RefundAmount,String ConvFee){
+		boolean bFlag=true;
+
+		try{
+			if(bFlag){
+
+				String amount=WebUI.getText(findTestObject('CERTPAY_ADMIN/REFUND_AMT'))
+				println "RefundAmount from GUI = "+amount
+				String sAmount=amount.substring(1)
+				println RefundAmount
+
+				WebUI.verifyMatch(sAmount, RefundAmount, true, FailureHandling.STOP_ON_FAILURE)
+				String convfee=WebUI.getText(findTestObject('CERTPAY_ADMIN/REFUND_CONV_AMT'))
+				println "RefundConvFee from GUI = "+convfee
+				String sConvfee=convfee.substring(1)
+				println ConvFee
+
+				String sCfee=ConvFee.substring(1)
+				WebUI.verifyMatch(sConvfee, sCfee, true, FailureHandling.STOP_ON_FAILURE)
+				KeywordUtil.markPassed("Verified Refund payment details successfully")
+			}
+			else{
+				KeywordUtil.markFailed("Payment details are not matched")
+				bFlag=false;
+			}
+		}
+		catch(Exception e){
+			KeywordUtil.markFailed("Unable to verify match")
+
+		}
+
+	}
+
+
 }

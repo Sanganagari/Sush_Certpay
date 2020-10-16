@@ -6,12 +6,11 @@
    <elementGuidId>c4d34480-59a2-4db5-8e63-5d486d18913d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[@class='invoiceItem col-xs-12 col-sm-5']//span[5]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;BureauTable000&quot;]/tbody/tr[3]/td[1]/span[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

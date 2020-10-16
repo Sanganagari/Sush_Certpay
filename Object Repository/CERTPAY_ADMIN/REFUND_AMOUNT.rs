@@ -6,12 +6,11 @@
    <elementGuidId>706f792b-66cd-4c5c-bb74-d76a6e4e9fb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;RefundForm_RefundPaymentAmount&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id='RefundForm_RefundPaymentAmount']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -102,6 +102,8 @@ CustomKeywords.'pages.Quicksti.verifyUserPaymentDetails'(paymentAmount, firstNam
 
 WebUI.delay(2)
 
+ConvFee=WebUI.getText(findTestObject('CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE'))
+
 WebUI.scrollToElement(findTestObject('CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS'), 30)
 
 'Click on \'Process\'\r\n'
@@ -117,7 +119,10 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	CustomKeywords.'pages.Bureau_Login_Page.loginToAdminSite'(GlobalVariable.AdminUsername, GlobalVariable.AdminPassword)
 	
 	
-	'Click on TransactionSearch'
+	'Click on TransactionMenu'
+	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_MENU'), 'TransactionMenu', (([GlobalVariable.pageLoadTime]) as int[]))
+
+	'Click on Search'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('CERTPAY_ADMIN/TRANSACTION_SEARCH'), 'TransactionSearch', (([GlobalVariable.pageLoadTime]) as int[]))
 
 	'Enter Payment id'
@@ -148,11 +153,15 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	'Click on set to Full Refund'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON'), 'Set To Full Refund', (([GlobalVariable.pageLoadTime]) as int[]))
 	
+	
+	
 	'Click on Process Reversal button'
 	CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL'), 'Process Reversal', (([GlobalVariable.pageLoadTime]) as int[]))
 	
 	
-	WebUI.delay(2)
+	WebUI.delay(4)
+	
+	CustomKeywords.'pages.Search_Page.validateRefundAmount'(amount_Value,ConvFee)
 	
 	
 }

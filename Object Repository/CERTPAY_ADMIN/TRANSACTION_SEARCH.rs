@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;sidebar-nav&quot;]/ul/li[2]/a</value>
+         <value>//*[@id=&quot;sidebar-nav&quot;]/ul/li[2]/ul/li[1]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

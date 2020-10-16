@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-16T11:38:17</date>
+  <millis>1602828497693</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Certpay_testSuite/Quicksti_Samday_FullRefunds_Admin</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Quicksti_Samday_FullRefunds_Admin</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Certpay_testSuite/Quicksti_Samday_FullRefunds_Admin</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:17</date>
+  <millis>1602828497736</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = admin - SYS8</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">admin - SYS8</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:17</date>
+  <millis>1602828497737</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 32bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 32bit</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:17</date>
+  <millis>1602828497737</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.31.253.251</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.31.253.251</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:17</date>
+  <millis>1602828497740</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.1.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.1.2.1</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:17</date>
+  <millis>1602828497992</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund</property>
+  <property name="source">E:\\Sush_Certpay\\Test Cases\\SameDay_Refunds_Admin\\TC_001_VISA_Sameday_FullRefund.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498079</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498089</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498506</millis>
+  <sequence>12</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: The current scope already contains a variable of the name RefundAmt\n @ line 159, column 10.\r\n   \tPrintln RefundAmt\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: The current scope already contains a variable of the name ConvFee\n @ line 161, column 10.\r\n   \tPrintln ConvFee\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: unable to resolve class Println \n @ line 159, column 10.\r\n   \tPrintln RefundAmt\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: unable to resolve class Println \n @ line 161, column 10.\r\n   \tPrintln ConvFee\r\n            ^\r\n\r\n4 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1602828493612.run(TempTestSuite1602828493612.groovy:36)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: The current scope already contains a variable of the name RefundAmt
+ @ line 159, column 10.
+   	Println RefundAmt
+            ^
+
+file:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: The current scope already contains a variable of the name ConvFee
+ @ line 161, column 10.
+   	Println ConvFee
+            ^
+
+file:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: unable to resolve class Println 
+ @ line 159, column 10.
+   	Println RefundAmt
+            ^
+
+file:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: unable to resolve class Println 
+ @ line 161, column 10.
+   	Println ConvFee
+            ^
+
+4 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1602828493612</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: The current scope already contains a variable of the name RefundAmt\n @ line 159, column 10.\r\n   \tPrintln RefundAmt\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: The current scope already contains a variable of the name ConvFee\n @ line 161, column 10.\r\n   \tPrintln ConvFee\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: unable to resolve class Println \n @ line 159, column 10.\r\n   \tPrintln RefundAmt\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: unable to resolve class Println \n @ line 161, column 10.\r\n   \tPrintln ConvFee\r\n            ^\r\n\r\n4 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1602828493612.run(TempTestSuite1602828493612.groovy:36)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: The current scope already contains a variable of the name RefundAmt\n @ line 159, column 10.\r\n   \tPrintln RefundAmt\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: The current scope already contains a variable of the name ConvFee\n @ line 161, column 10.\r\n   \tPrintln ConvFee\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 159: unable to resolve class Println \n @ line 159, column 10.\r\n   \tPrintln RefundAmt\r\n            ^\r\n\r\nfile:/E:/Sush_Certpay/Scripts/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund/Script1599466043016.groovy: 161: unable to resolve class Println \n @ line 161, column 10.\r\n   \tPrintln ConvFee\r\n            ^\r\n\r\n4 errors\r\n</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498513</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498530</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498823</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498823</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498824</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498824</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-16T11:38:18</date>
+  <millis>1602828498953</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Certpay_testSuite/Quicksti_Samday_FullRefunds_Admin</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Quicksti" time="502.83" tests="1" failures="0" errors="0">
+   <testsuite name="Quicksti" tests="1" failures="0" errors="0" time="502.83" timestamp="2020-10-15 18:39:43" hostname="admin - SYS8" id="Test Suites/Certpay_testSuite/Quicksti">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Sush_Certpay\\Reports\\20201015_183933\\Certpay_testSuite\\Quicksti\\20201015_183933"/>
+         <property name="logFiles" value="E:\\Sush_Certpay\\Reports\\20201015_183933\\Certpay_testSuite\\Quicksti\\20201015_183933\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="172.31.253.251"/>
+         <property name="sessionId" value="32efd20aa2e8f73e91fffe9b8a209dbb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_Quicksti/TC_003_MultiBureauSite_SingleBureau_SingleLinePayment" time="502.023" classname="Test Cases/Certpay_Quicksti/TC_003_MultiBureauSite_SingleBureau_SingleLinePayment" status="PASSED">
+         <system-out><![CDATA[2020-10-15 18:39:43 - [TEST_CASE][PASSED] - Test Cases/Certpay_Quicksti/TC_003_MultiBureauSite_SingleBureau_SingleLinePayment: Test Cases/Certpay_Quicksti/TC_003_MultiBureauSite_SingleBureau_SingleLinePayment
+
+2020-10-15 18:39:44 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-10-15 18:39:44 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/SingleBureau_SingleLine"): null
+
+2020-10-15 18:39:45 - [TEST_STEP][PASSED] - paymentIdList = []: null
+
+2020-10-15 18:39:45 - [TEST_STEP][PASSED] - for (def index : (1..data.getRowNumbers())): null
+
+2020-10-15 18:39:45 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-15 18:39:45 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-15 18:39:45 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-15 18:39:46 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-15 18:39:46 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-15 18:39:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-15 18:39:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-10-15 18:40:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-15 18:40:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-15 18:40:09 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-15 18:40:09 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX"), "Multi Bureau", [pageLoadTime]): Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is clicked on
+
+2020-10-15 18:40:12 - [MESSAGE][PASSED] - Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:40:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-15 18:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:40:15 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-15 18:40:15 - [MESSAGE][PASSED] - Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:40:15 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:40:15 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:40:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-15 18:40:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:40:22 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:40:22 - [TEST_STEP][PASSED] - pages.Quicksti.setCommnets("0", "0", comments): Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:40:22 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:40:22 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:40:23 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:40:24 - [MESSAGE][PASSED] - Text 'Testing' is set on object ''
+
+2020-10-15 18:40:24 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:40:24 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT"), paymentAmount, "Payment Amount", [pageLoadTime]): Quicksti.ts:Entered'20.00 into Payment Amount
+
+2020-10-15 18:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-15 18:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:40:26 - [MESSAGE][PASSED] - Text '20.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-15 18:40:26 - [MESSAGE][PASSED] - Quicksti.ts:Entered'20.00 into Payment Amount
+
+2020-10-15 18:40:26 - [TEST_STEP][PASSED] - pages.Quicksti.setAmountDetailsForMultiBureau("0", paymentType, "0", referenceNum, quantity): Quicksti.ts:Entered'1 into Quntity
+
+2020-10-15 18:40:27 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:40:27 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:40:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-15 18:40:30 - [MESSAGE][PASSED] - All options with label 'Taxes' are selected in object ''  using regular expression
+
+2020-10-15 18:40:30 - [MESSAGE][PASSED] - selected dropdown option by visible text  Taxesfrom Payment Type
+
+2020-10-15 18:40:30 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:40:30 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:40:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:40:32 - [MESSAGE][PASSED] - Text '11' is set on object ''
+
+2020-10-15 18:40:32 - [MESSAGE][PASSED] - Quicksti.ts:Entered'11 into RefrenceNumber
+
+2020-10-15 18:40:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:40:32 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:40:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:40:34 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2020-10-15 18:40:34 - [MESSAGE][PASSED] - Quicksti.ts:Entered'1 into Quntity
+
+2020-10-15 18:40:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:40:34 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:40:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-15 18:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-15 18:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-15 18:40:38 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:40:38 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:40:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '20.00'
+
+2020-10-15 18:40:39 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:40:39 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti.ts:Entered'4761739001010135 into CardNum
+
+2020-10-15 18:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-15 18:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:40:41 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-15 18:40:41 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Tester into FirstName
+
+2020-10-15 18:40:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:40:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-15 18:40:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:40:43 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-15 18:40:43 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Zenq1 into LAstName
+
+2020-10-15 18:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-15 18:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:40:45 - [MESSAGE][PASSED] - Text '4761739001010135' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-15 18:40:45 - [MESSAGE][PASSED] - Quicksti.ts:Entered'4761739001010135 into CardNum
+
+2020-10-15 18:40:45 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti.ts:Entered'207 into securityCode
+
+2020-10-15 18:40:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-15 18:40:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-15 18:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-15 18:40:49 - [MESSAGE][PASSED] - All options with label '03' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-15 18:40:49 - [MESSAGE][PASSED] - selected dropdown option by visible text  03from expMonth
+
+2020-10-15 18:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-15 18:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-15 18:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-15 18:40:52 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-15 18:40:52 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from  expYear
+
+2020-10-15 18:40:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-15 18:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:40:54 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-15 18:40:54 - [MESSAGE][PASSED] - Quicksti.ts:Entered'207 into securityCode
+
+2020-10-15 18:40:54 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:40:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:40:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-15 18:40:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:40:56 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-15 18:40:56 - [MESSAGE][PASSED] - Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:40:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-15 18:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:40:58 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-15 18:40:58 - [MESSAGE][PASSED] - Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:40:58 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti.ts:Entered'9988776655 into Telephone
+
+2020-10-15 18:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-15 18:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:41:01 - [MESSAGE][PASSED] - Text '9988776655' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-15 18:41:01 - [MESSAGE][PASSED] - Quicksti.ts:Entered'9988776655 into Telephone
+
+2020-10-15 18:41:01 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:41:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:41:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-15 18:41:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:41:03 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-15 18:41:03 - [MESSAGE][PASSED] - Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:41:03 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:41:03 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:41:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-15 18:41:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:41:07 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:41:07 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:41:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$20.00'
+
+2020-10-15 18:41:07 - [MESSAGE][PASSED] - Actual text '20.00' and expected text '20.00' are matched  using regular expression
+
+2020-10-15 18:41:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-15 18:41:08 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-15 18:41:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...0135'
+
+2020-10-15 18:41:08 - [MESSAGE][PASSED] - Actual text '0135' and expected text '0135' are matched  using regular expression
+
+2020-10-15 18:41:08 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:41:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-15 18:41:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-15 18:41:10 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.20'
+
+2020-10-15 18:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.20'
+
+2020-10-15 18:41:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 0): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-15 18:41:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:41:11 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:41:11 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-15 18:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-15 18:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-15 18:41:16 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:41:16 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-15 18:41:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176129822'
+
+2020-10-15 18:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-15 18:41:17 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-15 18:41:19 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:41:27 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:41:27 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-15 18:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:41:29 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-15 18:41:29 - [MESSAGE][PASSED] - Quicksti.ts:Entered'VVangiliappan into username
+
+2020-10-15 18:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-15 18:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:41:31 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-15 18:41:31 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Test@123 into password
+
+2020-10-15 18:41:31 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-15 18:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-15 18:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-15 18:41:47 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:41:47 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:41:47 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-15 18:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-15 18:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-15 18:41:49 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:41:49 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:41:49 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:41:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-15 18:41:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-15 18:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-15 18:41:56 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:41:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti.ts:Entered'100176129822 into Payment id
+
+2020-10-15 18:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-15 18:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:41:58 - [MESSAGE][PASSED] - Text '100176129822' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-15 18:41:58 - [MESSAGE][PASSED] - Quicksti.ts:Entered'100176129822 into Payment id
+
+2020-10-15 18:41:58 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:41:58 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-15 18:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-15 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-15 18:42:03 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:42:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-15 18:42:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-15 18:42:08 - [TEST_STEP][PASSED] - scrollToPosition(800, 900): Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:42:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:42:08 - [TEST_STEP][PASSED] - pages.Search_Page.validatePaymentAmount(amount_Value, ConvFee): Verified payment details successfully 
+
+2020-10-15 18:42:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/PAYMENT_AMOUNT' is: '$20.00'
+
+2020-10-15 18:42:09 - [MESSAGE][PASSED] - Actual text '20.00' and expected text '20.00' are matched  using regular expression
+
+2020-10-15 18:42:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/CONV_FEE' is: '$0.20'
+
+2020-10-15 18:42:09 - [MESSAGE][PASSED] - Actual text '0.20' and expected text '0.20' are matched  using regular expression
+
+2020-10-15 18:42:09 - [MESSAGE][PASSED] - Verified payment details successfully 
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-15 18:42:09 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-15 18:42:09 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-15 18:42:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-15 18:42:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-15 18:42:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-15 18:42:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-15 18:42:22 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-15 18:42:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX"), "Multi Bureau", [pageLoadTime]): Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:42:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:42:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is clicked on
+
+2020-10-15 18:42:25 - [MESSAGE][PASSED] - Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:42:25 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:42:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:42:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-15 18:42:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:42:28 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-15 18:42:28 - [MESSAGE][PASSED] - Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:42:28 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:42:28 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-15 18:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:42:33 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:42:33 - [TEST_STEP][PASSED] - pages.Quicksti.setCommnets("0", "0", comments): Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:42:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:42:34 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:42:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:42:35 - [MESSAGE][PASSED] - Text 'Testing' is set on object ''
+
+2020-10-15 18:42:35 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:42:35 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT"), paymentAmount, "Payment Amount", [pageLoadTime]): Quicksti.ts:Entered'25.00 into Payment Amount
+
+2020-10-15 18:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-15 18:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:42:38 - [MESSAGE][PASSED] - Text '25.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-15 18:42:38 - [MESSAGE][PASSED] - Quicksti.ts:Entered'25.00 into Payment Amount
+
+2020-10-15 18:42:38 - [TEST_STEP][PASSED] - pages.Quicksti.setAmountDetailsForMultiBureau("0", paymentType, "0", referenceNum, quantity): Quicksti.ts:Entered'2 into Quntity
+
+2020-10-15 18:42:38 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:42:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:42:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-15 18:42:41 - [MESSAGE][PASSED] - All options with label 'Gifts' are selected in object ''  using regular expression
+
+2020-10-15 18:42:41 - [MESSAGE][PASSED] - selected dropdown option by visible text  Giftsfrom Payment Type
+
+2020-10-15 18:42:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:42:42 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:42:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:42:43 - [MESSAGE][PASSED] - Text '12' is set on object ''
+
+2020-10-15 18:42:43 - [MESSAGE][PASSED] - Quicksti.ts:Entered'12 into RefrenceNumber
+
+2020-10-15 18:42:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:42:44 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:42:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:42:45 - [MESSAGE][PASSED] - Text '2' is set on object ''
+
+2020-10-15 18:42:45 - [MESSAGE][PASSED] - Quicksti.ts:Entered'2 into Quntity
+
+2020-10-15 18:42:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:42:45 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-15 18:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-15 18:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-15 18:42:50 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:42:50 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:42:50 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '50.00'
+
+2020-10-15 18:42:50 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:42:50 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti.ts:Entered'5154623208647646 into CardNum
+
+2020-10-15 18:42:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:42:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-15 18:42:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:42:52 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-15 18:42:52 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Tester into FirstName
+
+2020-10-15 18:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-15 18:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:42:55 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-15 18:42:55 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Zenq1 into LAstName
+
+2020-10-15 18:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-15 18:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:42:57 - [MESSAGE][PASSED] - Text '5154623208647646' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-15 18:42:57 - [MESSAGE][PASSED] - Quicksti.ts:Entered'5154623208647646 into CardNum
+
+2020-10-15 18:42:57 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti.ts:Entered'207 into securityCode
+
+2020-10-15 18:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-15 18:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-15 18:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-15 18:43:00 - [MESSAGE][PASSED] - All options with label '04' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-15 18:43:00 - [MESSAGE][PASSED] - selected dropdown option by visible text  04from expMonth
+
+2020-10-15 18:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-15 18:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-15 18:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-15 18:43:03 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-15 18:43:03 - [MESSAGE][PASSED] - selected dropdown option by visible text  2023from  expYear
+
+2020-10-15 18:43:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-15 18:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:43:05 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-15 18:43:05 - [MESSAGE][PASSED] - Quicksti.ts:Entered'207 into securityCode
+
+2020-10-15 18:43:05 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-15 18:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:43:07 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-15 18:43:07 - [MESSAGE][PASSED] - Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:43:07 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-15 18:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:43:10 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-15 18:43:10 - [MESSAGE][PASSED] - Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:43:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti.ts:Entered'9989897654 into Telephone
+
+2020-10-15 18:43:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:43:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-15 18:43:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:43:12 - [MESSAGE][PASSED] - Text '9989897654' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-15 18:43:12 - [MESSAGE][PASSED] - Quicksti.ts:Entered'9989897654 into Telephone
+
+2020-10-15 18:43:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:43:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:43:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-15 18:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:43:14 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-15 18:43:14 - [MESSAGE][PASSED] - Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:43:14 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:43:14 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:43:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-15 18:43:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:43:18 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:43:18 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:43:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$25.00'
+
+2020-10-15 18:43:19 - [MESSAGE][PASSED] - Actual text '25.00' and expected text '25.00' are matched  using regular expression
+
+2020-10-15 18:43:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-15 18:43:19 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-15 18:43:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...7646'
+
+2020-10-15 18:43:20 - [MESSAGE][PASSED] - Actual text '7646' and expected text '7646' are matched  using regular expression
+
+2020-10-15 18:43:20 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:43:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-15 18:43:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-15 18:43:22 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.50'
+
+2020-10-15 18:43:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.50'
+
+2020-10-15 18:43:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 0): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-15 18:43:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:43:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:43:22 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:43:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-15 18:43:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-15 18:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-15 18:43:27 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:43:27 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-15 18:43:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176129826'
+
+2020-10-15 18:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-15 18:43:28 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-15 18:43:30 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:43:36 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:43:36 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-15 18:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:43:38 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-15 18:43:38 - [MESSAGE][PASSED] - Quicksti.ts:Entered'VVangiliappan into username
+
+2020-10-15 18:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-15 18:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:43:40 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-15 18:43:40 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Test@123 into password
+
+2020-10-15 18:43:41 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-15 18:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-15 18:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-15 18:43:50 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:43:50 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:43:50 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-15 18:43:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-15 18:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-15 18:43:52 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:43:52 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:43:52 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:43:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-15 18:43:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-15 18:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-15 18:43:56 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:43:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti.ts:Entered'100176129826 into Payment id
+
+2020-10-15 18:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-15 18:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:43:59 - [MESSAGE][PASSED] - Text '100176129826' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-15 18:43:59 - [MESSAGE][PASSED] - Quicksti.ts:Entered'100176129826 into Payment id
+
+2020-10-15 18:43:59 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:43:59 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-15 18:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-15 18:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-15 18:44:03 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:44:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-15 18:44:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-15 18:44:08 - [TEST_STEP][PASSED] - scrollToPosition(800, 900): Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:44:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:44:08 - [TEST_STEP][PASSED] - pages.Search_Page.validatePaymentAmount(amount_Value, ConvFee): Verified payment details successfully 
+
+2020-10-15 18:44:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/PAYMENT_AMOUNT' is: '$50.00'
+
+2020-10-15 18:44:09 - [MESSAGE][PASSED] - Actual text '50.00' and expected text '50.00' are matched  using regular expression
+
+2020-10-15 18:44:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/CONV_FEE' is: '$0.50'
+
+2020-10-15 18:44:09 - [MESSAGE][PASSED] - Actual text '0.50' and expected text '0.50' are matched  using regular expression
+
+2020-10-15 18:44:09 - [MESSAGE][PASSED] - Verified payment details successfully 
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-15 18:44:09 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-15 18:44:09 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-15 18:44:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-15 18:44:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-15 18:44:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-15 18:44:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-15 18:44:22 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-15 18:44:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX"), "Multi Bureau", [pageLoadTime]): Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:44:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:44:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is clicked on
+
+2020-10-15 18:44:25 - [MESSAGE][PASSED] - Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:44:25 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-15 18:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:44:28 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-15 18:44:28 - [MESSAGE][PASSED] - Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:44:28 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:44:28 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-15 18:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:44:33 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:44:33 - [TEST_STEP][PASSED] - pages.Quicksti.setCommnets("0", "0", comments): Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:44:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:44:34 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:44:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:44:36 - [MESSAGE][PASSED] - Text 'Testing' is set on object ''
+
+2020-10-15 18:44:36 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:44:36 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT"), paymentAmount, "Payment Amount", [pageLoadTime]): Quicksti.ts:Entered'30.00 into Payment Amount
+
+2020-10-15 18:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-15 18:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:44:38 - [MESSAGE][PASSED] - Text '30.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-15 18:44:38 - [MESSAGE][PASSED] - Quicksti.ts:Entered'30.00 into Payment Amount
+
+2020-10-15 18:44:38 - [TEST_STEP][PASSED] - pages.Quicksti.setAmountDetailsForMultiBureau("0", paymentType, "0", referenceNum, quantity): Quicksti.ts:Entered'1 into Quntity
+
+2020-10-15 18:44:38 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:44:39 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:44:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-15 18:44:41 - [MESSAGE][PASSED] - All options with label 'Licenses' are selected in object ''  using regular expression
+
+2020-10-15 18:44:41 - [MESSAGE][PASSED] - selected dropdown option by visible text  Licensesfrom Payment Type
+
+2020-10-15 18:44:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:44:42 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:44:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:44:43 - [MESSAGE][PASSED] - Text '13' is set on object ''
+
+2020-10-15 18:44:43 - [MESSAGE][PASSED] - Quicksti.ts:Entered'13 into RefrenceNumber
+
+2020-10-15 18:44:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:44:44 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:44:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:44:45 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2020-10-15 18:44:45 - [MESSAGE][PASSED] - Quicksti.ts:Entered'1 into Quntity
+
+2020-10-15 18:44:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:44:45 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:44:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-15 18:44:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-15 18:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-15 18:44:50 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:44:50 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:44:50 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '30.00'
+
+2020-10-15 18:44:50 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:44:50 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti.ts:Entered'8171999900000018 into CardNum
+
+2020-10-15 18:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-15 18:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:44:53 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-15 18:44:53 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Tester into FirstName
+
+2020-10-15 18:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-15 18:44:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:44:55 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-15 18:44:55 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Zenq1 into LAstName
+
+2020-10-15 18:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-15 18:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:44:57 - [MESSAGE][PASSED] - Text '8171999900000018' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-15 18:44:57 - [MESSAGE][PASSED] - Quicksti.ts:Entered'8171999900000018 into CardNum
+
+2020-10-15 18:44:57 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti.ts:Entered'111 into securityCode
+
+2020-10-15 18:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-15 18:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-15 18:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-15 18:45:00 - [MESSAGE][PASSED] - All options with label '04' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-15 18:45:00 - [MESSAGE][PASSED] - selected dropdown option by visible text  04from expMonth
+
+2020-10-15 18:45:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-15 18:45:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-15 18:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-15 18:45:03 - [MESSAGE][PASSED] - All options with label '2027' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-15 18:45:03 - [MESSAGE][PASSED] - selected dropdown option by visible text  2027from  expYear
+
+2020-10-15 18:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-15 18:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:45:06 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-15 18:45:06 - [MESSAGE][PASSED] - Quicksti.ts:Entered'111 into securityCode
+
+2020-10-15 18:45:06 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-15 18:45:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:45:08 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-15 18:45:08 - [MESSAGE][PASSED] - Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:45:08 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:45:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-15 18:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:45:10 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-15 18:45:10 - [MESSAGE][PASSED] - Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:45:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti.ts:Entered'9989897654 into Telephone
+
+2020-10-15 18:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:45:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-15 18:45:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:45:12 - [MESSAGE][PASSED] - Text '9989897654' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-15 18:45:12 - [MESSAGE][PASSED] - Quicksti.ts:Entered'9989897654 into Telephone
+
+2020-10-15 18:45:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-15 18:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:45:14 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-15 18:45:14 - [MESSAGE][PASSED] - Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:45:14 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:45:14 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-15 18:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:45:19 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:45:19 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:45:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$30.00'
+
+2020-10-15 18:45:19 - [MESSAGE][PASSED] - Actual text '30.00' and expected text '30.00' are matched  using regular expression
+
+2020-10-15 18:45:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-15 18:45:20 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-15 18:45:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...0018'
+
+2020-10-15 18:45:20 - [MESSAGE][PASSED] - Actual text '0018' and expected text '0018' are matched  using regular expression
+
+2020-10-15 18:45:20 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:45:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-15 18:45:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-15 18:45:22 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$1.00'
+
+2020-10-15 18:45:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$1.00'
+
+2020-10-15 18:45:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 0): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:45:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-15 18:45:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:45:23 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:45:23 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-15 18:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-15 18:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-15 18:45:27 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:45:27 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-15 18:45:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176129830'
+
+2020-10-15 18:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-15 18:45:27 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-15 18:45:29 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:45:35 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:45:35 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:45:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-15 18:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:45:37 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-15 18:45:37 - [MESSAGE][PASSED] - Quicksti.ts:Entered'VVangiliappan into username
+
+2020-10-15 18:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-15 18:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:45:40 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-15 18:45:40 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Test@123 into password
+
+2020-10-15 18:45:40 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:45:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-15 18:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-15 18:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-15 18:45:49 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:45:49 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:45:49 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-15 18:45:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-15 18:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-15 18:45:51 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:45:51 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:45:51 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:45:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-15 18:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-15 18:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-15 18:45:55 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:45:55 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti.ts:Entered'100176129830 into Payment id
+
+2020-10-15 18:45:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:45:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-15 18:45:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:45:58 - [MESSAGE][PASSED] - Text '100176129830' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-15 18:45:58 - [MESSAGE][PASSED] - Quicksti.ts:Entered'100176129830 into Payment id
+
+2020-10-15 18:45:58 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:45:58 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-15 18:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-15 18:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-15 18:46:03 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:46:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-15 18:46:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-15 18:46:08 - [TEST_STEP][PASSED] - scrollToPosition(800, 900): Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:46:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:46:08 - [TEST_STEP][PASSED] - pages.Search_Page.validatePaymentAmount(amount_Value, ConvFee): Verified payment details successfully 
+
+2020-10-15 18:46:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/PAYMENT_AMOUNT' is: '$30.00'
+
+2020-10-15 18:46:08 - [MESSAGE][PASSED] - Actual text '30.00' and expected text '30.00' are matched  using regular expression
+
+2020-10-15 18:46:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/CONV_FEE' is: '$1.00'
+
+2020-10-15 18:46:09 - [MESSAGE][PASSED] - Actual text '1.00' and expected text '1.00' are matched  using regular expression
+
+2020-10-15 18:46:09 - [MESSAGE][PASSED] - Verified payment details successfully 
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-15 18:46:09 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-15 18:46:09 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-15 18:46:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-15 18:46:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-15 18:46:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-15 18:46:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-15 18:46:21 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-15 18:46:21 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX"), "Multi Bureau", [pageLoadTime]): Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:46:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is present
+
+2020-10-15 18:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/MULTI_BUREAU_CHECKBOX' is clicked on
+
+2020-10-15 18:46:24 - [MESSAGE][PASSED] - Quicksti.ts:Checkbox 'Multi Bureau'is selected
+
+2020-10-15 18:46:24 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:46:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:46:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-15 18:46:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-15 18:46:27 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-15 18:46:27 - [MESSAGE][PASSED] - Quicksti.ts:Entered'zenq into Bureau code
+
+2020-10-15 18:46:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:46:27 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:46:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-15 18:46:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:46:33 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next button
+
+2020-10-15 18:46:33 - [TEST_STEP][PASSED] - pages.Quicksti.setCommnets("0", "0", comments): Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:46:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:46:33 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:46:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:46:35 - [MESSAGE][PASSED] - Text 'Testing' is set on object ''
+
+2020-10-15 18:46:35 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Testing into Comments
+
+2020-10-15 18:46:35 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT"), paymentAmount, "Payment Amount", [pageLoadTime]): Quicksti.ts:Entered'35.00 into Payment Amount
+
+2020-10-15 18:46:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-15 18:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-15 18:46:37 - [MESSAGE][PASSED] - Text '35.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-15 18:46:37 - [MESSAGE][PASSED] - Quicksti.ts:Entered'35.00 into Payment Amount
+
+2020-10-15 18:46:37 - [TEST_STEP][PASSED] - pages.Quicksti.setAmountDetailsForMultiBureau("0", paymentType, "0", referenceNum, quantity): Quicksti.ts:Entered'1 into Quntity
+
+2020-10-15 18:46:38 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:46:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:46:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-15 18:46:40 - [MESSAGE][PASSED] - All options with label 'Taxes' are selected in object ''  using regular expression
+
+2020-10-15 18:46:40 - [MESSAGE][PASSED] - selected dropdown option by visible text  Taxesfrom Payment Type
+
+2020-10-15 18:46:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:46:41 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:46:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:46:43 - [MESSAGE][PASSED] - Text '11' is set on object ''
+
+2020-10-15 18:46:43 - [MESSAGE][PASSED] - Quicksti.ts:Entered'11 into RefrenceNumber
+
+2020-10-15 18:46:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:46:43 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-15 18:46:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-15 18:46:45 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2020-10-15 18:46:45 - [MESSAGE][PASSED] - Quicksti.ts:Entered'1 into Quntity
+
+2020-10-15 18:46:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:46:45 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:46:45 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-15 18:46:45 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-15 18:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-15 18:46:49 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the ManualEntry
+
+2020-10-15 18:46:49 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:46:50 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '35.00'
+
+2020-10-15 18:46:50 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-15 18:46:50 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti.ts:Entered'374245003731006 into CardNum
+
+2020-10-15 18:46:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:46:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-15 18:46:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-15 18:46:52 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-15 18:46:52 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Tester into FirstName
+
+2020-10-15 18:46:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:46:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-15 18:46:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-15 18:46:54 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-15 18:46:54 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Zenq1 into LAstName
+
+2020-10-15 18:46:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:46:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-15 18:46:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-15 18:46:56 - [MESSAGE][PASSED] - Text '374245003731006' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-15 18:46:56 - [MESSAGE][PASSED] - Quicksti.ts:Entered'374245003731006 into CardNum
+
+2020-10-15 18:46:56 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti.ts:Entered'111 into securityCode
+
+2020-10-15 18:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-15 18:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-15 18:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-15 18:47:00 - [MESSAGE][PASSED] - All options with label '05' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-15 18:47:00 - [MESSAGE][PASSED] - selected dropdown option by visible text  05from expMonth
+
+2020-10-15 18:47:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-15 18:47:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-15 18:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-15 18:47:03 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-15 18:47:03 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from  expYear
+
+2020-10-15 18:47:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:47:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-15 18:47:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-15 18:47:05 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-15 18:47:05 - [MESSAGE][PASSED] - Quicksti.ts:Entered'111 into securityCode
+
+2020-10-15 18:47:05 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:47:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:47:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-15 18:47:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-15 18:47:07 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-15 18:47:07 - [MESSAGE][PASSED] - Quicksti.ts:Entered'14-2 into Address
+
+2020-10-15 18:47:07 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:47:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-15 18:47:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-15 18:47:09 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-15 18:47:09 - [MESSAGE][PASSED] - Quicksti.ts:Entered'76102 into zipcode
+
+2020-10-15 18:47:09 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti.ts:Entered'9989897654 into Telephone
+
+2020-10-15 18:47:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:47:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-15 18:47:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-15 18:47:11 - [MESSAGE][PASSED] - Text '9989897654' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-15 18:47:11 - [MESSAGE][PASSED] - Quicksti.ts:Entered'9989897654 into Telephone
+
+2020-10-15 18:47:11 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:47:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:47:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-15 18:47:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-15 18:47:13 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-15 18:47:13 - [MESSAGE][PASSED] - Quicksti.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-15 18:47:13 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:47:14 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-15 18:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-15 18:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-15 18:47:18 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Next
+
+2020-10-15 18:47:18 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:47:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$35.00'
+
+2020-10-15 18:47:18 - [MESSAGE][PASSED] - Actual text '35.00' and expected text '35.00' are matched  using regular expression
+
+2020-10-15 18:47:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-15 18:47:19 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-15 18:47:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...1006'
+
+2020-10-15 18:47:19 - [MESSAGE][PASSED] - Actual text '1006' and expected text '1006' are matched  using regular expression
+
+2020-10-15 18:47:19 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-15 18:47:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-15 18:47:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-15 18:47:21 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$1.00'
+
+2020-10-15 18:47:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$1.00'
+
+2020-10-15 18:47:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 0): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:47:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-15 18:47:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-15 18:47:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:47:22 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-15 18:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-15 18:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-15 18:47:25 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Process
+
+2020-10-15 18:47:25 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-15 18:47:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176129838'
+
+2020-10-15 18:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-15 18:47:26 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-15 18:47:28 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:47:34 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-15 18:47:34 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-15 18:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-15 18:47:36 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-15 18:47:36 - [MESSAGE][PASSED] - Quicksti.ts:Entered'VVangiliappan into username
+
+2020-10-15 18:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-15 18:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-15 18:47:38 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-15 18:47:38 - [MESSAGE][PASSED] - Quicksti.ts:Entered'Test@123 into password
+
+2020-10-15 18:47:38 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:47:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-15 18:47:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-15 18:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-15 18:47:45 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the LOGIN
+
+2020-10-15 18:47:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:47:45 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-15 18:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-15 18:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-15 18:47:47 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionMenu
+
+2020-10-15 18:47:47 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:47:47 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:47:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-15 18:47:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-15 18:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-15 18:47:52 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the TransactionSearch
+
+2020-10-15 18:47:52 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti.ts:Entered'100176129838 into Payment id
+
+2020-10-15 18:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-15 18:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-15 18:47:54 - [MESSAGE][PASSED] - Text '100176129838' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-15 18:47:54 - [MESSAGE][PASSED] - Quicksti.ts:Entered'100176129838 into Payment id
+
+2020-10-15 18:47:54 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:47:54 - [MESSAGE][INFO] - safeClicking
+
+2020-10-15 18:47:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-15 18:47:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-15 18:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-15 18:47:59 - [MESSAGE][PASSED] - Quicksti.ts:Clicked on the Go button
+
+2020-10-15 18:47:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-15 18:48:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-15 18:48:04 - [TEST_STEP][PASSED] - scrollToPosition(800, 900): Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:48:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 800, y = 900
+
+2020-10-15 18:48:04 - [TEST_STEP][PASSED] - pages.Search_Page.validatePaymentAmount(amount_Value, ConvFee): Verified payment details successfully 
+
+2020-10-15 18:48:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/PAYMENT_AMOUNT' is: '$35.00'
+
+2020-10-15 18:48:04 - [MESSAGE][PASSED] - Actual text '35.00' and expected text '35.00' are matched  using regular expression
+
+2020-10-15 18:48:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/CONV_FEE' is: '$1.00'
+
+2020-10-15 18:48:04 - [MESSAGE][PASSED] - Actual text '1.00' and expected text '1.00' are matched  using regular expression
+
+2020-10-15 18:48:04 - [MESSAGE][PASSED] - Verified payment details successfully 
+
+2020-10-15 18:48:04 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-15 18:48:04 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-15 18:48:04 - [TEST_STEP][PASSED] - return paymentIdList: null
+
+2020-10-15 18:48:04 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2020-10-15 18:48:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-15 18:48:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-15 18:39:43 - [TEST_SUITE][PASSED] - Quicksti: Test Cases/Certpay_Quicksti/TC_003_MultiBureauSite_SingleBureau_SingleLinePayment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
