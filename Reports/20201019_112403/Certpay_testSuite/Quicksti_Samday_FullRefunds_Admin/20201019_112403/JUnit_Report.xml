@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Quicksti_Samday_FullRefunds_Admin" time="566.326" tests="1" failures="0" errors="0">
+   <testsuite name="Quicksti_Samday_FullRefunds_Admin" tests="1" failures="0" errors="0" time="566.326" timestamp="2020-10-19 11:24:21" hostname="admin - SYS8" id="Test Suites/Certpay_testSuite/Quicksti_Samday_FullRefunds_Admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Sush_Certpay\\Reports\\20201019_112403\\Certpay_testSuite\\Quicksti_Samday_FullRefunds_Admin\\20201019_112403"/>
+         <property name="logFiles" value="E:\\Sush_Certpay\\Reports\\20201019_112403\\Certpay_testSuite\\Quicksti_Samday_FullRefunds_Admin\\20201019_112403\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="172.31.253.251"/>
+         <property name="sessionId" value="2b53b9a6a088a19903fdf5fa8c04c643"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund" time="565.685" classname="Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund" status="PASSED">
+         <system-out><![CDATA[2020-10-19 11:24:21 - [TEST_CASE][PASSED] - Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund: Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund
+
+2020-10-19 11:24:22 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-10-19 11:24:22 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/SingleBureau_SingleLine"): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - paymentIdList = []: null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - for (def index : (1..data.getRowNumbers())): Verified Refund payment details successfully
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-19 11:24:23 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-19 11:24:24 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-19 11:24:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-19 11:24:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-10-19 11:24:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-19 11:24:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-19 11:24:42 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-19 11:24:42 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE"), bureau_code, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:24:43 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:24:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is visible
+
+2020-10-19 11:24:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:24:46 - [MESSAGE][PASSED] - Text '6100000' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE'
+
+2020-10-19 11:24:46 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:24:46 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:24:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-19 11:24:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:24:48 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-19 11:24:48 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:24:48 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:24:48 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:24:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-19 11:24:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:24:53 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:24:53 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:24:53 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-19 11:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-19 11:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-19 11:24:56 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:24:56 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti_Samday_FullRefunds_Admin.ts:Entered'4761739001010135 into CardNum
+
+2020-10-19 11:24:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:24:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-19 11:24:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:24:58 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-19 11:24:58 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Tester into FirstName
+
+2020-10-19 11:24:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:24:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-19 11:24:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:25:01 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-19 11:25:01 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Zenq1 into LAstName
+
+2020-10-19 11:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-19 11:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:25:03 - [MESSAGE][PASSED] - Text '4761739001010135' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-19 11:25:03 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'4761739001010135 into CardNum
+
+2020-10-19 11:25:03 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE"), paymentType, "paymentType", [pageLoadTime]): selected dropdown option by visible text  Taxesfrom paymentType
+
+2020-10-19 11:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is visible
+
+2020-10-19 11:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is present
+
+2020-10-19 11:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is clicked on
+
+2020-10-19 11:25:06 - [MESSAGE][PASSED] - All options with label 'Taxes' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE'  using regular expression
+
+2020-10-19 11:25:06 - [MESSAGE][PASSED] - selected dropdown option by visible text  Taxesfrom paymentType
+
+2020-10-19 11:25:06 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti_Samday_FullRefunds_Admin.ts:Entered'207 into securityCode
+
+2020-10-19 11:25:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-19 11:25:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-19 11:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-19 11:25:09 - [MESSAGE][PASSED] - All options with label '03' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-19 11:25:09 - [MESSAGE][PASSED] - selected dropdown option by visible text  03from expMonth
+
+2020-10-19 11:25:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-19 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-19 11:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-19 11:25:12 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-19 11:25:12 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from  expYear
+
+2020-10-19 11:25:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:25:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-19 11:25:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:25:15 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-19 11:25:15 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'207 into securityCode
+
+2020-10-19 11:25:15 - [TEST_STEP][PASSED] - pages.Quicksti.setPaymentAmountDetailsForSinglePayment(paymentAmount, quantity): Quicksti_Samday_FullRefunds_Admin.ts:Entered'1 into Quantity
+
+2020-10-19 11:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-19 11:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:25:17 - [MESSAGE][PASSED] - Text '20.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-19 11:25:17 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'20.00 into amount
+
+2020-10-19 11:25:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is visible
+
+2020-10-19 11:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:25:19 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY'
+
+2020-10-19 11:25:19 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'1 into Quantity
+
+2020-10-19 11:25:19 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER"), referenceNum, "Reference Number", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'11 into Reference Number
+
+2020-10-19 11:25:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:25:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is visible
+
+2020-10-19 11:25:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:25:21 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER'
+
+2020-10-19 11:25:21 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'11 into Reference Number
+
+2020-10-19 11:25:21 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:25:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '20.00'
+
+2020-10-19 11:25:22 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:25:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:25:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-10-19 11:25:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:25:24 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS'
+
+2020-10-19 11:25:24 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:25:24 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-19 11:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:25:27 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-19 11:25:27 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:25:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-19 11:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:25:29 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-19 11:25:29 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:25:29 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'9988776655 into Telephone
+
+2020-10-19 11:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-19 11:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:25:31 - [MESSAGE][PASSED] - Text '9988776655' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-19 11:25:31 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'9988776655 into Telephone
+
+2020-10-19 11:25:31 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:25:31 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-19 11:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:25:33 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-19 11:25:33 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:25:33 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:25:34 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:25:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-19 11:25:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:25:38 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:25:38 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:25:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$20.00'
+
+2020-10-19 11:25:38 - [MESSAGE][PASSED] - Actual text '20.00' and expected text '20.00' are matched  using regular expression
+
+2020-10-19 11:25:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-19 11:25:39 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-19 11:25:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...0135'
+
+2020-10-19 11:25:39 - [MESSAGE][PASSED] - Actual text '0135' and expected text '0135' are matched  using regular expression
+
+2020-10-19 11:25:39 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:25:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:25:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:25:41 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$4.95'
+
+2020-10-19 11:25:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$4.95'
+
+2020-10-19 11:25:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 30): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:25:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:25:42 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:25:42 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-19 11:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-19 11:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-19 11:25:47 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:25:47 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-19 11:25:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176131544'
+
+2020-10-19 11:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-19 11:25:48 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-19 11:25:50 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:26:03 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:26:03 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-19 11:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:26:05 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-19 11:26:05 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'VVangiliappan into username
+
+2020-10-19 11:26:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-19 11:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:26:07 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-19 11:26:07 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Test@123 into password
+
+2020-10-19 11:26:07 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-19 11:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-19 11:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-19 11:26:18 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:26:18 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:26:18 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-19 11:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-19 11:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-19 11:26:20 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:26:20 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:26:20 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-19 11:26:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-19 11:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-19 11:26:25 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:26:25 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131544 into Payment id
+
+2020-10-19 11:26:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:26:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-19 11:26:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:26:27 - [MESSAGE][PASSED] - Text '100176131544' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-19 11:26:27 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131544 into Payment id
+
+2020-10-19 11:26:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:26:27 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-19 11:26:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-19 11:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-19 11:26:31 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:26:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-19 11:26:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-19 11:26:34 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-19 11:26:34 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-19 11:26:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/ACTIONS_BUTTON"), "Actions button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:26:34 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is present
+
+2020-10-19 11:26:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clickable
+
+2020-10-19 11:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clicked on
+
+2020-10-19 11:26:36 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:26:36 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/REFUND_MENU"), "Refund Menu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:26:36 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is present
+
+2020-10-19 11:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clickable
+
+2020-10-19 11:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clicked on
+
+2020-10-19 11:26:38 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:26:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:26:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:26:40 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/CREDIT_RETURN"), "Credit Return", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:26:40 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is present
+
+2020-10-19 11:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clickable
+
+2020-10-19 11:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clicked on
+
+2020-10-19 11:26:42 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:26:42 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON"), "Set To Full Refund", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:26:42 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is present
+
+2020-10-19 11:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clickable
+
+2020-10-19 11:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clicked on
+
+2020-10-19 11:26:44 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:26:44 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL"), "Process Reversal", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:26:44 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:26:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is present
+
+2020-10-19 11:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clickable
+
+2020-10-19 11:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clicked on
+
+2020-10-19 11:26:46 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:26:46 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-19 11:26:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-19 11:26:50 - [TEST_STEP][PASSED] - pages.Search_Page.validateRefundAmount(amount_Value, ConvFee): Verified Refund payment details successfully
+
+2020-10-19 11:26:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_AMT' is: '$20.00'
+
+2020-10-19 11:26:53 - [MESSAGE][PASSED] - Actual text '20.00' and expected text '20.00' are matched  using regular expression
+
+2020-10-19 11:26:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_CONV_AMT' is: '$4.95'
+
+2020-10-19 11:26:53 - [MESSAGE][PASSED] - Actual text '4.95' and expected text '4.95' are matched  using regular expression
+
+2020-10-19 11:26:53 - [MESSAGE][PASSED] - Verified Refund payment details successfully
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-19 11:26:53 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-19 11:26:53 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-19 11:26:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-19 11:26:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-19 11:27:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-19 11:27:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-19 11:27:07 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-19 11:27:07 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE"), bureau_code, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:27:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:27:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is visible
+
+2020-10-19 11:27:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:27:10 - [MESSAGE][PASSED] - Text '6100000' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE'
+
+2020-10-19 11:27:10 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:27:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-19 11:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:27:12 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-19 11:27:12 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:27:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:27:12 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-19 11:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:27:17 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:27:17 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:27:17 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:27:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-19 11:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-19 11:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-19 11:27:20 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:27:20 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti_Samday_FullRefunds_Admin.ts:Entered'5154623208647646 into CardNum
+
+2020-10-19 11:27:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:27:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-19 11:27:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:27:22 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-19 11:27:22 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Tester into FirstName
+
+2020-10-19 11:27:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:27:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-19 11:27:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:27:25 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-19 11:27:25 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Zenq1 into LAstName
+
+2020-10-19 11:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-19 11:27:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:27:27 - [MESSAGE][PASSED] - Text '5154623208647646' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-19 11:27:27 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'5154623208647646 into CardNum
+
+2020-10-19 11:27:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE"), paymentType, "paymentType", [pageLoadTime]): selected dropdown option by visible text  Giftsfrom paymentType
+
+2020-10-19 11:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is visible
+
+2020-10-19 11:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is present
+
+2020-10-19 11:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is clicked on
+
+2020-10-19 11:27:30 - [MESSAGE][PASSED] - All options with label 'Gifts' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE'  using regular expression
+
+2020-10-19 11:27:30 - [MESSAGE][PASSED] - selected dropdown option by visible text  Giftsfrom paymentType
+
+2020-10-19 11:27:30 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti_Samday_FullRefunds_Admin.ts:Entered'207 into securityCode
+
+2020-10-19 11:27:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-19 11:27:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-19 11:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-19 11:27:33 - [MESSAGE][PASSED] - All options with label '04' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-19 11:27:33 - [MESSAGE][PASSED] - selected dropdown option by visible text  04from expMonth
+
+2020-10-19 11:27:33 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-19 11:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-19 11:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-19 11:27:36 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-19 11:27:36 - [MESSAGE][PASSED] - selected dropdown option by visible text  2023from  expYear
+
+2020-10-19 11:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-19 11:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:27:38 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-19 11:27:38 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'207 into securityCode
+
+2020-10-19 11:27:38 - [TEST_STEP][PASSED] - pages.Quicksti.setPaymentAmountDetailsForSinglePayment(paymentAmount, quantity): Quicksti_Samday_FullRefunds_Admin.ts:Entered'2 into Quantity
+
+2020-10-19 11:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-19 11:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:27:41 - [MESSAGE][PASSED] - Text '25.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-19 11:27:41 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'25.00 into amount
+
+2020-10-19 11:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is visible
+
+2020-10-19 11:27:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:27:43 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY'
+
+2020-10-19 11:27:43 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'2 into Quantity
+
+2020-10-19 11:27:43 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER"), referenceNum, "Reference Number", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'12 into Reference Number
+
+2020-10-19 11:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:27:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is visible
+
+2020-10-19 11:27:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:27:45 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER'
+
+2020-10-19 11:27:45 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'12 into Reference Number
+
+2020-10-19 11:27:45 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:27:46 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '50.00'
+
+2020-10-19 11:27:46 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:27:46 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-10-19 11:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:27:48 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS'
+
+2020-10-19 11:27:48 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:27:48 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:27:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:27:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-19 11:27:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:27:50 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-19 11:27:50 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:27:50 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:27:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-19 11:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:27:52 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-19 11:27:52 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:27:52 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'9989897654 into Telephone
+
+2020-10-19 11:27:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-19 11:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:27:54 - [MESSAGE][PASSED] - Text '9989897654' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-19 11:27:54 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'9989897654 into Telephone
+
+2020-10-19 11:27:54 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:27:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:27:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-19 11:27:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:27:57 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-19 11:27:57 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:27:57 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:27:57 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:27:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-19 11:27:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:28:01 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:28:01 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:28:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$25.00'
+
+2020-10-19 11:28:02 - [MESSAGE][PASSED] - Actual text '25.00' and expected text '25.00' are matched  using regular expression
+
+2020-10-19 11:28:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-19 11:28:02 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-19 11:28:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...7646'
+
+2020-10-19 11:28:02 - [MESSAGE][PASSED] - Actual text '7646' and expected text '7646' are matched  using regular expression
+
+2020-10-19 11:28:02 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:28:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:28:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:28:04 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$4.95'
+
+2020-10-19 11:28:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$4.95'
+
+2020-10-19 11:28:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 30): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:28:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:28:05 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:28:05 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-19 11:28:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-19 11:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-19 11:28:11 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:28:11 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-19 11:28:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176131556'
+
+2020-10-19 11:28:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-19 11:28:12 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-19 11:28:14 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:28:31 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:28:31 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:28:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:28:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-19 11:28:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:28:34 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-19 11:28:34 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'VVangiliappan into username
+
+2020-10-19 11:28:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:28:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-19 11:28:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:28:36 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-19 11:28:36 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Test@123 into password
+
+2020-10-19 11:28:36 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-19 11:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-19 11:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-19 11:28:48 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:28:48 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:28:48 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:28:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-19 11:28:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-19 11:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-19 11:28:50 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:28:50 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:28:50 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-19 11:28:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-19 11:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-19 11:28:59 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:28:59 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131556 into Payment id
+
+2020-10-19 11:28:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-19 11:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:29:01 - [MESSAGE][PASSED] - Text '100176131556' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-19 11:29:01 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131556 into Payment id
+
+2020-10-19 11:29:01 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:29:01 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-19 11:29:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-19 11:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-19 11:29:05 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:29:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-19 11:29:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-19 11:29:08 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-19 11:29:08 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-19 11:29:08 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/ACTIONS_BUTTON"), "Actions button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:29:08 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is present
+
+2020-10-19 11:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clickable
+
+2020-10-19 11:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clicked on
+
+2020-10-19 11:29:10 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:29:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/REFUND_MENU"), "Refund Menu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:29:10 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is present
+
+2020-10-19 11:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clickable
+
+2020-10-19 11:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clicked on
+
+2020-10-19 11:29:12 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:29:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:29:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:29:14 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/CREDIT_RETURN"), "Credit Return", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:29:14 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is present
+
+2020-10-19 11:29:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clickable
+
+2020-10-19 11:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clicked on
+
+2020-10-19 11:29:16 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:29:16 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON"), "Set To Full Refund", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:29:16 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is present
+
+2020-10-19 11:29:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clickable
+
+2020-10-19 11:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clicked on
+
+2020-10-19 11:29:18 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:29:18 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL"), "Process Reversal", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:29:18 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is present
+
+2020-10-19 11:29:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clickable
+
+2020-10-19 11:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clicked on
+
+2020-10-19 11:29:19 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:29:19 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-19 11:29:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-19 11:29:23 - [TEST_STEP][PASSED] - pages.Search_Page.validateRefundAmount(amount_Value, ConvFee): Verified Refund payment details successfully
+
+2020-10-19 11:29:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_AMT' is: '$50.00'
+
+2020-10-19 11:29:25 - [MESSAGE][PASSED] - Actual text '50.00' and expected text '50.00' are matched  using regular expression
+
+2020-10-19 11:29:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_CONV_AMT' is: '$4.95'
+
+2020-10-19 11:29:25 - [MESSAGE][PASSED] - Actual text '4.95' and expected text '4.95' are matched  using regular expression
+
+2020-10-19 11:29:25 - [MESSAGE][PASSED] - Verified Refund payment details successfully
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-19 11:29:25 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-19 11:29:25 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-19 11:29:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-19 11:29:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-19 11:29:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-19 11:29:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-19 11:29:37 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-19 11:29:37 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE"), bureau_code, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:29:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:29:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is visible
+
+2020-10-19 11:29:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:29:39 - [MESSAGE][PASSED] - Text '6100000' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE'
+
+2020-10-19 11:29:39 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:29:39 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-19 11:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:29:41 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-19 11:29:41 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:29:41 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:29:41 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-19 11:29:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:29:46 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:29:46 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:29:46 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-19 11:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-19 11:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-19 11:29:49 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:29:49 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti_Samday_FullRefunds_Admin.ts:Entered'8171999900000018 into CardNum
+
+2020-10-19 11:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-19 11:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:29:51 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-19 11:29:51 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Tester into FirstName
+
+2020-10-19 11:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-19 11:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:29:54 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-19 11:29:54 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Zenq1 into LAstName
+
+2020-10-19 11:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-19 11:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:29:56 - [MESSAGE][PASSED] - Text '8171999900000018' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-19 11:29:56 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'8171999900000018 into CardNum
+
+2020-10-19 11:29:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE"), paymentType, "paymentType", [pageLoadTime]): selected dropdown option by visible text  Licensesfrom paymentType
+
+2020-10-19 11:29:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is visible
+
+2020-10-19 11:29:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is present
+
+2020-10-19 11:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is clicked on
+
+2020-10-19 11:29:59 - [MESSAGE][PASSED] - All options with label 'Licenses' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE'  using regular expression
+
+2020-10-19 11:29:59 - [MESSAGE][PASSED] - selected dropdown option by visible text  Licensesfrom paymentType
+
+2020-10-19 11:29:59 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti_Samday_FullRefunds_Admin.ts:Entered'111 into securityCode
+
+2020-10-19 11:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-19 11:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-19 11:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-19 11:30:02 - [MESSAGE][PASSED] - All options with label '04' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-19 11:30:02 - [MESSAGE][PASSED] - selected dropdown option by visible text  04from expMonth
+
+2020-10-19 11:30:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-19 11:30:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-19 11:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-19 11:30:05 - [MESSAGE][PASSED] - All options with label '2027' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-19 11:30:05 - [MESSAGE][PASSED] - selected dropdown option by visible text  2027from  expYear
+
+2020-10-19 11:30:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:30:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-19 11:30:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:30:08 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-19 11:30:08 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'111 into securityCode
+
+2020-10-19 11:30:08 - [TEST_STEP][PASSED] - pages.Quicksti.setPaymentAmountDetailsForSinglePayment(paymentAmount, quantity): Quicksti_Samday_FullRefunds_Admin.ts:Entered'1 into Quantity
+
+2020-10-19 11:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-19 11:30:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:30:10 - [MESSAGE][PASSED] - Text '30.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-19 11:30:10 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'30.00 into amount
+
+2020-10-19 11:30:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:30:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is visible
+
+2020-10-19 11:30:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:30:12 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY'
+
+2020-10-19 11:30:12 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'1 into Quantity
+
+2020-10-19 11:30:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER"), referenceNum, "Reference Number", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'13 into Reference Number
+
+2020-10-19 11:30:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:30:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is visible
+
+2020-10-19 11:30:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:30:15 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER'
+
+2020-10-19 11:30:15 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'13 into Reference Number
+
+2020-10-19 11:30:15 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:30:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '30.00'
+
+2020-10-19 11:30:15 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:30:15 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:30:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-10-19 11:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:30:17 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS'
+
+2020-10-19 11:30:17 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:30:17 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:30:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:30:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-19 11:30:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:30:19 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-19 11:30:19 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:30:19 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:30:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:30:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-19 11:30:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:30:22 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-19 11:30:22 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:30:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'9989897654 into Telephone
+
+2020-10-19 11:30:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:30:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-19 11:30:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:30:24 - [MESSAGE][PASSED] - Text '9989897654' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-19 11:30:24 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'9989897654 into Telephone
+
+2020-10-19 11:30:24 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:30:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:30:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-19 11:30:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:30:26 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-19 11:30:26 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:30:26 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:30:26 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:30:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-19 11:30:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:30:30 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:30:30 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:30:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$30.00'
+
+2020-10-19 11:30:30 - [MESSAGE][PASSED] - Actual text '30.00' and expected text '30.00' are matched  using regular expression
+
+2020-10-19 11:30:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-19 11:30:30 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-19 11:30:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...0018'
+
+2020-10-19 11:30:31 - [MESSAGE][PASSED] - Actual text '0018' and expected text '0018' are matched  using regular expression
+
+2020-10-19 11:30:31 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:30:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:30:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:30:33 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.65'
+
+2020-10-19 11:30:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.65'
+
+2020-10-19 11:30:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 30): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:30:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:30:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:30:34 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:30:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-19 11:30:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-19 11:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-19 11:30:38 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:30:38 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-19 11:30:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176131564'
+
+2020-10-19 11:30:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-19 11:30:39 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-19 11:30:41 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:30:49 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:30:49 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:30:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:30:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-19 11:30:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:30:51 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-19 11:30:51 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'VVangiliappan into username
+
+2020-10-19 11:30:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:30:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-19 11:30:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:30:53 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-19 11:30:53 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Test@123 into password
+
+2020-10-19 11:30:53 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:30:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-19 11:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-19 11:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-19 11:31:04 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:31:04 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:31:04 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-19 11:31:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-19 11:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-19 11:31:06 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:31:06 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:31:06 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-19 11:31:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-19 11:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-19 11:31:10 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:31:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131564 into Payment id
+
+2020-10-19 11:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:31:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-19 11:31:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:31:12 - [MESSAGE][PASSED] - Text '100176131564' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-19 11:31:12 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131564 into Payment id
+
+2020-10-19 11:31:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:31:12 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-19 11:31:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-19 11:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-19 11:31:16 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:31:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-19 11:31:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-19 11:31:19 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-19 11:31:19 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-19 11:31:19 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/ACTIONS_BUTTON"), "Actions button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:31:19 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is present
+
+2020-10-19 11:31:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clickable
+
+2020-10-19 11:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clicked on
+
+2020-10-19 11:31:21 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:31:21 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/REFUND_MENU"), "Refund Menu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:31:21 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is present
+
+2020-10-19 11:31:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clickable
+
+2020-10-19 11:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clicked on
+
+2020-10-19 11:31:23 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:31:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:31:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:31:25 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/CREDIT_RETURN"), "Credit Return", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:31:25 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is present
+
+2020-10-19 11:31:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clickable
+
+2020-10-19 11:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clicked on
+
+2020-10-19 11:31:27 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:31:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON"), "Set To Full Refund", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:31:27 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is present
+
+2020-10-19 11:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clickable
+
+2020-10-19 11:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clicked on
+
+2020-10-19 11:31:29 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:31:29 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL"), "Process Reversal", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:31:29 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is present
+
+2020-10-19 11:31:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clickable
+
+2020-10-19 11:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clicked on
+
+2020-10-19 11:31:31 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:31:31 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-19 11:31:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-19 11:31:35 - [TEST_STEP][PASSED] - pages.Search_Page.validateRefundAmount(amount_Value, ConvFee): Verified Refund payment details successfully
+
+2020-10-19 11:31:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_AMT' is: '$30.00'
+
+2020-10-19 11:31:35 - [MESSAGE][PASSED] - Actual text '30.00' and expected text '30.00' are matched  using regular expression
+
+2020-10-19 11:31:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_CONV_AMT' is: '$0.65'
+
+2020-10-19 11:31:36 - [MESSAGE][PASSED] - Actual text '0.65' and expected text '0.65' are matched  using regular expression
+
+2020-10-19 11:31:36 - [MESSAGE][PASSED] - Verified Refund payment details successfully
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-10-19 11:31:36 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): Browser launched successfully
+
+2020-10-19 11:31:36 - [MESSAGE][INFO] - Opening Browser
+
+2020-10-19 11:31:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-19 11:31:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-19 11:31:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpayquicksti.faps.net/'
+
+2020-10-19 11:31:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-19 11:31:49 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-10-19 11:31:49 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE"), bureau_code, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:31:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:31:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is visible
+
+2020-10-19 11:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE' is present
+
+2020-10-19 11:31:51 - [MESSAGE][PASSED] - Text '6100000' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/BUREAU_CODE'
+
+2020-10-19 11:31:51 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'6100000 into Bureau code
+
+2020-10-19 11:31:51 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Login_ Page/TELLER_ID"), teller_id, "Bureau code", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is visible
+
+2020-10-19 11:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID' is present
+
+2020-10-19 11:31:53 - [MESSAGE][PASSED] - Text 'zenq' is set on object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/TELLER_ID'
+
+2020-10-19 11:31:53 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'zenq into Bureau code
+
+2020-10-19 11:31:53 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON"), "Next button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:31:53 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is present
+
+2020-10-19 11:31:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Login_ Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:31:57 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next button
+
+2020-10-19 11:31:57 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON"), "ManualEntry", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:31:57 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:31:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is present
+
+2020-10-19 11:31:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clickable
+
+2020-10-19 11:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/MANUAL_ENTRY_BUTTON' is clicked on
+
+2020-10-19 11:32:00 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the ManualEntry
+
+2020-10-19 11:32:00 - [TEST_STEP][PASSED] - CardNumber = pages.Quicksti.setUserPaymentDetails(firstName, lastName, cardNum): Quicksti_Samday_FullRefunds_Admin.ts:Entered'374245003731006 into CardNum
+
+2020-10-19 11:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is visible
+
+2020-10-19 11:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME' is present
+
+2020-10-19 11:32:02 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/FIRST_NAME'
+
+2020-10-19 11:32:02 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Tester into FirstName
+
+2020-10-19 11:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is visible
+
+2020-10-19 11:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME' is present
+
+2020-10-19 11:32:05 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/LAST_NAME'
+
+2020-10-19 11:32:05 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Zenq1 into LAstName
+
+2020-10-19 11:32:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:32:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-10-19 11:32:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-10-19 11:32:07 - [MESSAGE][PASSED] - Text '374245003731006' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-10-19 11:32:07 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'374245003731006 into CardNum
+
+2020-10-19 11:32:07 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE"), paymentType, "paymentType", [pageLoadTime]): selected dropdown option by visible text  Taxesfrom paymentType
+
+2020-10-19 11:32:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is visible
+
+2020-10-19 11:32:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is present
+
+2020-10-19 11:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE' is clicked on
+
+2020-10-19 11:32:10 - [MESSAGE][PASSED] - All options with label 'Taxes' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_TYPE'  using regular expression
+
+2020-10-19 11:32:10 - [MESSAGE][PASSED] - selected dropdown option by visible text  Taxesfrom paymentType
+
+2020-10-19 11:32:10 - [TEST_STEP][PASSED] - pages.Quicksti.setExpDate(expMonth, expYear, securityCode): Quicksti_Samday_FullRefunds_Admin.ts:Entered'111 into securityCode
+
+2020-10-19 11:32:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-10-19 11:32:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-10-19 11:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-10-19 11:32:13 - [MESSAGE][PASSED] - All options with label '05' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-10-19 11:32:13 - [MESSAGE][PASSED] - selected dropdown option by visible text  05from expMonth
+
+2020-10-19 11:32:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-10-19 11:32:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-10-19 11:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-10-19 11:32:17 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-10-19 11:32:17 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from  expYear
+
+2020-10-19 11:32:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:32:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-10-19 11:32:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-10-19 11:32:19 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-10-19 11:32:19 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'111 into securityCode
+
+2020-10-19 11:32:19 - [TEST_STEP][PASSED] - pages.Quicksti.setPaymentAmountDetailsForSinglePayment(paymentAmount, quantity): Quicksti_Samday_FullRefunds_Admin.ts:Entered'1 into Quantity
+
+2020-10-19 11:32:19 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:32:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is visible
+
+2020-10-19 11:32:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT' is present
+
+2020-10-19 11:32:21 - [MESSAGE][PASSED] - Text '35.00' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/PAYMENT_AMOUNT'
+
+2020-10-19 11:32:21 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'35.00 into amount
+
+2020-10-19 11:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is visible
+
+2020-10-19 11:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY' is present
+
+2020-10-19 11:32:24 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/QUANTITY'
+
+2020-10-19 11:32:24 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'1 into Quantity
+
+2020-10-19 11:32:24 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER"), referenceNum, "Reference Number", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'11 into Reference Number
+
+2020-10-19 11:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is visible
+
+2020-10-19 11:32:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER' is present
+
+2020-10-19 11:32:26 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/REFRENCE_NUMBER'
+
+2020-10-19 11:32:26 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'11 into Reference Number
+
+2020-10-19 11:32:26 - [TEST_STEP][PASSED] - amount_Value = pages.Quicksti.getAttributeValue(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL")): pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:32:26 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/SUB_TOTAL' is: '35.00'
+
+2020-10-19 11:32:26 - [MESSAGE][PASSED] - pages.Quicksti.getAttributeValue is PASSED
+
+2020-10-19 11:32:26 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:32:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:32:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-10-19 11:32:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-10-19 11:32:29 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/COMMENTS'
+
+2020-10-19 11:32:29 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Testing into Comments
+
+2020-10-19 11:32:29 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS"), address, "Address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is visible
+
+2020-10-19 11:32:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS' is present
+
+2020-10-19 11:32:31 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ADDRESS'
+
+2020-10-19 11:32:31 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'14-2 into Address
+
+2020-10-19 11:32:31 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE"), zipCode, "zipcode", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:32:31 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is visible
+
+2020-10-19 11:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE' is present
+
+2020-10-19 11:32:33 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/ZIP_CODE'
+
+2020-10-19 11:32:33 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'76102 into zipcode
+
+2020-10-19 11:32:33 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE"), telephone, "Telephone", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'9989897654 into Telephone
+
+2020-10-19 11:32:33 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:32:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is visible
+
+2020-10-19 11:32:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE' is present
+
+2020-10-19 11:32:35 - [MESSAGE][PASSED] - Text '9989897654' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/TELEPHONE'
+
+2020-10-19 11:32:35 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'9989897654 into Telephone
+
+2020-10-19 11:32:35 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS"), emailAddress, "EMAIL address", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:32:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:32:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is visible
+
+2020-10-19 11:32:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS' is present
+
+2020-10-19 11:32:38 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/EMAIL_ADDRESS'
+
+2020-10-19 11:32:38 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'testing@zenq.com into EMAIL address
+
+2020-10-19 11:32:38 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON"), "Next", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:32:38 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is present
+
+2020-10-19 11:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clickable
+
+2020-10-19 11:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/NEXT_BUTTON' is clicked on
+
+2020-10-19 11:32:42 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Next
+
+2020-10-19 11:32:42 - [TEST_STEP][PASSED] - pages.Quicksti.verifyUserPaymentDetails(paymentAmount, firstName, lastName, CardNumber): pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:32:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/AMOUNT' is: '$35.00'
+
+2020-10-19 11:32:42 - [MESSAGE][PASSED] - Actual text '35.00' and expected text '35.00' are matched  using regular expression
+
+2020-10-19 11:32:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/NAME' is: 'Tester Zenq1'
+
+2020-10-19 11:32:42 - [MESSAGE][PASSED] - Actual text 'Tester Zenq1' and expected text 'Tester Zenq1' are matched  using regular expression
+
+2020-10-19 11:32:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/CARD_NUMBER' is: '...1006'
+
+2020-10-19 11:32:43 - [MESSAGE][PASSED] - Actual text '1006' and expected text '1006' are matched  using regular expression
+
+2020-10-19 11:32:43 - [MESSAGE][PASSED] - pages.Quicksti.verifyUserPaymentDetails is PASSED
+
+2020-10-19 11:32:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:32:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:32:45 - [TEST_STEP][PASSED] - ConvFee = getText(findTestObject("CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE")): Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.87'
+
+2020-10-19 11:32:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Information_Page/CONV_FEE' is: '$0.87'
+
+2020-10-19 11:32:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), 30): Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:32:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' successfully
+
+2020-10-19 11:32:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS"), "Process", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:32:46 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:32:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is present
+
+2020-10-19 11:32:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clickable
+
+2020-10-19 11:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PROCESS' is clicked on
+
+2020-10-19 11:32:51 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process
+
+2020-10-19 11:32:51 - [TEST_STEP][PASSED] - paymentId = pages.Quicksti.verifyPaymentApproval(findTestObject("CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED")): Payment is approved
+
+2020-10-19 11:32:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/PAYMENT_ID' is: '100176131568'
+
+2020-10-19 11:32:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_QUICKSTI/Payment_Details_Verification_Page/APPROVED' is present
+
+2020-10-19 11:32:51 - [MESSAGE][PASSED] - Payment is approved
+
+2020-10-19 11:32:53 - [TEST_STEP][PASSED] - navigateToUrl(Admin_url): Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:32:59 - [MESSAGE][PASSED] - Navigate to 'https://qa-certpayadmin.faps.net' successfully
+
+2020-10-19 11:32:59 - [TEST_STEP][PASSED] - pages.Bureau_Login_Page.loginToAdminSite(AdminUsername, AdminPassword): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is visible
+
+2020-10-19 11:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/USER_NAME' is present
+
+2020-10-19 11:33:01 - [MESSAGE][PASSED] - Text 'VVangiliappan' is set on object 'Object Repository/CERTPAY_ADMIN/USER_NAME'
+
+2020-10-19 11:33:01 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'VVangiliappan into username
+
+2020-10-19 11:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is visible
+
+2020-10-19 11:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PASSWORD' is present
+
+2020-10-19 11:33:04 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/CERTPAY_ADMIN/PASSWORD'
+
+2020-10-19 11:33:04 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'Test@123 into password
+
+2020-10-19 11:33:04 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is present
+
+2020-10-19 11:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clickable
+
+2020-10-19 11:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/LOGIN_BUTTON' is clicked on
+
+2020-10-19 11:33:13 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the LOGIN
+
+2020-10-19 11:33:13 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_MENU"), "TransactionMenu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:33:13 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is present
+
+2020-10-19 11:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clickable
+
+2020-10-19 11:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_MENU' is clicked on
+
+2020-10-19 11:33:15 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionMenu
+
+2020-10-19 11:33:15 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/TRANSACTION_SEARCH"), "TransactionSearch", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:33:15 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is present
+
+2020-10-19 11:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clickable
+
+2020-10-19 11:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/TRANSACTION_SEARCH' is clicked on
+
+2020-10-19 11:33:19 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the TransactionSearch
+
+2020-10-19 11:33:19 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_ADMIN/PAYMENT_ID"), paymentId, "Payment id", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131568 into Payment id
+
+2020-10-19 11:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is visible
+
+2020-10-19 11:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID' is present
+
+2020-10-19 11:33:21 - [MESSAGE][PASSED] - Text '100176131568' is set on object 'Object Repository/CERTPAY_ADMIN/PAYMENT_ID'
+
+2020-10-19 11:33:21 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Entered'100176131568 into Payment id
+
+2020-10-19 11:33:21 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/GO_BUTTON"), "Go button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:33:22 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is present
+
+2020-10-19 11:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clickable
+
+2020-10-19 11:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/GO_BUTTON' is clicked on
+
+2020-10-19 11:33:27 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Go button
+
+2020-10-19 11:33:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-19 11:33:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-19 11:33:30 - [TEST_STEP][PASSED] - paymentIdList.add(paymentId): null
+
+2020-10-19 11:33:30 - [TEST_STEP][PASSED] - println(paymentIdList): null
+
+2020-10-19 11:33:30 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/ACTIONS_BUTTON"), "Actions button", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:33:30 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is present
+
+2020-10-19 11:33:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clickable
+
+2020-10-19 11:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/ACTIONS_BUTTON' is clicked on
+
+2020-10-19 11:33:31 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Actions button
+
+2020-10-19 11:33:31 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/REFUND_MENU"), "Refund Menu", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:33:31 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is present
+
+2020-10-19 11:33:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clickable
+
+2020-10-19 11:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/REFUND_MENU' is clicked on
+
+2020-10-19 11:33:33 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Refund Menu
+
+2020-10-19 11:33:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-19 11:33:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-19 11:33:35 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_ADMIN/CREDIT_RETURN"), "Credit Return", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:33:35 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is present
+
+2020-10-19 11:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clickable
+
+2020-10-19 11:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/CREDIT_RETURN' is clicked on
+
+2020-10-19 11:33:37 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Credit Return
+
+2020-10-19 11:33:37 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON"), "Set To Full Refund", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:33:37 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is present
+
+2020-10-19 11:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clickable
+
+2020-10-19 11:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/FULL_REFUND_BUTTON' is clicked on
+
+2020-10-19 11:33:39 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Set To Full Refund
+
+2020-10-19 11:33:39 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL"), "Process Reversal", [pageLoadTime]): Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:33:39 - [MESSAGE][INFO] - safeClicking
+
+2020-10-19 11:33:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is present
+
+2020-10-19 11:33:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clickable
+
+2020-10-19 11:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_ADMIN/PROCESS_REVERSAL' is clicked on
+
+2020-10-19 11:33:41 - [MESSAGE][PASSED] - Quicksti_Samday_FullRefunds_Admin.ts:Clicked on the Process Reversal
+
+2020-10-19 11:33:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-19 11:33:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-19 11:33:45 - [TEST_STEP][PASSED] - pages.Search_Page.validateRefundAmount(amount_Value, ConvFee): Verified Refund payment details successfully
+
+2020-10-19 11:33:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_AMT' is: '$35.00'
+
+2020-10-19 11:33:46 - [MESSAGE][PASSED] - Actual text '35.00' and expected text '35.00' are matched  using regular expression
+
+2020-10-19 11:33:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/CERTPAY_ADMIN/REFUND_CONV_AMT' is: '$0.87'
+
+2020-10-19 11:33:46 - [MESSAGE][PASSED] - Actual text '0.87' and expected text '0.87' are matched  using regular expression
+
+2020-10-19 11:33:46 - [MESSAGE][PASSED] - Verified Refund payment details successfully
+
+2020-10-19 11:33:46 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2020-10-19 11:33:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-19 11:33:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-19 11:24:21 - [TEST_SUITE][PASSED] - Quicksti_Samday_FullRefunds_Admin: Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/Certpay_testSuite/Quicksti')
+suiteProperties.put('id', 'Test Suites/Certpay_testSuite/Quicksti_Samday_FullRefunds_Admin')
 
-suiteProperties.put('name', 'Quicksti')
+suiteProperties.put('name', 'Quicksti_Samday_FullRefunds_Admin')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\Sush_Certpay\\Reports\\20201016_154842\\Certpay_testSuite\\Quicksti\\20201016_154842\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\Sush_Certpay\\Reports\\20201019_102811\\Certpay_testSuite\\Quicksti_Samday_FullRefunds_Admin\\20201019_102811\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Certpay_testSuite/Quicksti', suiteProperties, new File("E:\\Sush_Certpay\\Reports\\20201016_154842\\Certpay_testSuite\\Quicksti\\20201016_154842\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Certpay_testSuite/Quicksti_Samday_FullRefunds_Admin', suiteProperties, new File("E:\\Sush_Certpay\\Reports\\20201019_102811\\Certpay_testSuite\\Quicksti_Samday_FullRefunds_Admin\\20201019_102811\\testCaseBinding"))

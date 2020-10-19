@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;BureauTable000&quot;]/tbody/tr[3]/td[1]/span[5]</value>
+         <value>//div[@id='transactions']/table/tbody/tr[3]/td[1]/span[5]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
