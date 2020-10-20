@@ -6,11 +6,11 @@
    <elementGuidId>6af949cc-c809-4491-8313-bb8449863583</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='RefundTypeCredit']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;refundForm&quot;]/div/div[2]/div[1]/div[2]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>c4d34480-59a2-4db5-8e63-5d486d18913d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;BureauTable000&quot;]/tbody/tr[3]/td[1]/span[5]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='transactions']/table/tbody/tr[3]/td[1]/span[5]
-</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

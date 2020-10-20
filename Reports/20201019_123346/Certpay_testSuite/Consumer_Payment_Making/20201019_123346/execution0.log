@@ -1,0 +1,3754 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-19T12:33:51</date>
+  <millis>1603091031852</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Certpay_testSuite/Consumer_Payment_Making</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Consumer_Payment_Making</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Certpay_testSuite/Consumer_Payment_Making</property>
+</record>
+<record>
+  <date>2020-10-19T12:33:51</date>
+  <millis>1603091031890</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = admin - SYS8</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">admin - SYS8</property>
+</record>
+<record>
+  <date>2020-10-19T12:33:51</date>
+  <millis>1603091031891</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 32bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 32bit</property>
+</record>
+<record>
+  <date>2020-10-19T12:33:51</date>
+  <millis>1603091031892</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.31.253.251</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.31.253.251</property>
+</record>
+<record>
+  <date>2020-10-19T12:33:51</date>
+  <millis>1603091031893</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.1.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.1.2.1</property>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032151</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</property>
+  <property name="source">E:\\Sush_Certpay\\Test Cases\\Consumer_Make_Payment\\TC_001_Credit_SingleLine_Payment.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032357</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 16.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032371</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032381</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) bureauCode = 6100000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032393</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Susmitha</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032404</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = Angana</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032413</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9640400667</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032424</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 14-2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032436</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76102</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032446</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) cardNum = 374245003731006</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032456</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 111</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032468</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expYear = 2025</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032478</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expMonth = 03</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032489</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) CardType = American Express</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032499</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032512</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last4Digits = 1006</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032522</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last5Digits = 31006</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032533</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Taxes</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032544</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) accNum = 123456</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032546</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032553</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:52</date>
+  <millis>1603091032877</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Certpay application</property>
+</record>
+<record>
+  <date>2020-10-19T12:33:53</date>
+  <millis>1603091033128</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:53</date>
+  <millis>1603091033424</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:33:53</date>
+  <millis>1603091033505</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:01</date>
+  <millis>1603091041091</millis>
+  <sequence>36</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = c7dcc9fee74da94019764673d1ccc86d</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">c7dcc9fee74da94019764673d1ccc86d</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:01</date>
+  <millis>1603091041118</millis>
+  <sequence>37</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 86.0.4240.75</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 86.0.4240.75</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:01</date>
+  <millis>1603091041119</millis>
+  <sequence>38</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:01</date>
+  <millis>1603091041120</millis>
+  <sequence>39</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:01</date>
+  <millis>1603091041121</millis>
+  <sequence>40</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:06</date>
+  <millis>1603091046199</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:08</date>
+  <millis>1603091048394</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:08</date>
+  <millis>1603091048396</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser launched successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:08</date>
+  <millis>1603091048397</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:08</date>
+  <millis>1603091048397</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeType(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/BUREAU_CODE\&amp;quot;), bureauCode, \&amp;quot;Bureau code\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Enter valid Bureau code</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:09</date>
+  <millis>1603091049017</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:09</date>
+  <millis>1603091049491</millis>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:09</date>
+  <millis>1603091049778</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:11</date>
+  <millis>1603091051525</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;6100000&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:11</date>
+  <millis>1603091051528</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;6100000 into Bureau code</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:11</date>
+  <millis>1603091051529</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeType(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/BUREAU_CODE\&amp;quot;), bureauCode, \&amp;quot;Bureau code\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:11</date>
+  <millis>1603091051530</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT\&amp;quot;), \&amp;quot;Begin payment\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Click on &apos;Begin Payment&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:11</date>
+  <millis>1603091051594</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:11</date>
+  <millis>1603091051905</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:12</date>
+  <millis>1603091052724</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:17</date>
+  <millis>1603091057779</millis>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:17</date>
+  <millis>1603091057780</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Begin payment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:17</date>
+  <millis>1603091057781</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT\&amp;quot;), \&amp;quot;Begin payment\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:17</date>
+  <millis>1603091057782</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Click on &apos;Continue&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:17</date>
+  <millis>1603091057934</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:19</date>
+  <millis>1603091059148</millis>
+  <sequence>131</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:19</date>
+  <millis>1603091059432</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:24</date>
+  <millis>1603091064106</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:24</date>
+  <millis>1603091064108</millis>
+  <sequence>155</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Continue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:24</date>
+  <millis>1603091064109</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:24</date>
+  <millis>1603091064110</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeCheck(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/BANK_CARD\&amp;quot;), \&amp;quot;Bank card\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Select &apos;Bank card&apos; radio button</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:24</date>
+  <millis>1603091064464</millis>
+  <sequence>165</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:25</date>
+  <millis>1603091065541</millis>
+  <sequence>177</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:26</date>
+  <millis>1603091066687</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:26</date>
+  <millis>1603091066687</millis>
+  <sequence>193</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Checkbox &amp;apos;Bank card&amp;apos;is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:26</date>
+  <millis>1603091066688</millis>
+  <sequence>194</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeCheck(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/BANK_CARD\&amp;quot;), \&amp;quot;Bank card\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:26</date>
+  <millis>1603091066688</millis>
+  <sequence>195</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Payment_Page.setAmount(\&amp;quot;1\&amp;quot;, paymentAmount, \&amp;quot;testing\&amp;quot;, referenceNum)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+  <property name="description">Enter Payment Amount,reference num,comments</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:26</date>
+  <millis>1603091066995</millis>
+  <sequence>202</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:27</date>
+  <millis>1603091067309</millis>
+  <sequence>209</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:27</date>
+  <millis>1603091067578</millis>
+  <sequence>216</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:28</date>
+  <millis>1603091068934</millis>
+  <sequence>231</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;16.00&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:28</date>
+  <millis>1603091068934</millis>
+  <sequence>232</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;16.00 into Amount</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:29</date>
+  <millis>1603091069215</millis>
+  <sequence>239</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:29</date>
+  <millis>1603091069551</millis>
+  <sequence>246</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:29</date>
+  <millis>1603091069835</millis>
+  <sequence>253</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:31</date>
+  <millis>1603091071102</millis>
+  <sequence>268</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;11&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:31</date>
+  <millis>1603091071103</millis>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;11 into Amount</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:31</date>
+  <millis>1603091071402</millis>
+  <sequence>276</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:31</date>
+  <millis>1603091071732</millis>
+  <sequence>283</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:32</date>
+  <millis>1603091072020</millis>
+  <sequence>290</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073340</millis>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;testing&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073341</millis>
+  <sequence>306</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;testing into Comments</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073342</millis>
+  <sequence>307</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Payment_Page.setAmount(\&amp;quot;1\&amp;quot;, paymentAmount, \&amp;quot;testing\&amp;quot;, referenceNum)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073342</millis>
+  <sequence>308</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073365</millis>
+  <sequence>310</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073385</millis>
+  <sequence>311</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073385</millis>
+  <sequence>312</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073386</millis>
+  <sequence>313</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CARD_TYPE\&amp;quot;), CardType, \&amp;quot;CardType\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+  <property name="description">Select &apos;Visa&apos; from card type dropdown</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:33</date>
+  <millis>1603091073823</millis>
+  <sequence>322</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:34</date>
+  <millis>1603091074099</millis>
+  <sequence>329</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:35</date>
+  <millis>1603091075355</millis>
+  <sequence>344</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:36</date>
+  <millis>1603091076493</millis>
+  <sequence>356</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;American Express&amp;apos; are selected in object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:36</date>
+  <millis>1603091076494</millis>
+  <sequence>357</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>selected dropdown option by visible text  American Expressfrom CardType</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:36</date>
+  <millis>1603091076495</millis>
+  <sequence>358</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CARD_TYPE\&amp;quot;), CardType, \&amp;quot;CardType\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:36</date>
+  <millis>1603091076495</millis>
+  <sequence>359</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE\&amp;quot;), paymentType, \&amp;quot;Payment Type\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">9</property>
+  <property name="description">Select &apos;Payment type&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:36</date>
+  <millis>1603091076961</millis>
+  <sequence>368</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:37</date>
+  <millis>1603091077247</millis>
+  <sequence>375</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:38</date>
+  <millis>1603091078508</millis>
+  <sequence>390</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:39</date>
+  <millis>1603091079617</millis>
+  <sequence>402</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;Taxes&amp;apos; are selected in object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:39</date>
+  <millis>1603091079618</millis>
+  <sequence>403</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>selected dropdown option by visible text  Taxesfrom Payment Type</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:39</date>
+  <millis>1603091079619</millis>
+  <sequence>404</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE\&amp;quot;), paymentType, \&amp;quot;Payment Type\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:39</date>
+  <millis>1603091079619</millis>
+  <sequence>405</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Click on &apos;Continue&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:39</date>
+  <millis>1603091079694</millis>
+  <sequence>407</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:39</date>
+  <millis>1603091079989</millis>
+  <sequence>414</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:40</date>
+  <millis>1603091080298</millis>
+  <sequence>422</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:44</date>
+  <millis>1603091084902</millis>
+  <sequence>437</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:44</date>
+  <millis>1603091084903</millis>
+  <sequence>438</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Continue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:44</date>
+  <millis>1603091084904</millis>
+  <sequence>439</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:44</date>
+  <millis>1603091084904</millis>
+  <sequence>440</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Payment_Page.setPersonalDetails(firstName, lastName, telephone)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">11</property>
+  <property name="description">Enter First and Last name,telephone</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:46</date>
+  <millis>1603091086206</millis>
+  <sequence>448</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:46</date>
+  <millis>1603091086526</millis>
+  <sequence>455</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:46</date>
+  <millis>1603091086803</millis>
+  <sequence>462</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:48</date>
+  <millis>1603091088082</millis>
+  <sequence>477</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Susmitha&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:48</date>
+  <millis>1603091088083</millis>
+  <sequence>478</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;Susmitha into FirstName</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:48</date>
+  <millis>1603091088446</millis>
+  <sequence>486</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:48</date>
+  <millis>1603091088787</millis>
+  <sequence>493</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:49</date>
+  <millis>1603091089056</millis>
+  <sequence>500</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:50</date>
+  <millis>1603091090326</millis>
+  <sequence>515</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Angana&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:50</date>
+  <millis>1603091090327</millis>
+  <sequence>516</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;Angana into LastName</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:50</date>
+  <millis>1603091090696</millis>
+  <sequence>524</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:51</date>
+  <millis>1603091091031</millis>
+  <sequence>531</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:51</date>
+  <millis>1603091091300</millis>
+  <sequence>538</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:52</date>
+  <millis>1603091092580</millis>
+  <sequence>553</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;9640400667&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:52</date>
+  <millis>1603091092581</millis>
+  <sequence>554</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;9640400667 into Telephone</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:52</date>
+  <millis>1603091092581</millis>
+  <sequence>555</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Payment_Page.setPersonalDetails(firstName, lastName, telephone)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:52</date>
+  <millis>1603091092582</millis>
+  <sequence>556</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Payment_Page.setLocationDetails(address, zipCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">12</property>
+  <property name="description">Enter address and zip code\r\n</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:52</date>
+  <millis>1603091092993</millis>
+  <sequence>564</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:53</date>
+  <millis>1603091093317</millis>
+  <sequence>571</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:53</date>
+  <millis>1603091093711</millis>
+  <sequence>578</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:54</date>
+  <millis>1603091094985</millis>
+  <sequence>593</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;14-2&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:54</date>
+  <millis>1603091094986</millis>
+  <sequence>594</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;14-2 into Address</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:55</date>
+  <millis>1603091095321</millis>
+  <sequence>602</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:55</date>
+  <millis>1603091095652</millis>
+  <sequence>609</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:55</date>
+  <millis>1603091095930</millis>
+  <sequence>616</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:57</date>
+  <millis>1603091097228</millis>
+  <sequence>631</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;76102&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:57</date>
+  <millis>1603091097229</millis>
+  <sequence>632</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;76102 into ZipCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:57</date>
+  <millis>1603091097229</millis>
+  <sequence>633</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Payment_Page.setLocationDetails(address, zipCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:57</date>
+  <millis>1603091097230</millis>
+  <sequence>634</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-10-19T12:34:57</date>
+  <millis>1603091097590</millis>
+  <sequence>643</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:57</date>
+  <millis>1603091097591</millis>
+  <sequence>644</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:34:57</date>
+  <millis>1603091097591</millis>
+  <sequence>645</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Payment_Page.clickOnElement(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">14</property>
+  <property name="description">Click on &apos;Continue&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:01</date>
+  <millis>1603091101069</millis>
+  <sequence>652</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;arguments[0].click()&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:01</date>
+  <millis>1603091101070</millis>
+  <sequence>653</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pages.Payment_Page.clickOnElement is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:01</date>
+  <millis>1603091101072</millis>
+  <sequence>654</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Payment_Page.clickOnElement(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:01</date>
+  <millis>1603091101073</millis>
+  <sequence>655</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox\&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:02</date>
+  <millis>1603091102405</millis>
+  <sequence>664</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:02</date>
+  <millis>1603091102407</millis>
+  <sequence>665</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox\&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:02</date>
+  <millis>1603091102407</millis>
+  <sequence>666</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeCheck(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox\&amp;quot;), \&amp;quot;Billing CheckBox\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">16</property>
+  <property name="description">\&quot;Select checkbox &apos;My billing information is same \ninformation i entered in previous page&apos;\&quot;</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:02</date>
+  <millis>1603091102748</millis>
+  <sequence>674</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:03</date>
+  <millis>1603091103853</millis>
+  <sequence>686</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:05</date>
+  <millis>1603091105059</millis>
+  <sequence>701</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:05</date>
+  <millis>1603091105060</millis>
+  <sequence>702</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Checkbox &amp;apos;Billing CheckBox&amp;apos;is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:05</date>
+  <millis>1603091105061</millis>
+  <sequence>703</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeCheck(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox\&amp;quot;), \&amp;quot;Billing CheckBox\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:05</date>
+  <millis>1603091105062</millis>
+  <sequence>704</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:07</date>
+  <millis>1603091107312</millis>
+  <sequence>706</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:07</date>
+  <millis>1603091107313</millis>
+  <sequence>707</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:07</date>
+  <millis>1603091107314</millis>
+  <sequence>708</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">18</property>
+  <property name="description">Click on &apos;Continue&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:07</date>
+  <millis>1603091107381</millis>
+  <sequence>710</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:08</date>
+  <millis>1603091108500</millis>
+  <sequence>717</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:08</date>
+  <millis>1603091108813</millis>
+  <sequence>725</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:11</date>
+  <millis>1603091111465</millis>
+  <sequence>740</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:11</date>
+  <millis>1603091111467</millis>
+  <sequence>741</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Continue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:11</date>
+  <millis>1603091111468</millis>
+  <sequence>742</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:11</date>
+  <millis>1603091111470</millis>
+  <sequence>743</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:13</date>
+  <millis>1603091113557</millis>
+  <sequence>745</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:13</date>
+  <millis>1603091113558</millis>
+  <sequence>746</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:13</date>
+  <millis>1603091113559</millis>
+  <sequence>747</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Payment_Page.setCardDetails(cardNum, securityCode, expYear, expMonth)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">20</property>
+  <property name="description">Enter card number,exp date, exp month and security code\r\n</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:13</date>
+  <millis>1603091113932</millis>
+  <sequence>755</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:14</date>
+  <millis>1603091114260</millis>
+  <sequence>762</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:14</date>
+  <millis>1603091114540</millis>
+  <sequence>769</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:15</date>
+  <millis>1603091115855</millis>
+  <sequence>784</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;374245003731006&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:15</date>
+  <millis>1603091115856</millis>
+  <sequence>785</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;374245003731006 into CardNum</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:16</date>
+  <millis>1603091116276</millis>
+  <sequence>794</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:16</date>
+  <millis>1603091116553</millis>
+  <sequence>801</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:17</date>
+  <millis>1603091117814</millis>
+  <sequence>816</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:19</date>
+  <millis>1603091119149</millis>
+  <sequence>828</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;03&amp;apos; are selected in object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:19</date>
+  <millis>1603091119150</millis>
+  <sequence>829</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>selected dropdown option by visible text  03from Month</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:19</date>
+  <millis>1603091119569</millis>
+  <sequence>838</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:19</date>
+  <millis>1603091119852</millis>
+  <sequence>845</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:21</date>
+  <millis>1603091121070</millis>
+  <sequence>860</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:22</date>
+  <millis>1603091122429</millis>
+  <sequence>872</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;2025&amp;apos; are selected in object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:22</date>
+  <millis>1603091122429</millis>
+  <sequence>873</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>selected dropdown option by visible text  2025from year</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:22</date>
+  <millis>1603091122786</millis>
+  <sequence>881</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:23</date>
+  <millis>1603091123115</millis>
+  <sequence>888</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:23</date>
+  <millis>1603091123385</millis>
+  <sequence>895</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:24</date>
+  <millis>1603091124766</millis>
+  <sequence>910</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;111&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:24</date>
+  <millis>1603091124767</millis>
+  <sequence>911</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;111 into SecurityCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:25</date>
+  <millis>1603091125143</millis>
+  <sequence>921</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Attribute &amp;apos;value&amp;apos; of object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM&amp;apos; is: &amp;apos;374245003731006&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:25</date>
+  <millis>1603091125166</millis>
+  <sequence>923</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;374245003731006&amp;apos; and expected text &amp;apos;374245003731006&amp;apos; are matched  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:25</date>
+  <millis>1603091125189</millis>
+  <sequence>924</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Payment_Page.setCardDetails(cardNum, securityCode, expYear, expMonth)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:25</date>
+  <millis>1603091125190</millis>
+  <sequence>925</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeType(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS\&amp;quot;), emailAddress, \&amp;quot;EmailAddress\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">21</property>
+  <property name="description">Enter Email address\r\n</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:25</date>
+  <millis>1603091125578</millis>
+  <sequence>933</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:25</date>
+  <millis>1603091125882</millis>
+  <sequence>940</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:26</date>
+  <millis>1603091126149</millis>
+  <sequence>947</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:27</date>
+  <millis>1603091127424</millis>
+  <sequence>962</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;testing@zenq.com&amp;apos; is set on object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:27</date>
+  <millis>1603091127424</millis>
+  <sequence>963</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;testing@zenq.com into EmailAddress</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:27</date>
+  <millis>1603091127425</millis>
+  <sequence>964</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeType(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS\&amp;quot;), emailAddress, \&amp;quot;EmailAddress\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:27</date>
+  <millis>1603091127426</millis>
+  <sequence>965</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">82</property>
+  <property name="stepIndex">22</property>
+  <property name="description">Click on continue</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:27</date>
+  <millis>1603091127489</millis>
+  <sequence>967</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:27</date>
+  <millis>1603091127752</millis>
+  <sequence>974</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:28</date>
+  <millis>1603091128021</millis>
+  <sequence>982</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:31</date>
+  <millis>1603091131657</millis>
+  <sequence>997</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:31</date>
+  <millis>1603091131659</millis>
+  <sequence>998</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Continue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:31</date>
+  <millis>1603091131660</millis>
+  <sequence>999</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Home_ Page/CONTINUE\&amp;quot;), \&amp;quot;Continue\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:31</date>
+  <millis>1603091131661</millis>
+  <sequence>1000</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE\&amp;quot;), \&amp;quot;I agree\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">85</property>
+  <property name="stepIndex">23</property>
+  <property name="description">Click on i agree\r\n</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:31</date>
+  <millis>1603091131721</millis>
+  <sequence>1002</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:32</date>
+  <millis>1603091132959</millis>
+  <sequence>1009</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:33</date>
+  <millis>1603091133270</millis>
+  <sequence>1017</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:37</date>
+  <millis>1603091137666</millis>
+  <sequence>1032</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:37</date>
+  <millis>1603091137667</millis>
+  <sequence>1033</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the I agree</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:37</date>
+  <millis>1603091137668</millis>
+  <sequence>1034</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE\&amp;quot;), \&amp;quot;I agree\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:37</date>
+  <millis>1603091137668</millis>
+  <sequence>1035</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Payment_Page.verifyUserDetails(firstName, lastName, emailAddress, CardType, \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">24</property>
+  <property name="description">Verify user details like first and last name,card type ,email address</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:38</date>
+  <millis>1603091138585</millis>
+  <sequence>1045</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:38</date>
+  <millis>1603091138965</millis>
+  <sequence>1054</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME&amp;apos; is: &amp;apos;Susmitha&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:38</date>
+  <millis>1603091138979</millis>
+  <sequence>1056</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;Susmitha&amp;apos; and expected text &amp;apos;Susmitha&amp;apos; are matched  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:39</date>
+  <millis>1603091139338</millis>
+  <sequence>1065</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/LAST_NAME&amp;apos; is: &amp;apos;Angana&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:39</date>
+  <millis>1603091139340</millis>
+  <sequence>1067</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;Angana&amp;apos; and expected text &amp;apos;Angana&amp;apos; are matched  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:41</date>
+  <millis>1603091141755</millis>
+  <sequence>1076</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/EMAIL_ADDRESS&amp;apos; is: &amp;apos;testing@zenq.com&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:41</date>
+  <millis>1603091141758</millis>
+  <sequence>1078</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;testing@zenq.com&amp;apos; and expected text &amp;apos;testing@zenq.com&amp;apos; are matched  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142148</millis>
+  <sequence>1087</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/CARD_TYPE&amp;apos; is: &amp;apos;American Express&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142152</millis>
+  <sequence>1089</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;American Express&amp;apos; and expected text &amp;apos;American Express&amp;apos; are matched  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142153</millis>
+  <sequence>1090</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CardType matched</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142154</millis>
+  <sequence>1091</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Payment_Page.verifyUserDetails(firstName, lastName, emailAddress, CardType, \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142154</millis>
+  <sequence>1092</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT\&amp;quot;), \&amp;quot;Process Payment\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">92</property>
+  <property name="stepIndex">25</property>
+  <property name="description">Click on process payment</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142211</millis>
+  <sequence>1094</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142503</millis>
+  <sequence>1101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:42</date>
+  <millis>1603091142811</millis>
+  <sequence>1109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:44</date>
+  <millis>1603091144057</millis>
+  <sequence>1124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:44</date>
+  <millis>1603091144058</millis>
+  <sequence>1125</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Process Payment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:44</date>
+  <millis>1603091144060</millis>
+  <sequence>1126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT\&amp;quot;), \&amp;quot;Process Payment\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:44</date>
+  <millis>1603091144061</millis>
+  <sequence>1127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Verification_ Details/YES_BUTTON\&amp;quot;), \&amp;quot;yes button\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">96</property>
+  <property name="stepIndex">26</property>
+  <property name="description">Click on &apos;Yes&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:35:44</date>
+  <millis>1603091144143</millis>
+  <sequence>1129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:44</date>
+  <millis>1603091144743</millis>
+  <sequence>1136</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/YES_BUTTON&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:35:45</date>
+  <millis>1603091145075</millis>
+  <sequence>1144</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/YES_BUTTON&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:34</date>
+  <millis>1603091194202</millis>
+  <sequence>1159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/YES_BUTTON&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:34</date>
+  <millis>1603091194203</millis>
+  <sequence>1160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the yes button</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:34</date>
+  <millis>1603091194204</millis>
+  <sequence>1161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;MAKE_ PAYMENT/Verification_ Details/YES_BUTTON\&amp;quot;), \&amp;quot;yes button\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:34</date>
+  <millis>1603091194204</millis>
+  <sequence>1162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : PaymentId = pages.Payment_Page.verifyCardPaymentApproval(referenceNum)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">103</property>
+  <property name="stepIndex">27</property>
+  <property name="description">Verify payment approval and note the paymentId</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:35</date>
+  <millis>1603091195888</millis>
+  <sequence>1171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/PAY_ID_CARD&amp;apos; is: &amp;apos;100176131576&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:39</date>
+  <millis>1603091199300</millis>
+  <sequence>1180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/MAKE_ PAYMENT/Verification_ Details/REFERENCE_NUM&amp;apos; is: &amp;apos;11&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:39</date>
+  <millis>1603091199301</millis>
+  <sequence>1181</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pages.Payment_Page.verifyCardPaymentApproval is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:39</date>
+  <millis>1603091199302</millis>
+  <sequence>1182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : PaymentId = pages.Payment_Page.verifyCardPaymentApproval(referenceNum)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:39</date>
+  <millis>1603091199302</millis>
+  <sequence>1183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEARCH_PAYMENT\&amp;quot;), \&amp;quot;Search Payment\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">28</property>
+  <property name="description">Click on &apos;Search Payment&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:39</date>
+  <millis>1603091199365</millis>
+  <sequence>1185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:39</date>
+  <millis>1603091199660</millis>
+  <sequence>1192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:39</date>
+  <millis>1603091199977</millis>
+  <sequence>1200</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:41</date>
+  <millis>1603091201243</millis>
+  <sequence>1215</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:41</date>
+  <millis>1603091201244</millis>
+  <sequence>1216</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Search Payment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:41</date>
+  <millis>1603091201245</millis>
+  <sequence>1217</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEARCH_PAYMENT\&amp;quot;), \&amp;quot;Search Payment\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:41</date>
+  <millis>1603091201246</millis>
+  <sequence>1218</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:41</date>
+  <millis>1603091201277</millis>
+  <sequence>1220</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:41</date>
+  <millis>1603091201278</millis>
+  <sequence>1221</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:41</date>
+  <millis>1603091201278</millis>
+  <sequence>1222</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Search_Page.switchToWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">110</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:43</date>
+  <millis>1603091203659</millis>
+  <sequence>1233</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:43</date>
+  <millis>1603091203720</millis>
+  <sequence>1236</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with index: &amp;apos;1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:43</date>
+  <millis>1603091203721</millis>
+  <sequence>1237</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pages.Search_Page.switchToWindow is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:43</date>
+  <millis>1603091203721</millis>
+  <sequence>1238</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Search_Page.switchToWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:43</date>
+  <millis>1603091203722</millis>
+  <sequence>1239</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable(findTestObject(\&amp;quot;SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">112</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:43</date>
+  <millis>1603091203799</millis>
+  <sequence>1243</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:46</date>
+  <millis>1603091206118</millis>
+  <sequence>1249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:46</date>
+  <millis>1603091206118</millis>
+  <sequence>1250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable(findTestObject(\&amp;quot;SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:46</date>
+  <millis>1603091206119</millis>
+  <sequence>1251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeCheck(findTestObject(\&amp;quot;SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD\&amp;quot;), \&amp;quot;Credit card\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">115</property>
+  <property name="stepIndex">32</property>
+  <property name="description">Select &apos;Credit or debit card&apos; radio button</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:46</date>
+  <millis>1603091206443</millis>
+  <sequence>1259</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:47</date>
+  <millis>1603091207558</millis>
+  <sequence>1271</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:48</date>
+  <millis>1603091208822</millis>
+  <sequence>1286</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:48</date>
+  <millis>1603091208823</millis>
+  <sequence>1287</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Checkbox &amp;apos;Credit card&amp;apos;is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:48</date>
+  <millis>1603091208824</millis>
+  <sequence>1288</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeCheck(findTestObject(\&amp;quot;SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD\&amp;quot;), \&amp;quot;Credit card\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:48</date>
+  <millis>1603091208825</millis>
+  <sequence>1289</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Search_Page.setSearchDetails(lastName, cardNum, accNum)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">33</property>
+  <property name="description">Enter billing last name,card number</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:49</date>
+  <millis>1603091209195</millis>
+  <sequence>1297</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:49</date>
+  <millis>1603091209493</millis>
+  <sequence>1304</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:49</date>
+  <millis>1603091209767</millis>
+  <sequence>1311</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:51</date>
+  <millis>1603091211043</millis>
+  <sequence>1326</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Angana&amp;apos; is set on object &amp;apos;Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:51</date>
+  <millis>1603091211043</millis>
+  <sequence>1327</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;Angana into LastName</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:51</date>
+  <millis>1603091211415</millis>
+  <sequence>1335</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD&amp;apos; is checked</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:51</date>
+  <millis>1603091211784</millis>
+  <sequence>1343</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/CARD_NUMBER&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:52</date>
+  <millis>1603091212133</millis>
+  <sequence>1350</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/CARD_NUMBER&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:52</date>
+  <millis>1603091212414</millis>
+  <sequence>1357</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/CARD_NUMBER&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:53</date>
+  <millis>1603091213706</millis>
+  <sequence>1372</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;374245003731006&amp;apos; is set on object &amp;apos;Object Repository/SEARCH_PAYMENT/CARD_NUMBER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:53</date>
+  <millis>1603091213707</millis>
+  <sequence>1373</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Entered&amp;apos;374245003731006 into CArdNum</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:53</date>
+  <millis>1603091213708</millis>
+  <sequence>1374</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Credit card is checked and cardNum is entered </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:53</date>
+  <millis>1603091213708</millis>
+  <sequence>1375</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Search_Page.setSearchDetails(lastName, cardNum, accNum)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:53</date>
+  <millis>1603091213709</millis>
+  <sequence>1376</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEARCH_BUTTON\&amp;quot;), \&amp;quot;Search\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">122</property>
+  <property name="stepIndex">34</property>
+  <property name="description">Click on search\r\n</property>
+</record>
+<record>
+  <date>2020-10-19T12:36:53</date>
+  <millis>1603091213813</millis>
+  <sequence>1378</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:54</date>
+  <millis>1603091214097</millis>
+  <sequence>1385</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_BUTTON&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:36:54</date>
+  <millis>1603091214387</millis>
+  <sequence>1393</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_BUTTON&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:01</date>
+  <millis>1603091221091</millis>
+  <sequence>1408</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_BUTTON&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:01</date>
+  <millis>1603091221091</millis>
+  <sequence>1409</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Search</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:01</date>
+  <millis>1603091221092</millis>
+  <sequence>1410</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEARCH_BUTTON\&amp;quot;), \&amp;quot;Search\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:01</date>
+  <millis>1603091221092</millis>
+  <sequence>1411</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.Payment_Page.verifyPaymentDetailsInReceipt(PaymentId)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">125</property>
+  <property name="stepIndex">35</property>
+  <property name="description">Verify payment id\r\n</property>
+</record>
+<record>
+  <date>2020-10-19T12:37:02</date>
+  <millis>1603091222636</millis>
+  <sequence>1420</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/SEARCH_PAYMENT/REFERNCE_NUM&amp;apos; is: &amp;apos;11&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:03</date>
+  <millis>1603091223025</millis>
+  <sequence>1429</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/SEARCH_PAYMENT/PAYMENT_ID&amp;apos; is: &amp;apos;100176131576&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:03</date>
+  <millis>1603091223026</millis>
+  <sequence>1430</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pages.Payment_Page.verifyPaymentDetailsInReceipt is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:03</date>
+  <millis>1603091223027</millis>
+  <sequence>1431</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.Payment_Page.verifyPaymentDetailsInReceipt(PaymentId)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:03</date>
+  <millis>1603091223027</millis>
+  <sequence>1432</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEARCH_ ICON\&amp;quot;), \&amp;quot;SearchIcon\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">128</property>
+  <property name="stepIndex">36</property>
+  <property name="description">Click on &apos;Search&apos; icon to generate receipt</property>
+</record>
+<record>
+  <date>2020-10-19T12:37:03</date>
+  <millis>1603091223089</millis>
+  <sequence>1434</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:03</date>
+  <millis>1603091223388</millis>
+  <sequence>1441</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_ ICON&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:03</date>
+  <millis>1603091223695</millis>
+  <sequence>1449</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_ ICON&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:04</date>
+  <millis>1603091224991</millis>
+  <sequence>1464</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/SEARCH_PAYMENT/SEARCH_ ICON&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:04</date>
+  <millis>1603091224992</millis>
+  <sequence>1465</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the SearchIcon</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:04</date>
+  <millis>1603091224993</millis>
+  <sequence>1466</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEARCH_ ICON\&amp;quot;), \&amp;quot;SearchIcon\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:04</date>
+  <millis>1603091224994</millis>
+  <sequence>1467</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">130</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2020-10-19T12:37:06</date>
+  <millis>1603091226998</millis>
+  <sequence>1469</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:06</date>
+  <millis>1603091226999</millis>
+  <sequence>1470</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:07</date>
+  <millis>1603091227000</millis>
+  <sequence>1471</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;SEARCH_PAYMENT/CLOSE_BUTTON\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">133</property>
+  <property name="stepIndex">38</property>
+  <property name="description">Scroll to close button</property>
+</record>
+<record>
+  <date>2020-10-19T12:37:07</date>
+  <millis>1603091227120</millis>
+  <sequence>1475</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:07</date>
+  <millis>1603091227417</millis>
+  <sequence>1482</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/SEARCH_PAYMENT/CLOSE_BUTTON&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:07</date>
+  <millis>1603091227419</millis>
+  <sequence>1483</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;SEARCH_PAYMENT/CLOSE_BUTTON\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:07</date>
+  <millis>1603091227419</millis>
+  <sequence>1484</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/EMAIL_ RECEIPT\&amp;quot;), \&amp;quot;Email Receipt\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">136</property>
+  <property name="stepIndex">39</property>
+  <property name="description">Click on &apos;Email Receipt&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:37:07</date>
+  <millis>1603091227475</millis>
+  <sequence>1486</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:07</date>
+  <millis>1603091227784</millis>
+  <sequence>1493</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/EMAIL_ RECEIPT&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:08</date>
+  <millis>1603091228113</millis>
+  <sequence>1501</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/EMAIL_ RECEIPT&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:09</date>
+  <millis>1603091229328</millis>
+  <sequence>1516</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/SEARCH_PAYMENT/EMAIL_ RECEIPT&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:09</date>
+  <millis>1603091229328</millis>
+  <sequence>1517</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Email Receipt</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:09</date>
+  <millis>1603091229329</millis>
+  <sequence>1518</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/EMAIL_ RECEIPT\&amp;quot;), \&amp;quot;Email Receipt\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:09</date>
+  <millis>1603091229330</millis>
+  <sequence>1519</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEND_ EMAIL_BUTTON\&amp;quot;), \&amp;quot;Send Email\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">141</property>
+  <property name="stepIndex">40</property>
+  <property name="description">Click on &apos;Send Email&apos;</property>
+</record>
+<record>
+  <date>2020-10-19T12:37:09</date>
+  <millis>1603091229440</millis>
+  <sequence>1521</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>safeClicking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:10</date>
+  <millis>1603091230161</millis>
+  <sequence>1528</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEND_ EMAIL_BUTTON&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:10</date>
+  <millis>1603091230468</millis>
+  <sequence>1536</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/SEARCH_PAYMENT/SEND_ EMAIL_BUTTON&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:11</date>
+  <millis>1603091231667</millis>
+  <sequence>1551</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/SEARCH_PAYMENT/SEND_ EMAIL_BUTTON&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:11</date>
+  <millis>1603091231667</millis>
+  <sequence>1552</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Consumer_Payment_Making.ts:Clicked on the Send Email</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:11</date>
+  <millis>1603091231668</millis>
+  <sequence>1553</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.safeClick(findTestObject(\&amp;quot;SEARCH_PAYMENT/SEND_ EMAIL_BUTTON\&amp;quot;), \&amp;quot;Send Email\&amp;quot;, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:11</date>
+  <millis>1603091231668</millis>
+  <sequence>1554</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:11</date>
+  <millis>1603091231668</millis>
+  <sequence>1555</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:11</date>
+  <millis>1603091231669</millis>
+  <sequence>1557</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-10-19T12:37:13</date>
+  <millis>1603091233180</millis>
+  <sequence>1559</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:13</date>
+  <millis>1603091233181</millis>
+  <sequence>1561</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:13</date>
+  <millis>1603091233182</millis>
+  <sequence>1562</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:13</date>
+  <millis>1603091233182</millis>
+  <sequence>1563</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-19T12:37:13</date>
+  <millis>1603091233352</millis>
+  <sequence>1564</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Certpay_testSuite/Consumer_Payment_Making</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

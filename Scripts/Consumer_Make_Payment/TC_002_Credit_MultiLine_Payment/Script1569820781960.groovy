@@ -104,6 +104,7 @@ CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/V
 'Verify payment details and note paymnetId'
 PaymentID = CustomKeywords.'pages.Payment_Page.verifyCardPaymentApproval'(referenceNum)
 
+
 'Click on \'Search Payment\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('SEARCH_PAYMENT/SEARCH_PAYMENT'), 'Search Payment', (([GlobalVariable.pageLoadTime]) as int[]))
 
