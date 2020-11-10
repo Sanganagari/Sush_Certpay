@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954184</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Certpay_testSuite_New/Quicksti_Visa</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Quicksti_Visa</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Certpay_testSuite_New/Quicksti_Visa</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954205</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = dell - dell-PC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">dell - dell-PC</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954206</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954206</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.31.253.239</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.31.253.239</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954207</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.6.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.6.1</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954507</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Certpay_Quicksti_New\\TC_001_SingleBureauSite_SingleLinePayment_Visa.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954693</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expMonth = 03</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954729</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expYear = 2022</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954739</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 207</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954748</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 15.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954756</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) quantity = 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954764</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954773</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 14-6</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954781</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9696404001</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:54</date>
+  <millis>1604301954789</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76102</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:55</date>
+  <millis>1604301955159</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:55</date>
+  <millis>1604301955177</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Michael</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:55</date>
+  <millis>1604301955189</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = Jack</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:55</date>
+  <millis>1604301955194</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:55</date>
+  <millis>1604301955202</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:55</date>
+  <millis>1604301955700</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : data = findTestData(\&amp;quot;Data Files/Certpay/SingleBureau_SingleLine_Visa\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956510</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : data = findTestData(\&amp;quot;Data Files/Certpay/SingleBureau_SingleLine_Visa\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956510</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentIdList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956512</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentIdList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956512</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for (def index : (1..data.getRowNumbers()))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956541</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : firstName = data.getValue(\&amp;quot;FirstName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956682</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : firstName = data.getValue(\&amp;quot;FirstName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956683</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : lastName = data.getValue(\&amp;quot;LastName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956713</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : lastName = data.getValue(\&amp;quot;LastName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956714</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expMonth = data.getValue(\&amp;quot;ExpMonth\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956717</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expMonth = data.getValue(\&amp;quot;ExpMonth\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956718</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expYear = data.getValue(\&amp;quot;ExpYear\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956753</millis>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expYear = data.getValue(\&amp;quot;ExpYear\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956754</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : securityCode = data.getValue(\&amp;quot;SecurityCode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956755</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : securityCode = data.getValue(\&amp;quot;SecurityCode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956755</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentAmount = data.getValue(\&amp;quot;PaymentAmount\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956756</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentAmount = data.getValue(\&amp;quot;PaymentAmount\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956756</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentType = data.getValue(\&amp;quot;PaymentType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956757</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentType = data.getValue(\&amp;quot;PaymentType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956757</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : quantity = data.getValue(\&amp;quot;Quantity\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956758</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : quantity = data.getValue(\&amp;quot;Quantity\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956759</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comments = data.getValue(\&amp;quot;Comments\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956760</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comments = data.getValue(\&amp;quot;Comments\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956761</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : referenceNum = data.getValue(\&amp;quot;ReferenceNum\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956762</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : referenceNum = data.getValue(\&amp;quot;ReferenceNum\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956762</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : address = data.getValue(\&amp;quot;Address\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956763</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : address = data.getValue(\&amp;quot;Address\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956763</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : zipCode = data.getValue(\&amp;quot;Zipcode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956765</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : zipCode = data.getValue(\&amp;quot;Zipcode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956765</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : telephone = data.getValue(\&amp;quot;Telephone\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956767</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : telephone = data.getValue(\&amp;quot;Telephone\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956767</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : emailAddress = data.getValue(\&amp;quot;EmailAddress\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956786</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : emailAddress = data.getValue(\&amp;quot;EmailAddress\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956787</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : cardNum = data.getValue(\&amp;quot;CardNumber\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956788</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : cardNum = data.getValue(\&amp;quot;CardNumber\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956788</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : cardType = data.getValue(\&amp;quot;CardType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956801</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : cardType = data.getValue(\&amp;quot;CardType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:56</date>
+  <millis>1604301956802</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">17</property>
+  <property name="description">Open Certpay Quicksti application</property>
+</record>
+<record>
+  <date>2020-11-02T12:55:57</date>
+  <millis>1604301957126</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:57</date>
+  <millis>1604301957465</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:55:57</date>
+  <millis>1604301957512</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961217</millis>
+  <sequence>73</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://qa-certpayquicksti.faps.net/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://qa-certpayquicksti.faps.net/&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:39)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;DELL-PC&amp;apos;, ip: &amp;apos;172.31.253.239&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat Script1604296399312.run(Script1604296399312.groovy:39)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:39)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\n</property>
+  <property name="failed.exception.message">session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961288</millis>
+  <sequence>75</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:39)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\n</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961308</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961308</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for (def index : (1..data.getRowNumbers()))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961311</millis>
+  <sequence>80</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:39)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\nCaused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]
+Possible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+    <frame>
+      <class>utilities.SafeActions</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>TC_001_SingleBureauSite_SingleLinePayment_Visa</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1604301950273</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:39)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961395</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961397</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961481</millis>
+  <sequence>86</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961482</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961482</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961482</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961490</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Certpay_Quicksti_New\\TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961526</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 22.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961534</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) quantity = 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961542</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961550</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) comments = Testing</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961558</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount2 = 33.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961581</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Licenses</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961590</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Nickel</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961597</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = James</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961605</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 207</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961612</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76103</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961620</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961655</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expMonth = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961672</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expYear = 2026</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961683</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 23-9</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961693</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9898676543</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961705</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum2 = 12</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961708</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:01</date>
+  <millis>1604301961709</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962061</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : data = findTestData(\&amp;quot;Certpay/SingleBureau_MultiLine\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962200</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : data = findTestData(\&amp;quot;Certpay/SingleBureau_MultiLine\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962200</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : amountList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962203</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : amountList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962203</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : referenceList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962206</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : referenceList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962206</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentTypeList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962207</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentTypeList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962207</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : quantityList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962207</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : quantityList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962208</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : commentsList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962208</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : commentsList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962209</millis>
+  <sequence>129</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentIdList = []</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962209</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentIdList = []</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962210</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : list = new java.util.ArrayList()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962211</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : list = new java.util.ArrayList()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962211</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for (def index : (1..data.getRowNumbers()))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962213</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : firstName = data.getValue(\&amp;quot;FirstName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962216</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : firstName = data.getValue(\&amp;quot;FirstName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962221</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : lastName = data.getValue(\&amp;quot;LastName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962222</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : lastName = data.getValue(\&amp;quot;LastName\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962223</millis>
+  <sequence>138</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : cardNum = data.getValue(\&amp;quot;CardNumber\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962224</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : cardNum = data.getValue(\&amp;quot;CardNumber\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962224</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expMonth = data.getValue(\&amp;quot;ExpMonth\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962225</millis>
+  <sequence>141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expMonth = data.getValue(\&amp;quot;ExpMonth\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962225</millis>
+  <sequence>142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expYear = data.getValue(\&amp;quot;ExpYear\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962229</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expYear = data.getValue(\&amp;quot;ExpYear\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962230</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : securityCode = data.getValue(\&amp;quot;SecurityCode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962232</millis>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : securityCode = data.getValue(\&amp;quot;SecurityCode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962232</millis>
+  <sequence>146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentAmount = data.getValue(\&amp;quot;PaymentAmount\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962233</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentAmount = data.getValue(\&amp;quot;PaymentAmount\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962233</millis>
+  <sequence>148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentType = data.getValue(\&amp;quot;PaymentType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:02</date>
+  <millis>1604301962235</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentType = data.getValue(\&amp;quot;PaymentType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963066</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : quantity = data.getValue(\&amp;quot;Quantity\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963067</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : quantity = data.getValue(\&amp;quot;Quantity\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963067</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comments = data.getValue(\&amp;quot;Comments\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963067</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comments = data.getValue(\&amp;quot;Comments\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963068</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : referenceNum = data.getValue(\&amp;quot;ReferenceNum\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963068</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : referenceNum = data.getValue(\&amp;quot;ReferenceNum\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963068</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : address = data.getValue(\&amp;quot;Address\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963069</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : address = data.getValue(\&amp;quot;Address\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963069</millis>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : zipCode = data.getValue(\&amp;quot;Zipcode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963069</millis>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : zipCode = data.getValue(\&amp;quot;Zipcode\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963070</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : telephone = data.getValue(\&amp;quot;Telephone\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963070</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : telephone = data.getValue(\&amp;quot;Telephone\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963070</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : emailAddress = data.getValue(\&amp;quot;EmailAddress\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963071</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : emailAddress = data.getValue(\&amp;quot;EmailAddress\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963071</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : cardType = data.getValue(\&amp;quot;CardType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963071</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : cardType = data.getValue(\&amp;quot;CardType\&amp;quot;, index)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963071</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : amountList = paymentAmount.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963074</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : amountList = paymentAmount.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963075</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : referenceList = referenceNum.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963075</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : referenceList = referenceNum.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963144</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentTypeList = paymentType.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963145</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentTypeList = paymentType.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963526</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : commentsList = comments.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963527</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : commentsList = comments.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963527</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : quantityList = quantity.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963528</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : quantityList = quantity.split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963528</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">22</property>
+  <property name="description">Open certpay Quicksti appliction</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963530</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:03</date>
+  <millis>1604301963544</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965604</millis>
+  <sequence>184</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://qa-certpayquicksti.faps.net/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://qa-certpayquicksti.faps.net/&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;DELL-PC&amp;apos;, ip: &amp;apos;172.31.253.239&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat Script1604296638793.run(Script1604296638793.groovy:53)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\n</property>
+  <property name="failed.exception.message">session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965621</millis>
+  <sequence>186</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\n</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965622</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965622</millis>
+  <sequence>188</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for (def index : (1..data.getRowNumbers()))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965624</millis>
+  <sequence>191</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\nCaused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]
+Possible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+    <frame>
+      <class>utilities.SafeActions</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa</class>
+      <method>run</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1604301950273</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604301950273.run(TempTestSuite1604301950273.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965627</millis>
+  <sequence>193</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965627</millis>
+  <sequence>195</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965639</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965640</millis>
+  <sequence>199</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965640</millis>
+  <sequence>200</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965640</millis>
+  <sequence>201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:56:05</date>
+  <millis>1604301965724</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Certpay_testSuite_New/Quicksti_Visa</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

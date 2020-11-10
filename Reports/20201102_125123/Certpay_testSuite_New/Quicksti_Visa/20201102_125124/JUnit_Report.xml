@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Quicksti_Visa" time="6.071" tests="2" failures="0" errors="2">
+   <testsuite name="Quicksti_Visa" tests="2" failures="0" errors="2" time="6.071" timestamp="2020-11-02 12:51:29" hostname="dell - dell-PC" id="Test Suites/Certpay_testSuite_New/Quicksti_Visa">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sush_Certpay\\Reports\\20201102_125123\\Certpay_testSuite_New\\Quicksti_Visa\\20201102_125124"/>
+         <property name="logFiles" value="D:\\Sush_Certpay\\Reports\\20201102_125123\\Certpay_testSuite_New\\Quicksti_Visa\\20201102_125124\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dell - dell-PC"/>
+         <property name="hostAddress" value="192.168.43.122"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa" time="3.48" classname="Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa" status="ERROR">
+         <error type="ERROR" message="Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:235)
+	at com.kms.katalon.core.testdata.TestData$getRowNumbers.call(Unknown Source)
+	at TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)
+"/>
+         <system-out><![CDATA[2020-11-02 12:51:29 - [TEST_CASE][ERROR] - Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa: Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:235)
+	at com.kms.katalon.core.testdata.TestData$getRowNumbers.call(Unknown Source)
+	at TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)
+
+
+2020-11-02 12:51:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-11-02 12:51:31 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/SingleBureau_SingleLine"): null
+
+2020-11-02 12:51:32 - [TEST_STEP][PASSED] - paymentIdList = []: null
+
+2020-11-02 12:51:32 - [TEST_STEP][PASSED] - for (def index : (1..data.getRowNumbers())): null
+
+2020-11-02 12:51:32 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2020-11-02 12:51:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-02 12:51:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2020-11-02 12:51:29 - [TEST_CASE][ERROR] - Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa: Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:235)
+	at com.kms.katalon.core.testdata.TestData$getRowNumbers.call(Unknown Source)
+	at TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa" time="1.711" classname="Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa" status="ERROR">
+         <error type="ERROR" message="Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)
+"/>
+         <system-out><![CDATA[2020-11-02 12:51:33 - [TEST_CASE][ERROR] - Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa: Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)
+
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - data = findTestData("Certpay/SingleBureau_MultiLine"): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - amountList = []: null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - referenceList = []: null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - paymentTypeList = []: null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - quantityList = []: null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - commentsList = []: null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - paymentIdList = []: null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - list = new java.util.ArrayList(): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - for (def index : (1..data.getRowNumbers())): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - amountList = paymentAmount.split(","): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - referenceList = referenceNum.split(","): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - paymentTypeList = paymentType.split(","): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - commentsList = comments.split(","): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - quantityList = quantity.split(","): null
+
+2020-11-02 12:51:34 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Quicksti_Url, [pageLoadTime]): null
+
+2020-11-02 12:51:35 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2020-11-02 12:51:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-02 12:51:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2020-11-02 12:51:33 - [TEST_CASE][ERROR] - Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa: Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa.run(TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-02 12:51:29 - [TEST_SUITE][ERROR] - Quicksti_Visa: Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:235)
+	at com.kms.katalon.core.testdata.TestData$getRowNumbers.call(Unknown Source)
+	at TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-11-02 12:51:29 - [TEST_SUITE][ERROR] - Quicksti_Visa: Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:235)
+	at com.kms.katalon.core.testdata.TestData$getRowNumbers.call(Unknown Source)
+	at TC_001_SingleBureauSite_SingleLinePayment_Visa.run(TC_001_SingleBureauSite_SingleLinePayment_Visa:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1604301684484.run(TempTestSuite1604301684484.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

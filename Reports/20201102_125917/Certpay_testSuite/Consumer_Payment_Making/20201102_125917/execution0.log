@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-02T12:59:21</date>
+  <millis>1604302161275</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Certpay_testSuite/Consumer_Payment_Making</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Consumer_Payment_Making</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Certpay_testSuite/Consumer_Payment_Making</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:21</date>
+  <millis>1604302161301</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = dell - dell-PC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">dell - dell-PC</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:21</date>
+  <millis>1604302161302</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:21</date>
+  <millis>1604302161303</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.31.253.239</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.31.253.239</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:21</date>
+  <millis>1604302161312</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.6.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.6.1</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:21</date>
+  <millis>1604302161631</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Consumer_Make_Payment\\TC_001_Credit_SingleLine_Payment.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:21</date>
+  <millis>1604302161932</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 16.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162120</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162129</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) bureauCode = 6100000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162138</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Susmitha</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162157</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = Angana</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162165</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9640400667</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162174</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 14-2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162182</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76102</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162204</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) cardNum = 374245003731006</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162216</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 111</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162241</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expYear = 2025</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162266</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expMonth = 03</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162281</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) CardType = American Express</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162299</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162314</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last4Digits = 1006</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162339</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last5Digits = 31006</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162357</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Taxes</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162369</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) accNum = 123456</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162374</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162382</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:22</date>
+  <millis>1604302162779</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Certpay application</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:23</date>
+  <millis>1604302163217</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:23</date>
+  <millis>1604302163574</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:23</date>
+  <millis>1604302163626</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167358</millis>
+  <sequence>38</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;DELL-PC&amp;apos;, ip: &amp;apos;172.31.253.239&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat Script1569820770538.run(Script1569820770538.groovy:17)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167391</millis>
+  <sequence>40</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167394</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167396</millis>
+  <sequence>44</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]
+Possible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+    <frame>
+      <class>utilities.SafeActions</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>TC_001_Credit_SingleLine_Payment</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1604302157604</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167402</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167403</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167422</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167422</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167422</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167423</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Consumer_Make_Payment/TC_001_Credit_SingleLine_Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167491</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Consumer_Make_Payment\\TC_002_Credit_MultiLine_Payment.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167668</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) bureauCode = 6100000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167679</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 12</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167688</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 20.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167721</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Soha</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167730</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = brave</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167746</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9640400667</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167755</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 14-2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167770</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76120</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167779</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) cardNum = 6510000000000133</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167787</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 207</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167795</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expMonth = 05</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167809</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expYear = 2021</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167820</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) cardType = Discover</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167835</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167844</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Gifts</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167855</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last4Digits = 0133</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167864</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last5Digits = 00133</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167876</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount2 = 15.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167897</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) accNum = 123456</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167898</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:27</date>
+  <millis>1604302167899</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:28</date>
+  <millis>1604302168178</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Certpay application</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:28</date>
+  <millis>1604302168183</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:28</date>
+  <millis>1604302168202</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:29</date>
+  <millis>1604302169877</millis>
+  <sequence>88</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_002_Credit_MultiLine_Payment.run(TC_002_Credit_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;DELL-PC&amp;apos;, ip: &amp;apos;172.31.253.239&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat Script1569820781960.run(Script1569820781960.groovy:17)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_002_Credit_MultiLine_Payment.run(TC_002_Credit_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:29</date>
+  <millis>1604302169978</millis>
+  <sequence>90</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_002_Credit_MultiLine_Payment.run(TC_002_Credit_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:29</date>
+  <millis>1604302169985</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:29</date>
+  <millis>1604302169989</millis>
+  <sequence>94</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_002_Credit_MultiLine_Payment.run(TC_002_Credit_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]
+Possible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+    <frame>
+      <class>utilities.SafeActions</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>TC_002_Credit_MultiLine_Payment</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1604302157604</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_002_Credit_MultiLine_Payment.run(TC_002_Credit_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170007</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170007</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170066</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170067</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170067</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170067</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170103</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Consumer_Make_Payment/TC_003_Echeck_Checking_SingleLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Consumer_Make_Payment/TC_003_Echeck_Checking_SingleLine_Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Consumer_Make_Payment/TC_003_Echeck_Checking_SingleLine_Payment</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Consumer_Make_Payment\\TC_003_Echeck_Checking_SingleLine_Payment.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170130</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) bureauCode = 6100000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170167</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 30.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170176</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 13</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170210</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = rema</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170270</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = reiza</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170279</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9898982244</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170288</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 15-4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170296</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76103</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170306</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 207</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170319</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expMonth = 10</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170327</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) expYear = 2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170336</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last4Digits = 1003</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170343</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) last5Digits = 71003</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170353</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Licenses</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170361</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) routingNum = 111000025</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170372</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) checkingAccNum = 123456</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170386</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) cardNum = 411111111111111</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170400</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170401</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170401</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170663</millis>
+  <sequence>129</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Certpay application</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170668</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:30</date>
+  <millis>1604302170691</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174050</millis>
+  <sequence>137</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_003_Echeck_Checking_SingleLine_Payment.run(TC_003_Echeck_Checking_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;DELL-PC&amp;apos;, ip: &amp;apos;172.31.253.239&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat Script1569820807788.run(Script1569820807788.groovy:17)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_003_Echeck_Checking_SingleLine_Payment.run(TC_003_Echeck_Checking_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174090</millis>
+  <sequence>139</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_003_Echeck_Checking_SingleLine_Payment.run(TC_003_Echeck_Checking_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174091</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174094</millis>
+  <sequence>143</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Consumer_Make_Payment/TC_003_Echeck_Checking_SingleLine_Payment FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_003_Echeck_Checking_SingleLine_Payment.run(TC_003_Echeck_Checking_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]
+Possible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+    <frame>
+      <class>utilities.SafeActions</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>TC_003_Echeck_Checking_SingleLine_Payment</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1604302157604</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_003_Echeck_Checking_SingleLine_Payment.run(TC_003_Echeck_Checking_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174100</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174101</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174126</millis>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174127</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174127</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174179</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Consumer_Make_Payment/TC_003_Echeck_Checking_SingleLine_Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174200</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Consumer_Make_Payment\\TC_004_Echeck_Checking_MultiLine_Payment.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174275</millis>
+  <sequence>156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) bureauCode = 6100000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174316</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 10.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174326</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174333</millis>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Chasto</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174342</millis>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = James</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174403</millis>
+  <sequence>161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9988545421</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174413</millis>
+  <sequence>162</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174422</millis>
+  <sequence>163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 14-9</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174434</millis>
+  <sequence>164</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76102</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174444</millis>
+  <sequence>165</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 111</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174460</millis>
+  <sequence>166</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Taxes</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174470</millis>
+  <sequence>167</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) routingNum = 111000025</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174479</millis>
+  <sequence>168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount2 = 35.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174492</millis>
+  <sequence>169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) checkingAccNum = 123456</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174492</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174493</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174714</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Certpay application</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174717</millis>
+  <sequence>175</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:34</date>
+  <millis>1604302174732</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177448</millis>
+  <sequence>182</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;DELL-PC&amp;apos;, ip: &amp;apos;172.31.253.239&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat Script1569820821226.run(Script1569820821226.groovy:17)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177452</millis>
+  <sequence>184</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177453</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177454</millis>
+  <sequence>188</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]
+Possible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+    <frame>
+      <class>utilities.SafeActions</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>TC_004_Echeck_Checking_MultiLine_Payment</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1604302157604</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177461</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177461</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177512</millis>
+  <sequence>194</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177512</millis>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177512</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177512</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177570</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Consumer_Make_Payment/TC_005_Echeck_Savings_SingleLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Consumer_Make_Payment/TC_005_Echeck_Savings_SingleLine_Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Consumer_Make_Payment/TC_005_Echeck_Savings_SingleLine_Payment</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Consumer_Make_Payment\\TC_005_Echeck_Savings_SingleLine_Payment.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177601</millis>
+  <sequence>201</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) bureauCode = 6100000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177626</millis>
+  <sequence>202</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 22</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177635</millis>
+  <sequence>203</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 45.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177643</millis>
+  <sequence>204</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Taxes</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177652</millis>
+  <sequence>205</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Jackson</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177659</millis>
+  <sequence>206</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = Machael</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177667</millis>
+  <sequence>207</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 14-2-6</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177675</millis>
+  <sequence>208</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177683</millis>
+  <sequence>209</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76102</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177691</millis>
+  <sequence>210</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9898767656</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177698</millis>
+  <sequence>211</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) securityCode = 207</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177706</millis>
+  <sequence>212</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) routingNum = 111000025</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177713</millis>
+  <sequence>213</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) checkingAccNum = 456789</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177713</millis>
+  <sequence>214</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177714</millis>
+  <sequence>217</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177947</millis>
+  <sequence>218</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Certpay application</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177953</millis>
+  <sequence>219</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening Browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:37</date>
+  <millis>1604302177963</millis>
+  <sequence>221</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181477</millis>
+  <sequence>226</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://qa-certpay.faps.net/&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_Echeck_Savings_SingleLine_Payment.run(TC_005_Echeck_Savings_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;DELL-PC&amp;apos;, ip: &amp;apos;172.31.253.239&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat Script1569820834804.run(Script1569820834804.groovy:17)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)\r\n\tat com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:40)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_Echeck_Savings_SingleLine_Payment.run(TC_005_Echeck_Savings_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;DELL-PC&apos;, ip: &apos;172.31.253.239&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00D6A113+1548563]\n\tOrdinal0 [0x00CEDDA1+1039777]\n\tOrdinal0 [0x00C6E485+517253]\n\tOrdinal0 [0x00BFFD34+64820]\n\tOrdinal0 [0x00BFC61E+50718]\n\tOrdinal0 [0x00C1B797+178071]\n\tOrdinal0 [0x00C1B59D+177565]\n\tOrdinal0 [0x00C195FB+169467]\n\tOrdinal0 [0x00C0160A+71178]\n\tOrdinal0 [0x00C02690+75408]\n\tOrdinal0 [0x00C02629+75305]\n\tOrdinal0 [0x00D071B7+1143223]\n\tGetHandleVerifier [0x00E02B46+507814]\n\tGetHandleVerifier [0x00E02864+507076]\n\tGetHandleVerifier [0x00E09F47+537511]\n\tGetHandleVerifier [0x00E03402+510050]\n\tOrdinal0 [0x00CFF29C+1110684]\n\tOrdinal0 [0x00D0938B+1151883]\n\tOrdinal0 [0x00D094F3+1152243]\n\tOrdinal0 [0x00D083F5+1147893]\n\tBaseThreadInitThunk [0x775433CA+18]\n\tRtlInitializeExceptionChain [0x77E79ED2+99]\n\tRtlInitializeExceptionChain [0x77E79EA5+54]\n</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181486</millis>
+  <sequence>228</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_Echeck_Savings_SingleLine_Payment.run(TC_005_Echeck_Savings_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181488</millis>
+  <sequence>229</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181490</millis>
+  <sequence>232</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Consumer_Make_Payment/TC_005_Echeck_Savings_SingleLine_Payment FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_Echeck_Savings_SingleLine_Payment.run(TC_005_Echeck_Savings_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\nCaused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]
+Possible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</message>
+    <frame>
+      <class>utilities.SafeActions</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>TC_005_Echeck_Savings_SingleLine_Payment</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1604302157604</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)\r\n\tat utilities.SafeActions.openBrowser(SafeActions.groovy:49)\r\n\tat utilities.SafeActions.invokeMethod(SafeActions.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TC_005_Echeck_Savings_SingleLine_Payment.run(TC_005_Echeck_Savings_SingleLine_Payment:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1604302157604.run(TempTestSuite1604302157604.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.util.KeywordUtil.Error() is applicable for argument types: (java.lang.String) values: [Unable to open browser]\nPossible solutions: markError(java.lang.String), grep(), iterator(), every(), getAt(java.lang.String), print(java.lang.Object)</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181494</millis>
+  <sequence>234</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181496</millis>
+  <sequence>236</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181514</millis>
+  <sequence>238</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181520</millis>
+  <sequence>240</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181520</millis>
+  <sequence>241</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181521</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Consumer_Make_Payment/TC_005_Echeck_Savings_SingleLine_Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181555</millis>
+  <sequence>243</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Consumer_Make_Payment/TC_006_Echeck_Savings_MultiLine_Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Consumer_Make_Payment/TC_006_Echeck_Savings_MultiLine_Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Consumer_Make_Payment/TC_006_Echeck_Savings_MultiLine_Payment</property>
+  <property name="source">D:\\Sush_Certpay\\Test Cases\\Consumer_Make_Payment\\TC_006_Echeck_Savings_MultiLine_Payment.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181594</millis>
+  <sequence>245</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) bureauCode = 6100000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181628</millis>
+  <sequence>246</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount = 23.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181639</millis>
+  <sequence>247</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentType = Gifts</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181648</millis>
+  <sequence>248</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) referenceNum = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181655</millis>
+  <sequence>249</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstName = Imran</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181662</millis>
+  <sequence>250</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lastName = shahi</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181733</millis>
+  <sequence>251</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) telephone = 9988676754</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181742</millis>
+  <sequence>252</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) address = 14-3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181750</millis>
+  <sequence>253</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) emailAddress = testing@zenq.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181770</millis>
+  <sequence>254</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) paymentAmount2 = 33.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181784</millis>
+  <sequence>255</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) zipCode = 76102</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181792</millis>
+  <sequence>256</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) routingNum = 111000025</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181805</millis>
+  <sequence>257</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) checkingAccNum = 456789</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181806</millis>
+  <sequence>258</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-11-02T12:59:41</date>
+  <millis>1604302181806</millis>
+  <sequence>261</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+</log>
