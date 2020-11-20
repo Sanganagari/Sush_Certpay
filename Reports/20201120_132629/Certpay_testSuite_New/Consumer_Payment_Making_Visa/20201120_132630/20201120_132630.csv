@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Consumer_Payment_Making_Visa,Chrome 86.0.4240.198,,,2020-11-20 13:26:35,2020-11-20 13:30:35,4m - 0.031s,FAILED
+,,,,,,,
+Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment,Chrome 86.0.4240.198,,,2020-11-20 13:26:36,2020-11-20 13:30:35,3m - 59.686s,FAILED
+Start listener action : beforeTestCase,Chrome 86.0.4240.198,,,2020-11-20 13:26:36,2020-11-20 13:26:36,0.002s,PASSED
+"data = findTestData(""Data Files/Certpay/SingleBureau_SingleLine_Visa"")",Chrome 86.0.4240.198,,,2020-11-20 13:26:37,2020-11-20 13:26:38,1.652s,PASSED
+paymentIdList = [],Chrome 86.0.4240.198,,,2020-11-20 13:26:38,2020-11-20 13:26:38,0.002s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 86.0.4240.198,,,2020-11-20 13:26:38,2020-11-20 13:30:34,3m - 55.874s,FAILED
+Start listener action : afterTestCase,Chrome 86.0.4240.198,,,2020-11-20 13:30:34,2020-11-20 13:30:35,1.277s,PASSED

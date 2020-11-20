@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Consumer_Payment_Making_Visa" time="241.645" tests="1" failures="1" errors="0">
+   <testsuite name="Consumer_Payment_Making_Visa" tests="1" failures="1" errors="0" time="241.645" timestamp="2020-11-20 13:26:35" hostname="admin - SYS8" id="Test Suites/Certpay_testSuite_New/Consumer_Payment_Making_Visa">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630"/>
+         <property name="logFiles" value="D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630\\execution0.log"/>
+         <property name="attachments" value="D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630\\1605859186787.png, D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630\\1605859187542.png, D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630\\1605859234195.png"/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 86.0.4240.198"/>
+         <property name="hostAddress" value="172.31.253.251"/>
+         <property name="sessionId" value="5efbf9af6bb5a05debcc4165a5470c6a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment" time="239.686" classname="Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:167)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)
+"/>
+         <system-out><![CDATA[2020-11-20 13:26:36 - [TEST_CASE][FAILED] - Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment: Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:167)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)
+
+
+2020-11-20 13:26:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-11-20 13:26:37 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/SingleBureau_SingleLine_Visa"): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - paymentIdList = []: null
+
+2020-11-20 13:26:38 - [TEST_STEP][FAILED] - for (def index : (1..data.getRowNumbers())): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - firstName = data.getValue("FirstName", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - lastName = data.getValue("LastName", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - paymentAmount = data.getValue("PaymentAmount", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - paymentType = data.getValue("PaymentType", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - quantity = data.getValue("Quantity", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - comments = data.getValue("Comments", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - referenceNum = data.getValue("ReferenceNum", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - address = data.getValue("Address", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - zipCode = data.getValue("Zipcode", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - telephone = data.getValue("Telephone", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - emailAddress = data.getValue("EmailAddress", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-11-20 13:26:38 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime]): Browser launched successfully
+
+2020-11-20 13:26:39 - [MESSAGE][INFO] - Opening Browser
+
+2020-11-20 13:26:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-20 13:26:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-11-20 13:26:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpay.faps.net/'
+
+2020-11-20 13:26:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-11-20 13:26:56 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-11-20 13:26:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("MAKE_ PAYMENT/Home_ Page/BUREAU_CODE"), bureauCode, "Bureau code", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Entered'6100000 into Bureau code
+
+2020-11-20 13:26:57 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is present
+
+2020-11-20 13:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is visible
+
+2020-11-20 13:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is present
+
+2020-11-20 13:27:00 - [MESSAGE][PASSED] - Text '6100000' is set on object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE'
+
+2020-11-20 13:27:00 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'6100000 into Bureau code
+
+2020-11-20 13:27:00 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT"), "Begin payment", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Clicked on the Begin payment
+
+2020-11-20 13:27:00 - [MESSAGE][INFO] - safeClicking
+
+2020-11-20 13:27:00 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is present
+
+2020-11-20 13:27:01 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is clickable
+
+2020-11-20 13:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is clicked on
+
+2020-11-20 13:27:04 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Clicked on the Begin payment
+
+2020-11-20 13:27:04 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), "Continue", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:27:04 - [MESSAGE][INFO] - safeClicking
+
+2020-11-20 13:27:06 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is present
+
+2020-11-20 13:27:06 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2020-11-20 13:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clicked on
+
+2020-11-20 13:27:09 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:27:09 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("MAKE_ PAYMENT/Home_ Page/BANK_CARD"), "Bank card", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Checkbox 'Bank card'is selected
+
+2020-11-20 13:27:09 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD' is present
+
+2020-11-20 13:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD' is present
+
+2020-11-20 13:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD' is clicked on
+
+2020-11-20 13:27:11 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Checkbox 'Bank card'is selected
+
+2020-11-20 13:27:11 - [TEST_STEP][PASSED] - pages.Payment_Page.setAmount("1", paymentAmount, "testing", referenceNum): Consumer_Payment_Making_Visa.ts:Entered'testing into Comments
+
+2020-11-20 13:27:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-20 13:27:12 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-11-20 13:27:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-20 13:27:14 - [MESSAGE][PASSED] - Text '20.00' is set on object ''
+
+2020-11-20 13:27:14 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'20.00 into Amount
+
+2020-11-20 13:27:14 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-20 13:27:14 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-11-20 13:27:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-20 13:27:16 - [MESSAGE][PASSED] - Text '11' is set on object ''
+
+2020-11-20 13:27:16 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'11 into Amount
+
+2020-11-20 13:27:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-20 13:27:17 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-11-20 13:27:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-20 13:27:18 - [MESSAGE][PASSED] - Text 'testing' is set on object ''
+
+2020-11-20 13:27:18 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'testing into Comments
+
+2020-11-20 13:27:18 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-11-20 13:27:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-11-20 13:27:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-20 13:27:18 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("MAKE_ PAYMENT/Home_ Page/CARD_TYPE"), CardType, "CardType", [pageLoadTime]): selected dropdown option by visible text  American Expressfrom CardType
+
+2020-11-20 13:27:19 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE' is visible
+
+2020-11-20 13:27:19 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE' is present
+
+2020-11-20 13:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE' is clicked on
+
+2020-11-20 13:27:21 - [MESSAGE][PASSED] - All options with label 'American Express' are selected in object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE'  using regular expression
+
+2020-11-20 13:27:21 - [MESSAGE][PASSED] - selected dropdown option by visible text  American Expressfrom CardType
+
+2020-11-20 13:27:21 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE"), paymentType, "Payment Type", [pageLoadTime]): selected dropdown option by visible text  Taxesfrom Payment Type
+
+2020-11-20 13:27:22 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE' is visible
+
+2020-11-20 13:27:22 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE' is present
+
+2020-11-20 13:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE' is clicked on
+
+2020-11-20 13:27:24 - [MESSAGE][PASSED] - All options with label 'Taxes' are selected in object 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE'  using regular expression
+
+2020-11-20 13:27:24 - [MESSAGE][PASSED] - selected dropdown option by visible text  Taxesfrom Payment Type
+
+2020-11-20 13:27:24 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON"), "Continue", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:27:24 - [MESSAGE][INFO] - safeClicking
+
+2020-11-20 13:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON' is present
+
+2020-11-20 13:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON' is clickable
+
+2020-11-20 13:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON' is clicked on
+
+2020-11-20 13:27:29 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:27:29 - [TEST_STEP][PASSED] - pages.Payment_Page.setPersonalDetails(firstName, lastName, telephone): Consumer_Payment_Making_Visa.ts:Entered'9988776655 into Telephone
+
+2020-11-20 13:27:30 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME' is present
+
+2020-11-20 13:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME' is visible
+
+2020-11-20 13:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME' is present
+
+2020-11-20 13:27:32 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME'
+
+2020-11-20 13:27:32 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'Tester into FirstName
+
+2020-11-20 13:27:33 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME' is present
+
+2020-11-20 13:27:33 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME' is visible
+
+2020-11-20 13:27:33 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME' is present
+
+2020-11-20 13:27:34 - [MESSAGE][PASSED] - Text 'Zenq1' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME'
+
+2020-11-20 13:27:34 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'Zenq1 into LastName
+
+2020-11-20 13:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE' is present
+
+2020-11-20 13:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE' is visible
+
+2020-11-20 13:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE' is present
+
+2020-11-20 13:27:37 - [MESSAGE][PASSED] - Text '9988776655' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE'
+
+2020-11-20 13:27:37 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'9988776655 into Telephone
+
+2020-11-20 13:27:37 - [TEST_STEP][PASSED] - pages.Payment_Page.setLocationDetails(address, zipCode): Consumer_Payment_Making_Visa.ts:Entered'76102 into ZipCode
+
+2020-11-20 13:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS' is present
+
+2020-11-20 13:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS' is visible
+
+2020-11-20 13:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS' is present
+
+2020-11-20 13:27:39 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS'
+
+2020-11-20 13:27:39 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'14-2 into Address
+
+2020-11-20 13:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE' is present
+
+2020-11-20 13:27:40 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE' is visible
+
+2020-11-20 13:27:40 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE' is present
+
+2020-11-20 13:27:41 - [MESSAGE][PASSED] - Text '76102' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE'
+
+2020-11-20 13:27:41 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'76102 into ZipCode
+
+2020-11-20 13:27:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), 30): Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2020-11-20 13:27:42 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2020-11-20 13:27:42 - [TEST_STEP][PASSED] - pages.Payment_Page.clickOnElement(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE")): pages.Payment_Page.clickOnElement is PASSED
+
+2020-11-20 13:27:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2020-11-20 13:27:44 - [MESSAGE][PASSED] - pages.Payment_Page.clickOnElement is PASSED
+
+2020-11-20 13:27:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox"), 30): Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is clickable
+
+2020-11-20 13:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is clickable
+
+2020-11-20 13:27:46 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox"), "Billing CheckBox", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Checkbox 'Billing CheckBox'is selected
+
+2020-11-20 13:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is present
+
+2020-11-20 13:27:47 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is present
+
+2020-11-20 13:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is clicked on
+
+2020-11-20 13:27:49 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Checkbox 'Billing CheckBox'is selected
+
+2020-11-20 13:27:49 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-11-20 13:27:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-20 13:27:51 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), "Continue", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:27:51 - [MESSAGE][INFO] - safeClicking
+
+2020-11-20 13:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is present
+
+2020-11-20 13:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2020-11-20 13:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clicked on
+
+2020-11-20 13:27:55 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:27:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-11-20 13:27:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-11-20 13:27:57 - [TEST_STEP][PASSED] - pages.Payment_Page.setCardDetails(cardNum, securityCode, expYear, expMonth): Actual text '4532815899708200' and expected text '4532815899708200' are matched  using regular expression
+
+2020-11-20 13:27:58 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is present
+
+2020-11-20 13:27:58 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is visible
+
+2020-11-20 13:27:59 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is present
+
+2020-11-20 13:28:00 - [MESSAGE][PASSED] - Text '4532815899708200' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'
+
+2020-11-20 13:28:00 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'4532815899708200 into CardNum
+
+2020-11-20 13:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH' is visible
+
+2020-11-20 13:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH' is present
+
+2020-11-20 13:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH' is clicked on
+
+2020-11-20 13:28:03 - [MESSAGE][PASSED] - All options with label '03' are selected in object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH'  using regular expression
+
+2020-11-20 13:28:03 - [MESSAGE][PASSED] - selected dropdown option by visible text  03from Month
+
+2020-11-20 13:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR' is visible
+
+2020-11-20 13:28:04 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR' is present
+
+2020-11-20 13:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR' is clicked on
+
+2020-11-20 13:28:06 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR'  using regular expression
+
+2020-11-20 13:28:06 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from year
+
+2020-11-20 13:28:07 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE' is present
+
+2020-11-20 13:28:07 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE' is visible
+
+2020-11-20 13:28:07 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE' is present
+
+2020-11-20 13:28:08 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE'
+
+2020-11-20 13:28:08 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'207 into SecurityCode
+
+2020-11-20 13:28:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is: '4532815899708200'
+
+2020-11-20 13:28:09 - [MESSAGE][PASSED] - Actual text '4532815899708200' and expected text '4532815899708200' are matched  using regular expression
+
+2020-11-20 13:28:09 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS"), emailAddress, "EmailAddress", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Entered'testing@zenq.com into EmailAddress
+
+2020-11-20 13:28:09 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS' is present
+
+2020-11-20 13:28:09 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS' is visible
+
+2020-11-20 13:28:10 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS' is present
+
+2020-11-20 13:28:11 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS'
+
+2020-11-20 13:28:11 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Entered'testing@zenq.com into EmailAddress
+
+2020-11-20 13:28:11 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), "Continue", [pageLoadTime]): Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:28:11 - [MESSAGE][INFO] - safeClicking
+
+2020-11-20 13:28:11 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is present
+
+2020-11-20 13:28:12 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2020-11-20 13:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clicked on
+
+2020-11-20 13:28:14 - [MESSAGE][PASSED] - Consumer_Payment_Making_Visa.ts:Clicked on the Continue
+
+2020-11-20 13:28:14 - [TEST_STEP][FAILED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE"), "I agree", [pageLoadTime]): com.kms.katalon.core.exception.StepFailedException: Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+
+2020-11-20 13:28:14 - [MESSAGE][INFO] - safeClicking
+
+2020-11-20 13:29:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='ctl00_mainContent_btnAgree']
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-11-20 13:29:47 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' located by 'By.xpath: //input[@id='ctl00_mainContent_btnAgree']
+' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' located by 'By.xpath: //input[@id='ctl00_mainContent_btnAgree']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:153)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)
+)
+[[ATTACHMENT|D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630\\1605859186787.png]]
+
+2020-11-20 13:29:47 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:153)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' located by 'By.xpath: //input[@id='ctl00_mainContent_btnAgree']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630\\1605859187542.png]]
+
+2020-11-20 13:29:47 - [MESSAGE][FAILED] - Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+
+2020-11-20 13:29:47 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+
+2020-11-20 13:29:47 - [TEST_STEP][FAILED] - pages.Payment_Page.verifyUserDetails(firstName, lastName, emailAddress, CardType, ""): Unable to scroll to object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'
+
+2020-11-20 13:30:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='ctl00_mainContent_lblPropertyFirstname']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-11-20 13:30:34 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$12.call(Unknown Source)
+	at pages.Payment_Page.verifyUserDetails(Payment_Page.groovy:248)
+	at pages.Payment_Page.invokeMethod(Payment_Page.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME' located by 'By.xpath: //span[@id='ctl00_mainContent_lblPropertyFirstname']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$12.call(Unknown Source)
+	at pages.Payment_Page.verifyUserDetails(Payment_Page.groovy:248)
+	at pages.Payment_Page.invokeMethod(Payment_Page.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1605850905059.run(Script1605850905059.groovy:110)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Sush_Certpay\\Sush_Certpay\\Reports\\20201120_132629\\Certpay_testSuite_New\\Consumer_Payment_Making_Visa\\20201120_132630\\1605859234195.png]]
+
+2020-11-20 13:30:34 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME'
+
+2020-11-20 13:30:34 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2020-11-20 13:30:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-20 13:30:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2020-11-20 13:26:36 - [TEST_CASE][FAILED] - Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment: Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:167)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-20 13:26:35 - [TEST_SUITE][FAILED] - Consumer_Payment_Making_Visa: Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:167)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-11-20 13:26:35 - [TEST_SUITE][FAILED] - Consumer_Payment_Making_Visa: Test Cases/Consumer_Make_Payment_New/TC_001_Credit_SingleLine_Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Consumer_Payment_Making_Visa.ts:I agreeis not attached to page document in time 60 No such element Exception
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:167)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_Credit_SingleLine_Payment.run(TC_001_Credit_SingleLine_Payment:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605858990072.run(TempTestSuite1605858990072.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

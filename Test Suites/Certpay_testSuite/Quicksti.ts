@@ -91,7 +91,7 @@
    <testCaseLink>
       <guid>49cbac0a-82ac-4cf3-9de5-384145545328</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_002_MultiBureauSite_SingleBureau_MultiLinePayment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -193,7 +193,7 @@
    <testCaseLink>
       <guid>c5f641ff-b35d-4c39-933b-70a5dd7884a0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_003_MultiBureauSite_SingleBureau_SingleLinePayment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -283,7 +283,7 @@
    <testCaseLink>
       <guid>69996c98-9029-4846-9f86-3669c8609c59</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_004_MultiBureauSite_MultiBureaus_SingleLinePayment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -343,7 +343,7 @@
    <testCaseLink>
       <guid>30d34875-d86e-414d-a231-786d35f742aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti/TC_005_MultiBureauSite_MultiBureaus_MultiLinePayments</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
