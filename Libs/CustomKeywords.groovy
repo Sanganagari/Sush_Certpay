@@ -8,15 +8,18 @@ import java.lang.String
 import com.kms.katalon.core.testobject.TestObject
 
 
+
 def static "utilities.Syn.getWaitTime"(
     	int[] optionalWaitArray	) {
     (new utilities.Syn()).getWaitTime(
         	optionalWaitArray)
 }
 
+
 def static "utilities.Syn.getTestCasename"() {
     (new utilities.Syn()).getTestCasename()
 }
+
 
 def static "pages.Quicksti.setUserPaymentDetails"(
     	String firstName	
@@ -28,6 +31,7 @@ def static "pages.Quicksti.setUserPaymentDetails"(
          , 	cardNum)
 }
 
+
 def static "pages.Quicksti.setPaymentAmountDetailsForSinglePayment"(
     	String amount	
      , 	String quantity	) {
@@ -35,6 +39,7 @@ def static "pages.Quicksti.setPaymentAmountDetailsForSinglePayment"(
         	amount
          , 	quantity)
 }
+
 
 def static "pages.Quicksti.setExpDate"(
     	String sExpMonth	
@@ -45,6 +50,7 @@ def static "pages.Quicksti.setExpDate"(
          , 	sExpYear
          , 	securityCode)
 }
+
 
 def static "pages.Quicksti.verifyUserPaymentDetails"(
     	String paymentAmount	
@@ -57,6 +63,7 @@ def static "pages.Quicksti.verifyUserPaymentDetails"(
          , 	lastName
          , 	cardNumber)
 }
+
 
 def static "pages.Quicksti.setAmountDetailsForMultiBureau"(
     	String index	
@@ -72,6 +79,7 @@ def static "pages.Quicksti.setAmountDetailsForMultiBureau"(
          , 	quantity)
 }
 
+
 def static "pages.Quicksti.setCommnets"(
     	String bureauNum	
      , 	String index	
@@ -82,11 +90,13 @@ def static "pages.Quicksti.setCommnets"(
          , 	sComments)
 }
 
+
 def static "pages.Quicksti.verifyPaymentApproval"(
     	TestObject testObject	) {
     (new pages.Quicksti()).verifyPaymentApproval(
         	testObject)
 }
+
 
 def static "pages.Quicksti.getAttributeValue"(
     	TestObject object	) {
@@ -94,11 +104,13 @@ def static "pages.Quicksti.getAttributeValue"(
         	object)
 }
 
+
 def static "pages.CommonActions.safeMouseOver"(
     	TestObject object	) {
     (new pages.CommonActions()).safeMouseOver(
         	object)
 }
+
 
 def static "pages.Search_Page.setSearchDetails"(
     	String lastName	
@@ -110,13 +122,16 @@ def static "pages.Search_Page.setSearchDetails"(
          , 	accNumber)
 }
 
+
 def static "pages.Search_Page.verifyNoPaymentsFound"() {
     (new pages.Search_Page()).verifyNoPaymentsFound()
 }
 
+
 def static "pages.Search_Page.switchToWindow"() {
     (new pages.Search_Page()).switchToWindow()
 }
+
 
 def static "pages.Search_Page.validateApprovedTransactionsInReports"(
     	String paymentId	
@@ -128,15 +143,18 @@ def static "pages.Search_Page.validateApprovedTransactionsInReports"(
          , 	paymentAmount)
 }
 
+
 def static "pages.Bureau_Login_Page.windowSwitching"() {
     (new pages.Bureau_Login_Page()).windowSwitching()
 }
+
 
 def static "pages.Bureau_Login_Page.clickingElement"(
     	TestObject object	) {
     (new pages.Bureau_Login_Page()).clickingElement(
         	object)
 }
+
 
 def static "pages.Bureau_Login_Page.loginToReportsSite"(
     	String username	
@@ -148,6 +166,7 @@ def static "pages.Bureau_Login_Page.loginToReportsSite"(
          , 	accessCode)
 }
 
+
 def static "pages.Bureau_Login_Page.loginToAdminSite"(
     	String username	
      , 	String password	) {
@@ -155,6 +174,7 @@ def static "pages.Bureau_Login_Page.loginToAdminSite"(
         	username
          , 	password)
 }
+
 
 def static "pages.Bureau_Login_Page.verifyPaymentInRealTimeMonitor"(
     	TestObject object	
@@ -170,6 +190,21 @@ def static "pages.Bureau_Login_Page.verifyPaymentInRealTimeMonitor"(
          , 	paymentID)
 }
 
+
+def static "pages.Reports_page.getPaymentIdColumnCount"(
+    	String columnName	) {
+    (new pages.Reports_page()).getPaymentIdColumnCount(
+        	columnName)
+}
+
+
+def static "pages.Reports_page.verifyPaymentIdRecord"(
+    	String PaymentId	) {
+    (new pages.Reports_page()).verifyPaymentIdRecord(
+        	PaymentId)
+}
+
+
 def static "pages.Payment_Page.getRowAndColumn"(
     	TestObject nextObj	
      , 	TestObject numberOfPages	
@@ -179,6 +214,7 @@ def static "pages.Payment_Page.getRowAndColumn"(
          , 	numberOfPages
          , 	paymentId)
 }
+
 
 def static "pages.Payment_Page.verifyAllRecordsFilteredByCardNumber"(
     	TestObject nextObj	
@@ -190,6 +226,7 @@ def static "pages.Payment_Page.verifyAllRecordsFilteredByCardNumber"(
          , 	creditCardNumber)
 }
 
+
 def static "pages.Payment_Page.setPersonalDetails"(
     	String firstname	
      , 	String last	
@@ -200,6 +237,7 @@ def static "pages.Payment_Page.setPersonalDetails"(
          , 	telephone)
 }
 
+
 def static "pages.Payment_Page.setLocationDetails"(
     	String address	
      , 	String zipCode	) {
@@ -207,6 +245,7 @@ def static "pages.Payment_Page.setLocationDetails"(
         	address
          , 	zipCode)
 }
+
 
 def static "pages.Payment_Page.setCardDetails"(
     	String cardNum	
@@ -220,6 +259,7 @@ def static "pages.Payment_Page.setCardDetails"(
          , 	expMonth)
 }
 
+
 def static "pages.Payment_Page.setAmount"(
     	String index	
      , 	String paymentAmount	
@@ -231,6 +271,7 @@ def static "pages.Payment_Page.setAmount"(
          , 	comments
          , 	referenceNum)
 }
+
 
 def static "pages.Payment_Page.verifyUserDetails"(
     	String firstName	
@@ -246,11 +287,13 @@ def static "pages.Payment_Page.verifyUserDetails"(
          , 	accountType)
 }
 
+
 def static "pages.Payment_Page.verifyCardPaymentApproval"(
     	String referenceNum	) {
     (new pages.Payment_Page()).verifyCardPaymentApproval(
         	referenceNum)
 }
+
 
 def static "pages.Payment_Page.verifyECheckPaymentApproval"(
     	String referenceNum	) {
@@ -258,11 +301,13 @@ def static "pages.Payment_Page.verifyECheckPaymentApproval"(
         	referenceNum)
 }
 
+
 def static "pages.Payment_Page.verifyPaymentDetailsInReceipt"(
     	String paymentId	) {
     (new pages.Payment_Page()).verifyPaymentDetailsInReceipt(
         	paymentId)
 }
+
 
 def static "pages.Payment_Page.setElectronicCheckInformation"(
     	TestObject testObject	
@@ -276,23 +321,13 @@ def static "pages.Payment_Page.setElectronicCheckInformation"(
          , 	checkingAccNum)
 }
 
+
 def static "pages.Payment_Page.clickOnElement"(
     	TestObject object	) {
     (new pages.Payment_Page()).clickOnElement(
         	object)
 }
 
-def static "pages.Reports_page.getPaymentIdColumnCount"(
-    	String columnName	) {
-    (new pages.Reports_page()).getPaymentIdColumnCount(
-        	columnName)
-}
-
-def static "pages.Reports_page.verifyPaymentIdRecord"(
-    	String PaymentId	) {
-    (new pages.Reports_page()).verifyPaymentIdRecord(
-        	PaymentId)
-}
 
 def static "utilities.SafeActions.openBrowser"(
     	String url	
@@ -302,6 +337,7 @@ def static "utilities.SafeActions.openBrowser"(
          , 	optionWaitTime)
 }
 
+
 def static "utilities.SafeActions.highLightElement"(
     	TestObject testObject	
      , 	int timeout	) {
@@ -309,6 +345,7 @@ def static "utilities.SafeActions.highLightElement"(
         	testObject
          , 	timeout)
 }
+
 
 def static "utilities.SafeActions.safeCheck"(
     	TestObject testObject	
@@ -319,6 +356,7 @@ def static "utilities.SafeActions.safeCheck"(
          , 	friendlyWebElementName
          , 	optionWaitTime)
 }
+
 
 def static "utilities.SafeActions.safeType"(
     	TestObject testObject	
@@ -332,11 +370,13 @@ def static "utilities.SafeActions.safeType"(
          , 	optionWaitTime)
 }
 
+
 def static "utilities.SafeActions.getAttribute"(
     	TestObject testObject	) {
     (new utilities.SafeActions()).getAttribute(
         	testObject)
 }
+
 
 def static "utilities.SafeActions.safeClick"(
     	TestObject testObject	
@@ -348,6 +388,7 @@ def static "utilities.SafeActions.safeClick"(
          , 	optionWaitTime)
 }
 
+
 def static "utilities.SafeActions.waitUntilClickable"(
     	TestObject testObj	
      , 	String friendlyWebElementName	
@@ -358,6 +399,7 @@ def static "utilities.SafeActions.waitUntilClickable"(
          , 	optionWaitTime)
 }
 
+
 def static "utilities.SafeActions.safeGetText"(
     	TestObject testObject	
      , 	String friendlyWebElementName	
@@ -367,6 +409,7 @@ def static "utilities.SafeActions.safeGetText"(
          , 	friendlyWebElementName
          , 	optionWaitTime)
 }
+
 
 def static "utilities.SafeActions.safeSelectOptionInDropdownByVisibleText"(
     	TestObject testObj	
@@ -380,6 +423,7 @@ def static "utilities.SafeActions.safeSelectOptionInDropdownByVisibleText"(
          , 	optionWaitTime)
 }
 
+
 def static "utilities.SafeActions.getAttributeValue"(
     	TestObject testObject	
      , 	String attribute	
@@ -391,6 +435,7 @@ def static "utilities.SafeActions.getAttributeValue"(
          , 	friendlyWebElementName
          , 	optionWaitTime)
 }
+
 
 def static "utilities.SafeActions.safeClickwithScroll"(
     	TestObject testObj	

@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ctl00_mainContent_btnNext']</value>
+         <value>//*[@id=&quot;ctl00_mainContent_btnNext&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'ctl00$mainContent$btnNext' and @id = 'ctl00_mainContent_btnNext']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -50,6 +50,8 @@ CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropdownByVisibleText'(f
 CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropdownByVisibleText'(findTestObject('MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE'), 
     paymentType, 'Payment Type', (([GlobalVariable.pageLoadTime]) as int[]))
 
+WebUI.scrollToElement(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 30)
+
 'Click on \'Continue\''
 CustomKeywords.'utilities.SafeActions.safeClick'(findTestObject('MAKE_ PAYMENT/Home_ Page/CONTINUE'), 'Continue', (([GlobalVariable.pageLoadTime]) as int[]))
 

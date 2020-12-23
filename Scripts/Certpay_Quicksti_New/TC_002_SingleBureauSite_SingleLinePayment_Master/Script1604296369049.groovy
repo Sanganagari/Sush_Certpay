@@ -143,7 +143,6 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	WebUI.scrollToPosition(800, 900)
 	
 	
-	
 	CustomKeywords.'pages.Search_Page.validatePaymentAmount'(amount_Value,ConvFee)
 	
 	paymentIdList.add(paymentId)

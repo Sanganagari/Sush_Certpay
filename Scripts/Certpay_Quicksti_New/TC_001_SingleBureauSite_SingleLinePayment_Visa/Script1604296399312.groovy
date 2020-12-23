@@ -139,16 +139,15 @@ paymentId = CustomKeywords.'pages.Quicksti.verifyPaymentApproval'(findTestObject
 	
 	WebUI.delay(5)
 	
-	
 	WebUI.scrollToPosition(800, 900)
-	
-	
 	
 	CustomKeywords.'pages.Search_Page.validatePaymentAmount'(amount_Value,ConvFee)
 	
 	paymentIdList.add(paymentId)
 	
 	println(paymentIdList)
+	
+	
 }
 
 return paymentIdList;

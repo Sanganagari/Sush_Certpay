@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7e91ba2b-935e-4eb7-bcfc-41deab59febf</testSuiteGuid>
    <testCaseLink>
       <guid>ecf2bebf-5f2d-45d0-a4a6-456b23f62045</guid>
@@ -73,7 +74,7 @@
    <testCaseLink>
       <guid>6ea79a5f-c1b0-4643-9245-c0adfe6734e7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti_New/TC_0017_MultiBureauSite_MultiBureaus_MultiLinePayments_Visa</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -133,7 +134,7 @@
    <testCaseLink>
       <guid>182c94b8-2dbd-486a-b6ea-aa0ea131ab4b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti_New/TC_001_SingleBureauSite_SingleLinePayment_Visa</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -211,7 +212,7 @@
    <testCaseLink>
       <guid>de274959-fe41-4265-8480-566ddcbb6986</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti_New/TC_005_MultiBureauSite_SingleBureau_MultiLinePayment_Visa</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -313,7 +314,7 @@
    <testCaseLink>
       <guid>47a0c99d-dbbc-41cc-bd25-2ad164ac8cc2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Certpay_Quicksti_New/TC_009_MultiBureauSite_SingleBureau_SingleLinePayment_Visa</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
