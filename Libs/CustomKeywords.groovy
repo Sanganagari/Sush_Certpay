@@ -191,20 +191,6 @@ def static "pages.Bureau_Login_Page.verifyPaymentInRealTimeMonitor"(
 }
 
 
-def static "pages.Reports_page.getPaymentIdColumnCount"(
-    	String columnName	) {
-    (new pages.Reports_page()).getPaymentIdColumnCount(
-        	columnName)
-}
-
-
-def static "pages.Reports_page.verifyPaymentIdRecord"(
-    	String PaymentId	) {
-    (new pages.Reports_page()).verifyPaymentIdRecord(
-        	PaymentId)
-}
-
-
 def static "pages.Payment_Page.getRowAndColumn"(
     	TestObject nextObj	
      , 	TestObject numberOfPages	
@@ -326,6 +312,20 @@ def static "pages.Payment_Page.clickOnElement"(
     	TestObject object	) {
     (new pages.Payment_Page()).clickOnElement(
         	object)
+}
+
+
+def static "pages.Reports_page.getPaymentIdColumnCount"(
+    	String columnName	) {
+    (new pages.Reports_page()).getPaymentIdColumnCount(
+        	columnName)
+}
+
+
+def static "pages.Reports_page.verifyPaymentIdRecord"(
+    	String PaymentId	) {
+    (new pages.Reports_page()).verifyPaymentIdRecord(
+        	PaymentId)
 }
 
 
